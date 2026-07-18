@@ -1,0 +1,22 @@
+{
+  "team": "Falcons",
+  "map": "de_anubis",
+  "season": "IEM Cologne Major 2026",
+  "notes": "从全量 corpus 导入生成。de_anubis 候选样本，队伍名已规范化。",
+  "matches": [
+    {
+      "id": "2395001",
+      "bundle": "data\\processed\\iem-cologne-major-2026-corpus\\2395001\\de_anubis",
+      "opponent": "Spirit",
+      "event": "IEM Cologne Major 2026",
+      "stage": "playoffs"
+    },
+    {
+      "id": "2395002",
+      "bundle": "data\\processed\\iem-cologne-major-2026-corpus\\2395002\\de_anubis",
+      "opponent": "Furia",
+      "event": "IEM Cologne Major 2026",
+      "stage": "playoffs"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "team": "Furia",
+  "map": "de_inferno",
+  "season": "IEM Cologne Major 2026",
+  "coverage_tier": "exploratory",
+  "parsed_match_count": 3,
+  "boundary": "样本等级是覆盖提示，不是战术结论。经济标签描述冻结结束装备证据，不等于购买意图或默认战术。",
+  "matches": [
+    {
+      "id": "2394901",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394901\\de_inferno",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3",
+      "opponent": "B8"
+    },
+    {
+      "id": "2394971",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394971\\de_inferno",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3",
+      "opponent": "Mouz"
+    },
+    {
+      "id": "2395002",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2395002\\de_inferno",
+      "event": "IEM Cologne Major 2026",
+      "stage": "playoffs",
+      "opponent": "Falcons"
+    }
+  ]
+}

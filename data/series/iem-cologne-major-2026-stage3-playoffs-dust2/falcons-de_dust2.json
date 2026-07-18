@@ -1,0 +1,43 @@
+{
+  "team": "Falcons",
+  "map": "de_dust2",
+  "season": "IEM Cologne Major 2026",
+  "notes": "从注册表批量导入生成。de_dust2 候选样本，队伍名已规范化。",
+  "matches": [
+    {
+      "id": "2394899",
+      "bundle": "..\\..\\processed\\iem-cologne-major-2026-stage3-playoffs-dust2\\2394899\\de_dust2",
+      "opponent": "G2",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    },
+    {
+      "id": "2394982",
+      "bundle": "..\\..\\processed\\iem-cologne-major-2026-stage3-playoffs-dust2\\2394982\\de_dust2",
+      "opponent": "Monte",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    },
+    {
+      "id": "2394991",
+      "bundle": "..\\..\\processed\\iem-cologne-major-2026-stage3-playoffs-dust2\\2394991\\de_dust2",
+      "opponent": "Natus Vincere",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    },
+    {
+      "id": "2394999",
+      "bundle": "..\\..\\processed\\iem-cologne-major-2026-stage3-playoffs-dust2\\2394999\\de_dust2",
+      "opponent": "Vitality",
+      "event": "IEM Cologne Major 2026",
+      "stage": "playoffs"
+    },
+    {
+      "id": "2395001",
+      "bundle": "..\\..\\processed\\iem-cologne-major-2026-stage3-playoffs-dust2\\2395001\\de_dust2",
+      "opponent": "Spirit",
+      "event": "IEM Cologne Major 2026",
+      "stage": "playoffs"
+    }
+  ]
+}

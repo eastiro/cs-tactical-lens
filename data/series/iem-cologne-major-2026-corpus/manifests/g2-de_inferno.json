@@ -1,0 +1,29 @@
+{
+  "team": "G2",
+  "map": "de_inferno",
+  "season": "IEM Cologne Major 2026",
+  "notes": "从全量 corpus 导入生成。de_inferno 候选样本，队伍名已规范化。",
+  "matches": [
+    {
+      "id": "2394893",
+      "bundle": "",
+      "opponent": "Big",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2"
+    },
+    {
+      "id": "2394899",
+      "bundle": "",
+      "opponent": "Falcons",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    },
+    {
+      "id": "2394995",
+      "bundle": "",
+      "opponent": "Natus Vincere",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    }
+  ]
+}

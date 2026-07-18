@@ -1,0 +1,22 @@
+{
+  "team": "Mouz",
+  "map": "de_inferno",
+  "season": "IEM Cologne Major 2026",
+  "notes": "从全量 corpus 导入生成。de_inferno 候选样本，队伍名已规范化。",
+  "matches": [
+    {
+      "id": "2394971",
+      "bundle": "",
+      "opponent": "Furia",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    },
+    {
+      "id": "2394983",
+      "bundle": "",
+      "opponent": "Vitality",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    }
+  ]
+}

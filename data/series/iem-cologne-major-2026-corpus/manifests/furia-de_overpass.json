@@ -1,0 +1,29 @@
+{
+  "team": "Furia",
+  "map": "de_overpass",
+  "season": "IEM Cologne Major 2026",
+  "notes": "从全量 corpus 导入生成。de_overpass 候选样本，队伍名已规范化。",
+  "matches": [
+    {
+      "id": "2394971",
+      "bundle": "",
+      "opponent": "Mouz",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    },
+    {
+      "id": "2394985",
+      "bundle": "",
+      "opponent": "Betboom",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    },
+    {
+      "id": "2394997",
+      "bundle": "",
+      "opponent": "9Z",
+      "event": "IEM Cologne Major 2026",
+      "stage": "playoffs"
+    }
+  ]
+}

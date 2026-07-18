@@ -1,0 +1,45 @@
+{
+  "team": "Betboom",
+  "map": "de_nuke",
+  "season": "IEM Cologne Major 2026",
+  "coverage_tier": "standard",
+  "parsed_match_count": 5,
+  "boundary": "样本等级是覆盖提示，不是战术结论。经济标签描述冻结结束装备证据，不等于购买意图或默认战术。",
+  "matches": [
+    {
+      "id": "2394877",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394877\\de_nuke",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2",
+      "opponent": "Gamerlegion"
+    },
+    {
+      "id": "2394891",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394891\\de_nuke",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2",
+      "opponent": "Monte"
+    },
+    {
+      "id": "2394975",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394975\\de_nuke",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3",
+      "opponent": "Falcons"
+    },
+    {
+      "id": "2394989",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394989\\de_nuke",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3",
+      "opponent": "Vitality"
+    },
+    {
+      "id": "2394996",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394996\\de_nuke",
+      "event": "IEM Cologne Major 2026",
+      "stage": "playoffs",
+      "opponent": "Aurora"
+    }
+  ]
+}

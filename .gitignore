@@ -1,0 +1,71 @@
+# ── Python ──
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+.coverage
+coverage/
+htmlcov/
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+
+# ── Streamlit ──
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
+
+# ── Demo / 比赛数据（体积巨大，绝不提交） ──
+data/raw/
+data/processed/
+*.dem
+*.rar
+*.zip
+*.7z
+
+# ── 本地生成的根目录报告（只保留 3 份 V4 发布证据） ──
+reports/*
+!reports/V4_FINAL_QA_EXTERNAL.md
+!reports/V4_REPLAY_STATE_QA_EXTERNAL.md
+!reports/V4_GITHUB_PACKAGING_EXTERNAL.md
+
+# ── 内部协作与任务交接 ──
+tasks/external-agent/
+docs/handoff/
+
+# ── 含本机绝对路径的导入工作区（公开仓库不提交） ──
+data/catalog/
+data/registry/
+data/intake-seeds/
+
+# ── 本地日志 ──
+logs/
+*.log
+data/*.log
+
+# ── 虚拟环境 ──
+.venv/
+venv/
+env/
+*.venv
+
+# ── IDE / 系统 ──
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── 本机批量导入/续跑入口；保留“打开分析台.cmd” ──
+安全继续导入*.cmd
+持续全量导入.cmd
+构建全部可查看研究档案.cmd
+查看全量导入进度.cmd

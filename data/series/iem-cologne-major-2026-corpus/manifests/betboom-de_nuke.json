@@ -1,0 +1,43 @@
+{
+  "team": "Betboom",
+  "map": "de_nuke",
+  "season": "IEM Cologne Major 2026",
+  "notes": "从全量 corpus 导入生成。de_nuke 候选样本，队伍名已规范化。",
+  "matches": [
+    {
+      "id": "2394877",
+      "bundle": "",
+      "opponent": "Gamerlegion",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2"
+    },
+    {
+      "id": "2394891",
+      "bundle": "",
+      "opponent": "Monte",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2"
+    },
+    {
+      "id": "2394975",
+      "bundle": "",
+      "opponent": "Falcons",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    },
+    {
+      "id": "2394989",
+      "bundle": "",
+      "opponent": "Vitality",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    },
+    {
+      "id": "2394996",
+      "bundle": "",
+      "opponent": "Aurora",
+      "event": "IEM Cologne Major 2026",
+      "stage": "playoffs"
+    }
+  ]
+}

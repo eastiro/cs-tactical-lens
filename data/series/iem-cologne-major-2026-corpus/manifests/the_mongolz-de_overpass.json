@@ -1,0 +1,22 @@
+{
+  "team": "The Mongolz",
+  "map": "de_overpass",
+  "season": "IEM Cologne Major 2026",
+  "notes": "从全量 corpus 导入生成。de_overpass 候选样本，队伍名已规范化。",
+  "matches": [
+    {
+      "id": "2394972",
+      "bundle": "",
+      "opponent": "B8",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    },
+    {
+      "id": "2394993",
+      "bundle": "",
+      "opponent": "9Z",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    }
+  ]
+}

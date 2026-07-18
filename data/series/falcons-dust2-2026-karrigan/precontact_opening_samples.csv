@@ -1,0 +1,207 @@
+match_id,opponent,event,date,round,side,sample_second,contact_second,contact_source,sample_eligible,exclusion_reason,economy_scope,economy_label,economy_confidence,economy_reason,A,B,MID,OTHER,dominant_zone,formation
+pgl-astana-2026-falcons-vs-9z,9z,PGL Astana 2026,2026-05-10,13,T,15.0,10.84375,damage,False,contact_before_sample,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,,,,,,
+pgl-astana-2026-falcons-vs-9z,9z,PGL Astana 2026,2026-05-10,14,T,15.0,12.203125,damage,False,contact_before_sample,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,,,,,,
+pgl-astana-2026-falcons-vs-9z,9z,PGL Astana 2026,2026-05-10,1,CT,15.0,45.015625,damage,True,,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,0,2,0,3,OTHER,A0·B2·中0·警家3
+pgl-astana-2026-falcons-vs-9z,9z,PGL Astana 2026,2026-05-10,2,CT,15.0,22.546875,damage,True,,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,0,0,0,5,OTHER,A0·B0·中0·警家5
+pgl-astana-2026-falcons-vs-9z,9z,PGL Astana 2026,2026-05-10,3,CT,12.0,40.53125,damage,True,,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,0,3,0,2,B,A0·B3·中0·警家2
+pgl-astana-2026-falcons-vs-9z,9z,PGL Astana 2026,2026-05-10,4,CT,20.0,31.875,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,2,0,3,OTHER,A0·B2·中0·警家3
+pgl-astana-2026-falcons-vs-9z,9z,PGL Astana 2026,2026-05-10,5,CT,20.0,56.46875,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,1,0,4,OTHER,A0·B1·中0·警家4
+pgl-astana-2026-falcons-vs-9z,9z,PGL Astana 2026,2026-05-10,6,CT,20.0,45.21875,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,0,5,OTHER,A0·B0·中0·警家5
+pgl-astana-2026-falcons-vs-9z,9z,PGL Astana 2026,2026-05-10,7,CT,12.0,27.609375,damage,True,,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,0,1,0,4,OTHER,A0·B1·中0·警家4
+pgl-astana-2026-falcons-vs-9z,9z,PGL Astana 2026,2026-05-10,8,CT,20.0,15.734375,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+pgl-astana-2026-falcons-vs-9z,9z,PGL Astana 2026,2026-05-10,9,CT,12.0,34.59375,damage,True,,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,0,2,0,3,OTHER,A0·B2·中0·警家3
+pgl-astana-2026-falcons-vs-9z,9z,PGL Astana 2026,2026-05-10,10,CT,20.0,7.875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+pgl-astana-2026-falcons-vs-9z,9z,PGL Astana 2026,2026-05-10,11,CT,12.0,32.703125,damage,True,,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,0,1,0,4,OTHER,A0·B1·中0·警家4
+pgl-astana-2026-falcons-vs-9z,9z,PGL Astana 2026,2026-05-10,12,CT,20.0,33.671875,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,1,0,4,OTHER,A0·B1·中0·警家4
+pgl-astana-2026-the-mongolz-vs-falcons,The MongolZ,PGL Astana 2026,2026-05-12,1,T,15.0,12.40625,damage,False,contact_before_sample,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,,,,,,
+pgl-astana-2026-the-mongolz-vs-falcons,The MongolZ,PGL Astana 2026,2026-05-12,2,T,15.0,28.375,damage,True,,freeze_end_snapshot,eco,medium,队伍大多数只有默认手枪，未见中高档主武器,0,0,1,4,OTHER,A0·B0·中1·匪家4
+pgl-astana-2026-the-mongolz-vs-falcons,The MongolZ,PGL Astana 2026,2026-05-12,3,T,20.0,19.9375,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+pgl-astana-2026-the-mongolz-vs-falcons,The MongolZ,PGL Astana 2026,2026-05-12,4,T,20.0,43.921875,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,1,4,OTHER,A0·B0·中1·匪家4
+pgl-astana-2026-the-mongolz-vs-falcons,The MongolZ,PGL Astana 2026,2026-05-12,5,T,20.0,13.828125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+pgl-astana-2026-the-mongolz-vs-falcons,The MongolZ,PGL Astana 2026,2026-05-12,6,T,20.0,13.125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+pgl-astana-2026-the-mongolz-vs-falcons,The MongolZ,PGL Astana 2026,2026-05-12,7,T,15.0,14.328125,damage,False,contact_before_sample,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,,,,,,
+pgl-astana-2026-the-mongolz-vs-falcons,The MongolZ,PGL Astana 2026,2026-05-12,8,T,20.0,50.125,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,2,3,OTHER,A0·B0·中2·匪家3
+pgl-astana-2026-the-mongolz-vs-falcons,The MongolZ,PGL Astana 2026,2026-05-12,9,T,20.0,7.765625,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+pgl-astana-2026-the-mongolz-vs-falcons,The MongolZ,PGL Astana 2026,2026-05-12,10,T,20.0,7.015625,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+pgl-astana-2026-the-mongolz-vs-falcons,The MongolZ,PGL Astana 2026,2026-05-12,11,T,20.0,49.390625,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,1,4,OTHER,A0·B0·中1·匪家4
+pgl-astana-2026-the-mongolz-vs-falcons,The MongolZ,PGL Astana 2026,2026-05-12,12,T,20.0,8.453125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+pgl-astana-2026-the-mongolz-vs-falcons,The MongolZ,PGL Astana 2026,2026-05-12,13,CT,15.0,31.859375,damage,True,,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,0,0,0,5,OTHER,A0·B0·中0·警家5
+pgl-astana-2026-the-mongolz-vs-falcons,The MongolZ,PGL Astana 2026,2026-05-12,14,CT,20.0,18.09375,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+pgl-astana-2026-the-mongolz-vs-falcons,The MongolZ,PGL Astana 2026,2026-05-12,15,CT,20.0,16.265625,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+pgl-astana-2026-the-mongolz-vs-falcons,The MongolZ,PGL Astana 2026,2026-05-12,16,CT,20.0,34.1875,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,1,0,4,OTHER,A0·B1·中0·警家4
+pgl-astana-2026-the-mongolz-vs-falcons,The MongolZ,PGL Astana 2026,2026-05-12,17,CT,20.0,34.703125,damage,True,,freeze_end_snapshot,mixed,medium,少数选手有主武器，其余选手仍为低配,0,0,0,5,OTHER,A0·B0·中0·警家5
+pgl-astana-2026-the-mongolz-vs-falcons,The MongolZ,PGL Astana 2026,2026-05-12,18,CT,20.0,54.0625,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,1,0,4,OTHER,A0·B1·中0·警家4
+pgl-astana-2026-the-mongolz-vs-falcons,The MongolZ,PGL Astana 2026,2026-05-12,19,CT,15.0,37.0,damage,True,,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,0,2,0,3,OTHER,A0·B2·中0·警家3
+pgl-astana-2026-the-mongolz-vs-falcons,The MongolZ,PGL Astana 2026,2026-05-12,20,CT,20.0,8.6875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+pgl-astana-2026-the-mongolz-vs-falcons,The MongolZ,PGL Astana 2026,2026-05-12,21,CT,20.0,8.265625,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,1,T,15.0,11.09375,damage,False,contact_before_sample,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,,,,,,
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,2,T,15.0,14.75,damage,False,contact_before_sample,freeze_end_snapshot,eco,medium,队伍大多数只有默认手枪，未见中高档主武器,,,,,,
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,3,T,20.0,39.84375,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,2,3,OTHER,A0·B0·中2·匪家3
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,4,T,12.0,24.109375,damage,True,,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,0,0,0,5,OTHER,A0·B0·中0·匪家5
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,5,T,20.0,16.9375,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,6,T,20.0,4.625,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,7,T,20.0,5.046875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,8,T,20.0,41.296875,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,3,2,MID,A0·B0·中3·匪家2
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,9,T,20.0,33.84375,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,3,2,MID,A0·B0·中3·匪家2
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,10,T,20.0,6.734375,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,11,T,20.0,79.15625,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,0,5,OTHER,A0·B0·中0·匪家5
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,12,T,20.0,13.515625,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,28,T,20.0,10.40625,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,29,T,20.0,71.0,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,3,2,MID,A0·B0·中3·匪家2
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,30,T,20.0,14.046875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,31,T,20.0,11.453125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,32,T,20.0,74.984375,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,0,5,OTHER,A0·B0·中0·匪家5
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,33,T,20.0,4.9375,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,13,CT,15.0,10.03125,damage,False,contact_before_sample,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,,,,,,
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,14,CT,20.0,20.25,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,1,1,0,3,OTHER,A1·B1·中0·警家3
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,15,CT,20.0,79.578125,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,1,0,4,OTHER,A0·B1·中0·警家4
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,16,CT,15.0,9.328125,damage,False,contact_before_sample,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,,,,,,
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,17,CT,15.0,30.890625,damage,True,,freeze_end_snapshot,eco,medium,队伍大多数只有默认手枪，未见中高档主武器,0,2,0,3,OTHER,A0·B2·中0·警家3
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,18,CT,20.0,39.359375,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,2,0,3,OTHER,A0·B2·中0·警家3
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,19,CT,20.0,20.859375,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,2,0,3,OTHER,A0·B2·中0·警家3
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,20,CT,20.0,32.234375,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,2,3,OTHER,A0·B0·中2·警家3
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,21,CT,20.0,36.265625,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,2,0,3,OTHER,A0·B2·中0·警家3
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,22,CT,20.0,4.703125,damage,False,contact_before_sample,freeze_end_snapshot,mixed,medium,少数选手有主武器，其余选手仍为低配,,,,,,
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,23,CT,20.0,34.421875,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,1,1,0,3,OTHER,A1·B1·中0·警家3
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,24,CT,15.0,38.9375,damage,True,,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,0,1,1,3,OTHER,A0·B1·中1·警家3
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,25,CT,20.0,6.734375,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,26,CT,20.0,4.609375,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,27,CT,20.0,4.453125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,34,CT,20.0,28.34375,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,1,0,4,OTHER,A0·B1·中0·警家4
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,35,CT,20.0,4.71875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+pgl-astana-2026-furia-vs-falcons,FURIA,PGL Astana 2026,2026-05-15,36,CT,20.0,10.671875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+pgl-astana-2026-spirit-vs-falcons,Spirit,PGL Astana 2026,2026-05-17,13,T,15.0,55.0625,damage,True,,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,0,0,0,5,OTHER,A0·B0·中0·匪家5
+pgl-astana-2026-spirit-vs-falcons,Spirit,PGL Astana 2026,2026-05-17,14,T,20.0,14.78125,damage,False,contact_before_sample,freeze_end_snapshot,mixed,medium,少数选手有主武器，其余选手仍为低配,,,,,,
+pgl-astana-2026-spirit-vs-falcons,Spirit,PGL Astana 2026,2026-05-17,15,T,20.0,70.046875,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,0,5,OTHER,A0·B0·中0·匪家5
+pgl-astana-2026-spirit-vs-falcons,Spirit,PGL Astana 2026,2026-05-17,16,T,20.0,23.90625,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,0,5,OTHER,A0·B0·中0·匪家5
+pgl-astana-2026-spirit-vs-falcons,Spirit,PGL Astana 2026,2026-05-17,17,T,20.0,43.375,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,0,5,OTHER,A0·B0·中0·匪家5
+pgl-astana-2026-spirit-vs-falcons,Spirit,PGL Astana 2026,2026-05-17,18,T,12.0,27.234375,damage,True,,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,0,0,2,3,OTHER,A0·B0·中2·匪家3
+pgl-astana-2026-spirit-vs-falcons,Spirit,PGL Astana 2026,2026-05-17,19,T,20.0,28.796875,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,3,2,MID,A0·B0·中3·匪家2
+pgl-astana-2026-spirit-vs-falcons,Spirit,PGL Astana 2026,2026-05-17,20,T,20.0,28.0,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,2,3,OTHER,A0·B0·中2·匪家3
+pgl-astana-2026-spirit-vs-falcons,Spirit,PGL Astana 2026,2026-05-17,21,T,12.0,27.09375,damage,True,,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,0,0,0,5,OTHER,A0·B0·中0·匪家5
+pgl-astana-2026-spirit-vs-falcons,Spirit,PGL Astana 2026,2026-05-17,22,T,20.0,18.75,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+pgl-astana-2026-spirit-vs-falcons,Spirit,PGL Astana 2026,2026-05-17,23,T,20.0,44.0625,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,3,2,MID,A0·B0·中3·匪家2
+pgl-astana-2026-spirit-vs-falcons,Spirit,PGL Astana 2026,2026-05-17,24,T,20.0,27.5,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,1,4,OTHER,A0·B0·中1·匪家4
+pgl-astana-2026-spirit-vs-falcons,Spirit,PGL Astana 2026,2026-05-17,25,T,20.0,32.75,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,4,1,MID,A0·B0·中4·匪家1
+pgl-astana-2026-spirit-vs-falcons,Spirit,PGL Astana 2026,2026-05-17,26,T,20.0,27.234375,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,3,2,MID,A0·B0·中3·匪家2
+pgl-astana-2026-spirit-vs-falcons,Spirit,PGL Astana 2026,2026-05-17,27,T,15.0,15.53125,damage,True,,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,0,0,2,3,OTHER,A0·B0·中2·匪家3
+pgl-astana-2026-spirit-vs-falcons,Spirit,PGL Astana 2026,2026-05-17,1,CT,15.0,38.171875,damage,True,,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,0,1,0,4,OTHER,A0·B1·中0·警家4
+pgl-astana-2026-spirit-vs-falcons,Spirit,PGL Astana 2026,2026-05-17,2,CT,15.0,61.859375,damage,True,,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,0,1,0,4,OTHER,A0·B1·中0·警家4
+pgl-astana-2026-spirit-vs-falcons,Spirit,PGL Astana 2026,2026-05-17,3,CT,20.0,58.21875,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,1,0,4,OTHER,A0·B1·中0·警家4
+pgl-astana-2026-spirit-vs-falcons,Spirit,PGL Astana 2026,2026-05-17,4,CT,20.0,67.296875,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,1,0,4,OTHER,A0·B1·中0·警家4
+pgl-astana-2026-spirit-vs-falcons,Spirit,PGL Astana 2026,2026-05-17,5,CT,20.0,27.390625,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,0,5,OTHER,A0·B0·中0·警家5
+pgl-astana-2026-spirit-vs-falcons,Spirit,PGL Astana 2026,2026-05-17,6,CT,20.0,19.328125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+pgl-astana-2026-spirit-vs-falcons,Spirit,PGL Astana 2026,2026-05-17,7,CT,20.0,54.828125,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,2,0,3,OTHER,A0·B2·中0·警家3
+pgl-astana-2026-spirit-vs-falcons,Spirit,PGL Astana 2026,2026-05-17,8,CT,20.0,9.71875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+pgl-astana-2026-spirit-vs-falcons,Spirit,PGL Astana 2026,2026-05-17,9,CT,20.0,26.96875,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,2,0,3,OTHER,A0·B2·中0·警家3
+pgl-astana-2026-spirit-vs-falcons,Spirit,PGL Astana 2026,2026-05-17,10,CT,20.0,67.09375,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,2,0,3,OTHER,A0·B2·中0·警家3
+pgl-astana-2026-spirit-vs-falcons,Spirit,PGL Astana 2026,2026-05-17,11,CT,20.0,14.6875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+pgl-astana-2026-spirit-vs-falcons,Spirit,PGL Astana 2026,2026-05-17,12,CT,15.0,76.34375,damage,True,,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,0,2,0,3,OTHER,A0·B2·中0·警家3
+pgl-astana-2026-spirit-vs-falcons,Spirit,PGL Astana 2026,2026-05-17,28,CT,20.0,12.5625,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+cs-asia-championships-2026-falcons-vs-mouz,MOUZ,CS Asia Championships 2026,2026-05-23,1,T,15.0,55.140625,damage,True,,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,0,0,0,5,OTHER,A0·B0·中0·匪家5
+cs-asia-championships-2026-falcons-vs-mouz,MOUZ,CS Asia Championships 2026,2026-05-23,2,T,20.0,18.453125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+cs-asia-championships-2026-falcons-vs-mouz,MOUZ,CS Asia Championships 2026,2026-05-23,3,T,20.0,36.078125,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,3,2,MID,A0·B0·中3·匪家2
+cs-asia-championships-2026-falcons-vs-mouz,MOUZ,CS Asia Championships 2026,2026-05-23,4,T,20.0,32.53125,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,1,4,OTHER,A0·B0·中1·匪家4
+cs-asia-championships-2026-falcons-vs-mouz,MOUZ,CS Asia Championships 2026,2026-05-23,5,T,20.0,80.921875,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,3,2,MID,A0·B0·中3·匪家2
+cs-asia-championships-2026-falcons-vs-mouz,MOUZ,CS Asia Championships 2026,2026-05-23,6,T,20.0,45.03125,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,2,3,OTHER,A0·B0·中2·匪家3
+cs-asia-championships-2026-falcons-vs-mouz,MOUZ,CS Asia Championships 2026,2026-05-23,7,T,20.0,11.203125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+cs-asia-championships-2026-falcons-vs-mouz,MOUZ,CS Asia Championships 2026,2026-05-23,8,T,20.0,63.46875,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,2,3,OTHER,A0·B0·中2·匪家3
+cs-asia-championships-2026-falcons-vs-mouz,MOUZ,CS Asia Championships 2026,2026-05-23,9,T,20.0,11.15625,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+cs-asia-championships-2026-falcons-vs-mouz,MOUZ,CS Asia Championships 2026,2026-05-23,10,T,20.0,8.40625,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+cs-asia-championships-2026-falcons-vs-mouz,MOUZ,CS Asia Championships 2026,2026-05-23,11,T,20.0,8.546875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+cs-asia-championships-2026-falcons-vs-mouz,MOUZ,CS Asia Championships 2026,2026-05-23,12,T,20.0,16.046875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+cs-asia-championships-2026-falcons-vs-mouz,MOUZ,CS Asia Championships 2026,2026-05-23,13,CT,15.0,12.765625,damage,False,contact_before_sample,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,,,,,,
+cs-asia-championships-2026-falcons-vs-mouz,MOUZ,CS Asia Championships 2026,2026-05-23,14,CT,20.0,51.671875,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,1,0,4,OTHER,A0·B1·中0·警家4
+cs-asia-championships-2026-falcons-vs-mouz,MOUZ,CS Asia Championships 2026,2026-05-23,15,CT,20.0,34.234375,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,1,0,4,OTHER,A0·B1·中0·警家4
+cs-asia-championships-2026-falcons-vs-mouz,MOUZ,CS Asia Championships 2026,2026-05-23,16,CT,15.0,16.0625,damage,True,,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,1,1,0,3,OTHER,A1·B1·中0·警家3
+cs-asia-championships-2026-falcons-vs-mouz,MOUZ,CS Asia Championships 2026,2026-05-23,17,CT,20.0,4.46875,damage,False,contact_before_sample,freeze_end_snapshot,unknown,low,装备结构不足以区分半起、刚枪或混合购买,,,,,,
+cs-asia-championships-2026-falcons-vs-mouz,MOUZ,CS Asia Championships 2026,2026-05-23,18,CT,20.0,38.8125,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,1,0,4,OTHER,A0·B1·中0·警家4
+cs-asia-championships-2026-falcons-vs-mouz,MOUZ,CS Asia Championships 2026,2026-05-23,19,CT,12.0,37.484375,damage,True,,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,0,1,1,3,OTHER,A0·B1·中1·警家3
+cs-asia-championships-2026-falcons-vs-mouz,MOUZ,CS Asia Championships 2026,2026-05-23,20,CT,20.0,13.640625,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+cs-asia-championships-2026-falcons-vs-legacy,Legacy,CS Asia Championships 2026,2026-05-24,1,T,15.0,19.9375,damage,True,,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,0,0,1,4,OTHER,A0·B0·中1·匪家4
+cs-asia-championships-2026-falcons-vs-legacy,Legacy,CS Asia Championships 2026,2026-05-24,2,T,15.0,53.046875,damage,True,,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,0,0,0,5,OTHER,A0·B0·中0·匪家5
+cs-asia-championships-2026-falcons-vs-legacy,Legacy,CS Asia Championships 2026,2026-05-24,3,T,12.0,14.84375,damage,True,,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,0,0,0,5,OTHER,A0·B0·中0·匪家5
+cs-asia-championships-2026-falcons-vs-legacy,Legacy,CS Asia Championships 2026,2026-05-24,4,T,20.0,41.578125,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,1,4,OTHER,A0·B0·中1·匪家4
+cs-asia-championships-2026-falcons-vs-legacy,Legacy,CS Asia Championships 2026,2026-05-24,5,T,12.0,35.8125,damage,True,,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,0,0,2,3,OTHER,A0·B0·中2·匪家3
+cs-asia-championships-2026-falcons-vs-legacy,Legacy,CS Asia Championships 2026,2026-05-24,6,T,20.0,40.484375,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,3,2,MID,A0·B0·中3·匪家2
+cs-asia-championships-2026-falcons-vs-legacy,Legacy,CS Asia Championships 2026,2026-05-24,7,T,20.0,46.484375,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,0,5,OTHER,A0·B0·中0·匪家5
+cs-asia-championships-2026-falcons-vs-legacy,Legacy,CS Asia Championships 2026,2026-05-24,8,T,20.0,9.796875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+cs-asia-championships-2026-falcons-vs-legacy,Legacy,CS Asia Championships 2026,2026-05-24,9,T,20.0,8.65625,damage,False,round_ended_or_missing_position,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+cs-asia-championships-2026-falcons-vs-legacy,Legacy,CS Asia Championships 2026,2026-05-24,10,T,12.0,43.703125,damage,True,,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,0,0,1,4,OTHER,A0·B0·中1·匪家4
+cs-asia-championships-2026-falcons-vs-legacy,Legacy,CS Asia Championships 2026,2026-05-24,11,T,20.0,13.96875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+cs-asia-championships-2026-falcons-vs-legacy,Legacy,CS Asia Championships 2026,2026-05-24,12,T,20.0,4.734375,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+cs-asia-championships-2026-falcons-vs-legacy,Legacy,CS Asia Championships 2026,2026-05-24,13,CT,15.0,6.03125,damage,False,contact_before_sample,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,,,,,,
+cs-asia-championships-2026-falcons-vs-legacy,Legacy,CS Asia Championships 2026,2026-05-24,14,CT,15.0,13.375,damage,False,contact_before_sample,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,,,,,,
+cs-asia-championships-2026-falcons-vs-legacy,Legacy,CS Asia Championships 2026,2026-05-24,15,CT,12.0,5.078125,damage,False,contact_before_sample,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,,,,,,
+cs-asia-championships-2026-falcons-vs-legacy,Legacy,CS Asia Championships 2026,2026-05-24,16,CT,20.0,22.25,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,1,0,4,OTHER,A0·B1·中0·警家4
+cs-asia-championships-2026-falcons-vs-legacy,Legacy,CS Asia Championships 2026,2026-05-24,17,CT,20.0,9.984375,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+cs-asia-championships-2026-falcons-vs-legacy,Legacy,CS Asia Championships 2026,2026-05-24,18,CT,20.0,11.171875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+cs-asia-championships-2026-falcons-vs-legacy,Legacy,CS Asia Championships 2026,2026-05-24,19,CT,20.0,8.3125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+iem-cologne-major-2026-falcons-vs-monte,Monte,IEM Cologne Major 2026,2026-06-13,1,T,15.0,25.203125,damage,True,,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,0,0,1,4,OTHER,A0·B0·中1·匪家4
+iem-cologne-major-2026-falcons-vs-monte,Monte,IEM Cologne Major 2026,2026-06-13,2,T,15.0,45.03125,damage,True,,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,0,0,0,5,OTHER,A0·B0·中0·匪家5
+iem-cologne-major-2026-falcons-vs-monte,Monte,IEM Cologne Major 2026,2026-06-13,3,T,15.0,31.59375,damage,True,,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,0,0,2,3,OTHER,A0·B0·中2·匪家3
+iem-cologne-major-2026-falcons-vs-monte,Monte,IEM Cologne Major 2026,2026-06-13,4,T,15.0,8.28125,damage,False,contact_before_sample,freeze_end_snapshot,eco,medium,队伍大多数只有默认手枪，未见中高档主武器,,,,,,
+iem-cologne-major-2026-falcons-vs-monte,Monte,IEM Cologne Major 2026,2026-06-13,5,T,20.0,22.828125,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,0,5,OTHER,A0·B0·中0·匪家5
+iem-cologne-major-2026-falcons-vs-monte,Monte,IEM Cologne Major 2026,2026-06-13,6,T,20.0,29.40625,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,2,3,OTHER,A0·B0·中2·匪家3
+iem-cologne-major-2026-falcons-vs-monte,Monte,IEM Cologne Major 2026,2026-06-13,7,T,20.0,4.609375,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+iem-cologne-major-2026-falcons-vs-monte,Monte,IEM Cologne Major 2026,2026-06-13,8,T,20.0,38.234375,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,4,1,MID,A0·B0·中4·匪家1
+iem-cologne-major-2026-falcons-vs-monte,Monte,IEM Cologne Major 2026,2026-06-13,9,T,20.0,19.078125,damage,False,contact_before_sample,freeze_end_snapshot,unknown,low,装备结构不足以区分半起、刚枪或混合购买,,,,,,
+iem-cologne-major-2026-falcons-vs-monte,Monte,IEM Cologne Major 2026,2026-06-13,10,T,20.0,45.8125,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,2,3,OTHER,A0·B0·中2·匪家3
+iem-cologne-major-2026-falcons-vs-monte,Monte,IEM Cologne Major 2026,2026-06-13,11,T,20.0,12.984375,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+iem-cologne-major-2026-falcons-vs-monte,Monte,IEM Cologne Major 2026,2026-06-13,12,T,20.0,11.421875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+iem-cologne-major-2026-falcons-vs-monte,Monte,IEM Cologne Major 2026,2026-06-13,13,CT,15.0,14.703125,damage,False,contact_before_sample,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,,,,,,
+iem-cologne-major-2026-falcons-vs-monte,Monte,IEM Cologne Major 2026,2026-06-13,14,CT,15.0,64.125,damage,True,,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,0,0,0,5,OTHER,A0·B0·中0·警家5
+iem-cologne-major-2026-falcons-vs-monte,Monte,IEM Cologne Major 2026,2026-06-13,15,CT,12.0,6.578125,damage,False,contact_before_sample,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,,,,,,
+iem-cologne-major-2026-falcons-vs-monte,Monte,IEM Cologne Major 2026,2026-06-13,16,CT,20.0,31.625,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,1,0,4,OTHER,A0·B1·中0·警家4
+iem-cologne-major-2026-falcons-vs-monte,Monte,IEM Cologne Major 2026,2026-06-13,17,CT,20.0,35.765625,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,2,0,3,OTHER,A0·B2·中0·警家3
+iem-cologne-major-2026-falcons-vs-monte,Monte,IEM Cologne Major 2026,2026-06-13,18,CT,20.0,17.984375,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+iem-cologne-major-2026-falcons-vs-monte,Monte,IEM Cologne Major 2026,2026-06-13,19,CT,20.0,26.203125,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,1,0,4,OTHER,A0·B1·中0·警家4
+iem-cologne-major-2026-falcons-vs-monte,Monte,IEM Cologne Major 2026,2026-06-13,20,CT,20.0,4.921875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+iem-cologne-major-2026-falcons-vs-monte,Monte,IEM Cologne Major 2026,2026-06-13,21,CT,20.0,76.796875,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,1,0,4,OTHER,A0·B1·中0·警家4
+iem-cologne-major-2026-falcons-vs-monte,Monte,IEM Cologne Major 2026,2026-06-13,22,CT,12.0,9.171875,damage,False,contact_before_sample,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,,,,,,
+iem-cologne-major-2026-falcons-vs-monte,Monte,IEM Cologne Major 2026,2026-06-13,23,CT,20.0,10.71875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+iem-cologne-major-2026-falcons-vs-monte,Monte,IEM Cologne Major 2026,2026-06-13,24,CT,20.0,19.59375,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+iem-cologne-major-2026-natus-vincere-vs-falcons,Natus Vincere,IEM Cologne Major 2026,2026-06-14,1,T,15.0,40.46875,damage,True,,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,0,0,3,2,MID,A0·B0·中3·匪家2
+iem-cologne-major-2026-natus-vincere-vs-falcons,Natus Vincere,IEM Cologne Major 2026,2026-06-14,2,T,15.0,4.9375,damage,False,contact_before_sample,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,,,,,,
+iem-cologne-major-2026-natus-vincere-vs-falcons,Natus Vincere,IEM Cologne Major 2026,2026-06-14,3,T,20.0,3.4375,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+iem-cologne-major-2026-natus-vincere-vs-falcons,Natus Vincere,IEM Cologne Major 2026,2026-06-14,4,T,20.0,78.9375,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,0,5,OTHER,A0·B0·中0·匪家5
+iem-cologne-major-2026-natus-vincere-vs-falcons,Natus Vincere,IEM Cologne Major 2026,2026-06-14,5,T,20.0,63.546875,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,2,3,OTHER,A0·B0·中2·匪家3
+iem-cologne-major-2026-natus-vincere-vs-falcons,Natus Vincere,IEM Cologne Major 2026,2026-06-14,6,T,20.0,81.1875,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,0,5,OTHER,A0·B0·中0·匪家5
+iem-cologne-major-2026-natus-vincere-vs-falcons,Natus Vincere,IEM Cologne Major 2026,2026-06-14,7,T,20.0,45.328125,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,1,4,OTHER,A0·B0·中1·匪家4
+iem-cologne-major-2026-natus-vincere-vs-falcons,Natus Vincere,IEM Cologne Major 2026,2026-06-14,8,T,20.0,35.75,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,4,1,MID,A0·B0·中4·匪家1
+iem-cologne-major-2026-natus-vincere-vs-falcons,Natus Vincere,IEM Cologne Major 2026,2026-06-14,9,T,20.0,20.59375,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,3,2,MID,A0·B0·中3·匪家2
+iem-cologne-major-2026-natus-vincere-vs-falcons,Natus Vincere,IEM Cologne Major 2026,2026-06-14,10,T,20.0,45.5,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,1,4,OTHER,A0·B0·中1·匪家4
+iem-cologne-major-2026-natus-vincere-vs-falcons,Natus Vincere,IEM Cologne Major 2026,2026-06-14,11,T,20.0,32.625,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,4,1,MID,A0·B0·中4·匪家1
+iem-cologne-major-2026-natus-vincere-vs-falcons,Natus Vincere,IEM Cologne Major 2026,2026-06-14,12,T,20.0,12.203125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+iem-cologne-major-2026-natus-vincere-vs-falcons,Natus Vincere,IEM Cologne Major 2026,2026-06-14,13,CT,15.0,23.359375,damage,True,,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,0,1,1,3,OTHER,A0·B1·中1·警家3
+iem-cologne-major-2026-natus-vincere-vs-falcons,Natus Vincere,IEM Cologne Major 2026,2026-06-14,14,CT,20.0,10.203125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+iem-cologne-major-2026-natus-vincere-vs-falcons,Natus Vincere,IEM Cologne Major 2026,2026-06-14,15,CT,15.0,14.515625,damage,False,contact_before_sample,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,,,,,,
+iem-cologne-major-2026-natus-vincere-vs-falcons,Natus Vincere,IEM Cologne Major 2026,2026-06-14,16,CT,20.0,28.671875,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,1,0,4,OTHER,A0·B1·中0·警家4
+iem-cologne-major-2026-spirit-vs-falcons,Spirit,IEM Cologne Major 2026,2026-06-20,1,T,15.0,33.15625,damage,True,,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,0,0,1,4,OTHER,A0·B0·中1·匪家4
+iem-cologne-major-2026-spirit-vs-falcons,Spirit,IEM Cologne Major 2026,2026-06-20,2,T,20.0,52.109375,damage,True,,freeze_end_snapshot,mixed,medium,少数选手有主武器，其余选手仍为低配,0,0,2,3,OTHER,A0·B0·中2·匪家3
+iem-cologne-major-2026-spirit-vs-falcons,Spirit,IEM Cologne Major 2026,2026-06-20,3,T,20.0,9.953125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+iem-cologne-major-2026-spirit-vs-falcons,Spirit,IEM Cologne Major 2026,2026-06-20,4,T,20.0,58.171875,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,1,4,OTHER,A0·B0·中1·匪家4
+iem-cologne-major-2026-spirit-vs-falcons,Spirit,IEM Cologne Major 2026,2026-06-20,5,T,20.0,55.046875,damage,True,,freeze_end_snapshot,mixed,medium,少数选手有主武器，其余选手仍为低配,0,0,1,4,OTHER,A0·B0·中1·匪家4
+iem-cologne-major-2026-spirit-vs-falcons,Spirit,IEM Cologne Major 2026,2026-06-20,6,T,20.0,22.703125,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,5,0,MID,A0·B0·中5·匪家0
+iem-cologne-major-2026-spirit-vs-falcons,Spirit,IEM Cologne Major 2026,2026-06-20,7,T,15.0,7.859375,damage,False,contact_before_sample,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,,,,,,
+iem-cologne-major-2026-spirit-vs-falcons,Spirit,IEM Cologne Major 2026,2026-06-20,8,T,20.0,10.03125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+iem-cologne-major-2026-spirit-vs-falcons,Spirit,IEM Cologne Major 2026,2026-06-20,9,T,15.0,14.953125,damage,False,round_ended_or_missing_position,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,,,,,,
+iem-cologne-major-2026-spirit-vs-falcons,Spirit,IEM Cologne Major 2026,2026-06-20,10,T,15.0,65.578125,damage,True,,freeze_end_snapshot,eco,medium,队伍大多数只有默认手枪，未见中高档主武器,0,0,0,5,OTHER,A0·B0·中0·匪家5
+iem-cologne-major-2026-spirit-vs-falcons,Spirit,IEM Cologne Major 2026,2026-06-20,11,T,20.0,50.109375,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,0,5,OTHER,A0·B0·中0·匪家5
+iem-cologne-major-2026-spirit-vs-falcons,Spirit,IEM Cologne Major 2026,2026-06-20,12,T,20.0,18.234375,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+iem-cologne-major-2026-spirit-vs-falcons,Spirit,IEM Cologne Major 2026,2026-06-20,28,T,20.0,60.78125,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,1,4,OTHER,A0·B0·中1·匪家4
+iem-cologne-major-2026-spirit-vs-falcons,Spirit,IEM Cologne Major 2026,2026-06-20,13,CT,15.0,24.78125,damage,True,,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,0,0,0,5,OTHER,A0·B0·中0·警家5
+iem-cologne-major-2026-spirit-vs-falcons,Spirit,IEM Cologne Major 2026,2026-06-20,14,CT,15.0,86.984375,damage,True,,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,0,1,0,4,OTHER,A0·B1·中0·警家4
+iem-cologne-major-2026-spirit-vs-falcons,Spirit,IEM Cologne Major 2026,2026-06-20,15,CT,20.0,44.046875,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,2,0,3,OTHER,A0·B2·中0·警家3
+iem-cologne-major-2026-spirit-vs-falcons,Spirit,IEM Cologne Major 2026,2026-06-20,16,CT,12.0,36.625,damage,True,,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,0,1,0,4,OTHER,A0·B1·中0·警家4
+iem-cologne-major-2026-spirit-vs-falcons,Spirit,IEM Cologne Major 2026,2026-06-20,17,CT,20.0,21.3125,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,1,0,4,OTHER,A0·B1·中0·警家4
+iem-cologne-major-2026-spirit-vs-falcons,Spirit,IEM Cologne Major 2026,2026-06-20,18,CT,20.0,33.140625,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,1,0,4,OTHER,A0·B1·中0·警家4
+iem-cologne-major-2026-spirit-vs-falcons,Spirit,IEM Cologne Major 2026,2026-06-20,19,CT,20.0,14.96875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+iem-cologne-major-2026-spirit-vs-falcons,Spirit,IEM Cologne Major 2026,2026-06-20,20,CT,20.0,12.15625,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+iem-cologne-major-2026-spirit-vs-falcons,Spirit,IEM Cologne Major 2026,2026-06-20,21,CT,20.0,15.140625,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+iem-cologne-major-2026-spirit-vs-falcons,Spirit,IEM Cologne Major 2026,2026-06-20,22,CT,20.0,26.1875,damage,True,,freeze_end_snapshot,mixed,medium,少数选手有主武器，其余选手仍为低配,0,2,0,3,OTHER,A0·B2·中0·警家3
+iem-cologne-major-2026-spirit-vs-falcons,Spirit,IEM Cologne Major 2026,2026-06-20,23,CT,20.0,66.203125,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,2,0,3,OTHER,A0·B2·中0·警家3
+iem-cologne-major-2026-spirit-vs-falcons,Spirit,IEM Cologne Major 2026,2026-06-20,24,CT,20.0,10.3125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+iem-cologne-major-2026-spirit-vs-falcons,Spirit,IEM Cologne Major 2026,2026-06-20,25,CT,20.0,32.359375,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,2,0,3,OTHER,A0·B2·中0·警家3
+iem-cologne-major-2026-spirit-vs-falcons,Spirit,IEM Cologne Major 2026,2026-06-20,26,CT,20.0,32.796875,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,0,5,OTHER,A0·B0·中0·警家5
+iem-cologne-major-2026-spirit-vs-falcons,Spirit,IEM Cologne Major 2026,2026-06-20,27,CT,20.0,30.015625,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,1,1,3,OTHER,A0·B1·中1·警家3

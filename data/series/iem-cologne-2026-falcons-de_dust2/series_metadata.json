@@ -1,0 +1,28 @@
+{
+  "team": "Falcons",
+  "map": "de_dust2",
+  "season": "IEM Cologne Major 2026",
+  "coverage_tier": "standard",
+  "match_count": 5,
+  "parsed_match_count": 5,
+  "sample_second": 20.0,
+  "economy_sample_seconds": {
+    "full_buy": 20.0,
+    "pistol": 15.0,
+    "half_buy": 12.0,
+    "force_buy": 15.0,
+    "eco": 15.0
+  },
+  "total_round_samples": 113,
+  "eligible_precontact_samples": 66,
+  "economy_scope": "freeze_end_snapshot",
+  "economy_label_counts": {
+    "full_buy": 43,
+    "pistol": 9,
+    "force_buy": 7,
+    "half_buy": 3,
+    "mixed": 3,
+    "eco": 1
+  },
+  "boundary": "Only samples before the first observed opposing-team damage (or first kill when damage events are unavailable). Known economy labels use documented observation checkpoints; this does not identify a set play or a team tendency. Economy labels describe freeze-end loadout evidence only."
+}

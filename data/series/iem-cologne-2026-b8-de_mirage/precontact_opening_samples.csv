@@ -1,0 +1,140 @@
+match_id,opponent,event,date,round,side,sample_second,contact_second,contact_source,sample_eligible,exclusion_reason,economy_scope,economy_label,economy_confidence,economy_reason,A,B,MID,OTHER,dominant_zone,formation
+2394880,M80,IEM Cologne Major 2026,,13,T,15.0,19.8125,damage,True,,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,5,0,0,0,A,A5·B0·中0·匪家0
+2394880,M80,IEM Cologne Major 2026,,14,T,20.0,62.046875,damage,True,,freeze_end_snapshot,unknown,low,装备结构不足以区分半起、刚枪或混合购买,1,3,1,0,B,A1·B3·中1·匪家0
+2394880,M80,IEM Cologne Major 2026,,15,T,20.0,37.46875,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,1,0,4,0,MID,A1·B0·中4·匪家0
+2394880,M80,IEM Cologne Major 2026,,16,T,20.0,25.65625,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,3,0,2,0,A,A3·B0·中2·匪家0
+2394880,M80,IEM Cologne Major 2026,,17,T,12.0,11.625,damage,False,contact_before_sample,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,,,,,,
+2394880,M80,IEM Cologne Major 2026,,18,T,20.0,34.0,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,1,1,3,0,MID,A1·B1·中3·匪家0
+2394880,M80,IEM Cologne Major 2026,,19,T,12.0,23.234375,damage,True,,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,4,0,0,1,A,A4·B0·中0·匪家1
+2394880,M80,IEM Cologne Major 2026,,20,T,20.0,69.15625,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,5,0,MID,A0·B0·中5·匪家0
+2394880,M80,IEM Cologne Major 2026,,21,T,20.0,7.359375,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394880,M80,IEM Cologne Major 2026,,22,T,15.0,11.890625,damage,False,contact_before_sample,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,,,,,,
+2394880,M80,IEM Cologne Major 2026,,23,T,15.0,28.9375,damage,True,,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,0,5,0,0,B,A0·B5·中0·匪家0
+2394880,M80,IEM Cologne Major 2026,,1,CT,15.0,33.140625,damage,True,,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,2,2,0,1,MIXED,A2·B2·中0·警家1
+2394880,M80,IEM Cologne Major 2026,,2,CT,15.0,72.9375,damage,True,,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,2,0,2,1,MIXED,A2·B0·中2·警家1
+2394880,M80,IEM Cologne Major 2026,,3,CT,12.0,15.8125,damage,True,,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,1,1,2,1,MID,A1·B1·中2·警家1
+2394880,M80,IEM Cologne Major 2026,,4,CT,20.0,10.09375,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394880,M80,IEM Cologne Major 2026,,5,CT,20.0,12.796875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394880,M80,IEM Cologne Major 2026,,6,CT,20.0,73.53125,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,1,1,3,0,MID,A1·B1·中3·警家0
+2394880,M80,IEM Cologne Major 2026,,7,CT,20.0,56.828125,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,2,0,3,0,MID,A2·B0·中3·警家0
+2394880,M80,IEM Cologne Major 2026,,8,CT,20.0,69.890625,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,2,1,1,1,A,A2·B1·中1·警家1
+2394880,M80,IEM Cologne Major 2026,,9,CT,20.0,31.296875,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,1,3,1,MID,A0·B1·中3·警家1
+2394880,M80,IEM Cologne Major 2026,,10,CT,20.0,7.078125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394880,M80,IEM Cologne Major 2026,,11,CT,20.0,13.953125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394880,M80,IEM Cologne Major 2026,,12,CT,20.0,28.578125,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,2,1,2,0,MIXED,A2·B1·中2·警家0
+2394885,Gamerlegion,IEM Cologne Major 2026,,1,T,15.0,25.921875,damage,True,,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,1,1,2,1,MID,A1·B1·中2·匪家1
+2394885,Gamerlegion,IEM Cologne Major 2026,,2,T,12.0,12.03125,damage,True,,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,3,2,0,0,A,A3·B2·中0·匪家0
+2394885,Gamerlegion,IEM Cologne Major 2026,,3,T,20.0,25.890625,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,1,1,3,0,MID,A1·B1·中3·匪家0
+2394885,Gamerlegion,IEM Cologne Major 2026,,4,T,20.0,30.953125,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,4,0,0,1,A,A4·B0·中0·匪家1
+2394885,Gamerlegion,IEM Cologne Major 2026,,5,T,20.0,11.0,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394885,Gamerlegion,IEM Cologne Major 2026,,6,T,20.0,27.078125,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,1,0,4,0,MID,A1·B0·中4·匪家0
+2394885,Gamerlegion,IEM Cologne Major 2026,,7,T,15.0,7.828125,damage,False,contact_before_sample,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,,,,,,
+2394885,Gamerlegion,IEM Cologne Major 2026,,8,T,20.0,24.65625,damage,True,,freeze_end_snapshot,unknown,low,装备结构不足以区分半起、刚枪或混合购买,0,5,0,0,B,A0·B5·中0·匪家0
+2394885,Gamerlegion,IEM Cologne Major 2026,,9,T,20.0,6.96875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394885,Gamerlegion,IEM Cologne Major 2026,,10,T,12.0,10.15625,damage,False,contact_before_sample,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,,,,,,
+2394885,Gamerlegion,IEM Cologne Major 2026,,11,T,20.0,40.796875,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,3,0,0,2,A,A3·B0·中0·匪家2
+2394885,Gamerlegion,IEM Cologne Major 2026,,12,T,20.0,31.640625,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,1,4,0,MID,A0·B1·中4·匪家0
+2394885,Gamerlegion,IEM Cologne Major 2026,,13,CT,15.0,27.15625,damage,True,,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,2,0,2,1,MIXED,A2·B0·中2·警家1
+2394885,Gamerlegion,IEM Cologne Major 2026,,14,CT,20.0,76.234375,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,1,1,3,0,MID,A1·B1·中3·警家0
+2394885,Gamerlegion,IEM Cologne Major 2026,,15,CT,20.0,22.328125,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,1,2,1,1,B,A1·B2·中1·警家1
+2394885,Gamerlegion,IEM Cologne Major 2026,,16,CT,20.0,17.71875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394885,Gamerlegion,IEM Cologne Major 2026,,17,CT,15.0,15.15625,damage,True,,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,2,1,2,0,MIXED,A2·B1·中2·警家0
+2394885,Gamerlegion,IEM Cologne Major 2026,,18,CT,12.0,12.59375,damage,True,,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,2,1,2,0,MIXED,A2·B1·中2·警家0
+2394885,Gamerlegion,IEM Cologne Major 2026,,19,CT,20.0,10.390625,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394885,Gamerlegion,IEM Cologne Major 2026,,20,CT,20.0,69.703125,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,2,1,1,1,A,A2·B1·中1·警家1
+2394885,Gamerlegion,IEM Cologne Major 2026,,21,CT,15.0,19.21875,damage,True,,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,1,0,4,0,MID,A1·B0·中4·警家0
+2394890,Mibr,IEM Cologne Major 2026,,1,T,15.0,21.453125,damage,True,,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,0,0,5,0,MID,A0·B0·中5·匪家0
+2394890,Mibr,IEM Cologne Major 2026,,2,T,20.0,24.078125,damage,True,,freeze_end_snapshot,unknown,low,装备结构不足以区分半起、刚枪或混合购买,1,4,0,0,B,A1·B4·中0·匪家0
+2394890,Mibr,IEM Cologne Major 2026,,3,T,20.0,7.125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394890,Mibr,IEM Cologne Major 2026,,4,T,20.0,8.3125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394890,Mibr,IEM Cologne Major 2026,,5,T,12.0,37.140625,damage,True,,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,3,0,2,0,A,A3·B0·中2·匪家0
+2394890,Mibr,IEM Cologne Major 2026,,6,T,20.0,48.859375,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,1,1,3,0,MID,A1·B1·中3·匪家0
+2394890,Mibr,IEM Cologne Major 2026,,7,T,12.0,21.234375,damage,True,,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,5,0,0,0,A,A5·B0·中0·匪家0
+2394890,Mibr,IEM Cologne Major 2026,,8,T,20.0,10.21875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394890,Mibr,IEM Cologne Major 2026,,9,T,12.0,8.546875,damage,False,contact_before_sample,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,,,,,,
+2394890,Mibr,IEM Cologne Major 2026,,10,T,20.0,12.15625,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394890,Mibr,IEM Cologne Major 2026,,11,T,12.0,15.453125,damage,True,,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,2,3,0,0,B,A2·B3·中0·匪家0
+2394890,Mibr,IEM Cologne Major 2026,,12,T,20.0,12.875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394890,Mibr,IEM Cologne Major 2026,,13,CT,15.0,66.59375,damage,True,,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,0,3,1,1,B,A0·B3·中1·警家1
+2394890,Mibr,IEM Cologne Major 2026,,14,CT,15.0,39.890625,damage,True,,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,2,0,3,0,MID,A2·B0·中3·警家0
+2394890,Mibr,IEM Cologne Major 2026,,15,CT,15.0,55.28125,damage,True,,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,3,1,1,0,A,A3·B1·中1·警家0
+2394890,Mibr,IEM Cologne Major 2026,,16,CT,20.0,14.3125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394890,Mibr,IEM Cologne Major 2026,,17,CT,20.0,27.96875,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,2,1,2,0,MIXED,A2·B1·中2·警家0
+2394890,Mibr,IEM Cologne Major 2026,,18,CT,20.0,17.84375,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394890,Mibr,IEM Cologne Major 2026,,19,CT,20.0,26.453125,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,2,1,1,1,A,A2·B1·中1·警家1
+2394890,Mibr,IEM Cologne Major 2026,,20,CT,20.0,11.40625,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394901,Furia,IEM Cologne Major 2026,,1,T,15.0,24.15625,damage,True,,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,0,5,0,0,B,A0·B5·中0·匪家0
+2394901,Furia,IEM Cologne Major 2026,,2,T,20.0,67.703125,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,1,1,3,0,MID,A1·B1·中3·匪家0
+2394901,Furia,IEM Cologne Major 2026,,3,T,15.0,6.984375,damage,False,contact_before_sample,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,,,,,,
+2394901,Furia,IEM Cologne Major 2026,,4,T,15.0,13.59375,damage,False,contact_before_sample,freeze_end_snapshot,eco,medium,队伍大多数只有默认手枪，未见中高档主武器,,,,,,
+2394901,Furia,IEM Cologne Major 2026,,5,T,20.0,7.71875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394901,Furia,IEM Cologne Major 2026,,6,T,12.0,10.75,damage,False,contact_before_sample,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,,,,,,
+2394901,Furia,IEM Cologne Major 2026,,7,T,20.0,17.703125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394901,Furia,IEM Cologne Major 2026,,8,T,12.0,27.890625,damage,True,,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,4,1,0,0,A,A4·B1·中0·匪家0
+2394901,Furia,IEM Cologne Major 2026,,9,T,20.0,14.609375,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394901,Furia,IEM Cologne Major 2026,,10,T,20.0,12.09375,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394901,Furia,IEM Cologne Major 2026,,11,T,20.0,36.140625,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,1,4,0,MID,A0·B1·中4·匪家0
+2394901,Furia,IEM Cologne Major 2026,,12,T,20.0,16.234375,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394901,Furia,IEM Cologne Major 2026,,13,CT,15.0,44.359375,damage,True,,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,1,2,1,1,B,A1·B2·中1·警家1
+2394901,Furia,IEM Cologne Major 2026,,14,CT,20.0,19.5625,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394901,Furia,IEM Cologne Major 2026,,15,CT,20.0,7.25,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394901,Furia,IEM Cologne Major 2026,,16,CT,20.0,21.34375,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,2,1,2,0,MIXED,A2·B1·中2·警家0
+2394901,Furia,IEM Cologne Major 2026,,17,CT,20.0,7.765625,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394901,Furia,IEM Cologne Major 2026,,18,CT,20.0,30.078125,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,3,1,1,0,A,A3·B1·中1·警家0
+2394901,Furia,IEM Cologne Major 2026,,19,CT,20.0,8.890625,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394901,Furia,IEM Cologne Major 2026,,20,CT,20.0,49.09375,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,2,1,1,1,A,A2·B1·中1·警家1
+2394901,Furia,IEM Cologne Major 2026,,21,CT,20.0,7.71875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394901,Furia,IEM Cologne Major 2026,,22,CT,20.0,43.875,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,1,1,2,1,MID,A1·B1·中2·警家1
+2394901,Furia,IEM Cologne Major 2026,,23,CT,20.0,9.703125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394972,The Mongolz,IEM Cologne Major 2026,,1,T,15.0,26.59375,damage,True,,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,0,4,1,0,B,A0·B4·中1·匪家0
+2394972,The Mongolz,IEM Cologne Major 2026,,2,T,15.0,38.5625,damage,True,,freeze_end_snapshot,eco,medium,队伍大多数只有默认手枪，未见中高档主武器,1,3,0,1,B,A1·B3·中0·匪家1
+2394972,The Mongolz,IEM Cologne Major 2026,,3,T,20.0,12.890625,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394972,The Mongolz,IEM Cologne Major 2026,,4,T,12.0,12.875,damage,True,,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,1,4,0,0,B,A1·B4·中0·匪家0
+2394972,The Mongolz,IEM Cologne Major 2026,,5,T,20.0,16.34375,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394972,The Mongolz,IEM Cologne Major 2026,,6,T,12.0,41.921875,damage,True,,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,0,0,5,0,MID,A0·B0·中5·匪家0
+2394972,The Mongolz,IEM Cologne Major 2026,,7,T,20.0,25.078125,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,5,0,MID,A0·B0·中5·匪家0
+2394972,The Mongolz,IEM Cologne Major 2026,,8,T,12.0,11.46875,damage,False,contact_before_sample,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,,,,,,
+2394972,The Mongolz,IEM Cologne Major 2026,,9,T,20.0,12.0,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394972,The Mongolz,IEM Cologne Major 2026,,10,T,20.0,14.328125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394972,The Mongolz,IEM Cologne Major 2026,,11,T,20.0,10.328125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394972,The Mongolz,IEM Cologne Major 2026,,12,T,20.0,11.71875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394972,The Mongolz,IEM Cologne Major 2026,,28,T,20.0,13.6875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394972,The Mongolz,IEM Cologne Major 2026,,29,T,20.0,64.375,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,1,0,4,0,MID,A1·B0·中4·匪家0
+2394972,The Mongolz,IEM Cologne Major 2026,,30,T,15.0,7.578125,damage,False,contact_before_sample,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,,,,,,
+2394972,The Mongolz,IEM Cologne Major 2026,,13,CT,15.0,22.453125,damage,True,,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,1,2,1,1,B,A1·B2·中1·警家1
+2394972,The Mongolz,IEM Cologne Major 2026,,14,CT,15.0,10.203125,damage,False,contact_before_sample,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,,,,,,
+2394972,The Mongolz,IEM Cologne Major 2026,,15,CT,20.0,7.171875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394972,The Mongolz,IEM Cologne Major 2026,,16,CT,15.0,15.546875,damage,True,,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,2,0,2,1,MIXED,A2·B0·中2·警家1
+2394972,The Mongolz,IEM Cologne Major 2026,,17,CT,20.0,14.171875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394972,The Mongolz,IEM Cologne Major 2026,,18,CT,20.0,22.25,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,1,2,2,0,MIXED,A1·B2·中2·警家0
+2394972,The Mongolz,IEM Cologne Major 2026,,19,CT,20.0,20.75,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,2,1,1,1,A,A2·B1·中1·警家1
+2394972,The Mongolz,IEM Cologne Major 2026,,20,CT,20.0,38.1875,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,2,2,1,0,MIXED,A2·B2·中1·警家0
+2394972,The Mongolz,IEM Cologne Major 2026,,21,CT,20.0,12.40625,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394972,The Mongolz,IEM Cologne Major 2026,,22,CT,20.0,31.453125,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,2,1,2,0,MIXED,A2·B1·中2·警家0
+2394972,The Mongolz,IEM Cologne Major 2026,,23,CT,20.0,17.5625,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394972,The Mongolz,IEM Cologne Major 2026,,24,CT,20.0,26.4375,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,1,1,1,2,OTHER,A1·B1·中1·警家2
+2394972,The Mongolz,IEM Cologne Major 2026,,25,CT,20.0,26.734375,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,1,2,2,0,MIXED,A1·B2·中2·警家0
+2394972,The Mongolz,IEM Cologne Major 2026,,26,CT,20.0,18.421875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394972,The Mongolz,IEM Cologne Major 2026,,27,CT,20.0,28.171875,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,2,1,1,1,A,A2·B1·中1·警家1
+2394980,Fut,IEM Cologne Major 2026,,1,T,15.0,25.265625,damage,True,,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,2,1,2,0,MIXED,A2·B1·中2·匪家0
+2394980,Fut,IEM Cologne Major 2026,,2,T,15.0,37.96875,damage,True,,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,1,2,2,0,MIXED,A1·B2·中2·匪家0
+2394980,Fut,IEM Cologne Major 2026,,3,T,12.0,15.65625,damage,True,,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,0,0,5,0,MID,A0·B0·中5·匪家0
+2394980,Fut,IEM Cologne Major 2026,,4,T,20.0,7.578125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394980,Fut,IEM Cologne Major 2026,,5,T,12.0,12.921875,damage,True,,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,0,4,1,0,B,A0·B4·中1·匪家0
+2394980,Fut,IEM Cologne Major 2026,,6,T,20.0,18.4375,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394980,Fut,IEM Cologne Major 2026,,7,T,15.0,11.453125,damage,False,contact_before_sample,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,,,,,,
+2394980,Fut,IEM Cologne Major 2026,,8,T,12.0,12.78125,damage,True,,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,0,5,0,0,B,A0·B5·中0·匪家0
+2394980,Fut,IEM Cologne Major 2026,,9,T,20.0,21.28125,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,1,1,3,0,MID,A1·B1·中3·匪家0
+2394980,Fut,IEM Cologne Major 2026,,10,T,12.0,8.8125,damage,False,contact_before_sample,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,,,,,,
+2394980,Fut,IEM Cologne Major 2026,,11,T,20.0,16.65625,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394980,Fut,IEM Cologne Major 2026,,12,T,15.0,12.734375,damage,False,contact_before_sample,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,,,,,,
+2394980,Fut,IEM Cologne Major 2026,,13,CT,15.0,24.5625,damage,True,,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,0,1,3,1,MID,A0·B1·中3·警家1
+2394980,Fut,IEM Cologne Major 2026,,14,CT,15.0,58.75,damage,True,,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,2,1,2,0,MIXED,A2·B1·中2·警家0
+2394980,Fut,IEM Cologne Major 2026,,15,CT,12.0,50.84375,damage,True,,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,1,3,1,0,B,A1·B3·中1·警家0
+2394980,Fut,IEM Cologne Major 2026,,16,CT,20.0,48.828125,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,1,4,0,MID,A0·B1·中4·警家0
+2394980,Fut,IEM Cologne Major 2026,,17,CT,20.0,8.28125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394980,Fut,IEM Cologne Major 2026,,18,CT,20.0,11.25,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394980,Fut,IEM Cologne Major 2026,,19,CT,20.0,11.140625,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394980,Fut,IEM Cologne Major 2026,,20,CT,20.0,45.890625,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,2,1,2,0,MIXED,A2·B1·中2·警家0
+2394980,Fut,IEM Cologne Major 2026,,21,CT,20.0,44.625,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,2,1,1,1,A,A2·B1·中1·警家1
+2394980,Fut,IEM Cologne Major 2026,,22,CT,20.0,26.734375,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,3,1,1,0,A,A3·B1·中1·警家0

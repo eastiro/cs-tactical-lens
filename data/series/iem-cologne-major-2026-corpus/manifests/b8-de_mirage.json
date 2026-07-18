@@ -1,0 +1,50 @@
+{
+  "team": "B8",
+  "map": "de_mirage",
+  "season": "IEM Cologne Major 2026",
+  "notes": "从全量 corpus 导入生成。de_mirage 候选样本，队伍名已规范化。",
+  "matches": [
+    {
+      "id": "2394880",
+      "bundle": "",
+      "opponent": "M80",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2"
+    },
+    {
+      "id": "2394885",
+      "bundle": "",
+      "opponent": "Gamerlegion",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2"
+    },
+    {
+      "id": "2394890",
+      "bundle": "",
+      "opponent": "Mibr",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2"
+    },
+    {
+      "id": "2394901",
+      "bundle": "",
+      "opponent": "Furia",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    },
+    {
+      "id": "2394972",
+      "bundle": "",
+      "opponent": "The Mongolz",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    },
+    {
+      "id": "2394980",
+      "bundle": "",
+      "opponent": "Fut",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    }
+  ]
+}

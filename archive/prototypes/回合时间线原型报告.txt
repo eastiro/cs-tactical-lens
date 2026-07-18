@@ -1,0 +1,186 @@
+回合局势时间线 — 前端原型报告
+=================================
+
+生成日期：2026-07-13
+原型文件：archive/prototypes/timeline_prototype.py
+运行方式：python -m streamlit run archive/prototypes/timeline_prototype.py
+测试状态：pytest 26/26 通过（不影响现有代码）
+
+
+一、修改文件
+───────────
+
+仅新增一个文件：
+  archive/prototypes/timeline_prototype.py  — 独立可运行的 Streamlit 页面原型
+
+未修改：
+  app.py                — 零改动
+  src/                  — 零改动
+  data/                 — 零改动
+  测试文件               — 零改动
+
+
+二、组件结构
+───────────
+
+timeline_prototype.py 包含以下主要组件：
+
+1. 数据模型 ── TimelineEvent（dataclass）
+   ─────────────────────────────────────
+   字段：
+     seconds   float   — 距回合开始的秒数
+     kind      str     — 事件类型：kill / bomb_plant / bomb_defuse / bomb_explosion
+     attacker  str     — 击杀者/下包者/拆包者姓名
+     victim    str     — 被击杀者姓名（仅 kill）
+     weapon    str     — 武器名称（仅 kill）
+     team      str     — "T" 或 "CT"（决定标记颜色）
+     site      str     — "A" 或 "B"（下包/拆包位置）
+     note      str     — 附加说明文字
+
+2. 存活人数计算 ── survivor_curves()
+   ─────────────────────────────────────
+   输入：TimelineEvent 列表
+   输出：两条阶梯曲线 (t_curve, ct_curve)，每条为 (seconds, alive_count) 序列
+   算法：
+     - 初始 T=5, CT=5
+     - kill 事件中 team="T" → CT 存活 -1
+     - kill 事件中 team="CT" → T 存活 -1
+     - bomb 事件不影响存活人数
+
+3. 时间线绘制 ── render_timeline()
+   ─────────────────────────────────────
+   输入：events, selected_second(可选), height
+   输出：Plotly Figure
+   图层：
+     - T 存活阶梯线（黄色 #F0AA3C, shape="hv"）
+     - CT 存活阶梯线（蓝色 #4DA3FF, shape="hv"）
+     - 两线之间半透明填充区域
+     - 击杀标记（菱形，攻击者阵营色，悬停显示详情）
+     - 炸弹事件标记（★下包 / ✕爆炸 / ✛拆包）
+     - 当前时间竖线（选中时刻虚线指示器）
+
+4. 统计面板 ── render_stats_panel()
+   ─────────────────────────────────────
+   HTML 网格卡片，显示：
+     - 回合时长
+     - T:CT 击杀比
+     - 炸弹信息
+     - 回合结果
+
+5. Streamlit 页面 ── main()
+   ─────────────────────────────────────
+     - 全局暗色 CSS（与 app.py 视觉一致）
+     - 情景选择 radio（"T 方 C4 爆炸获胜" / "CT 方拆包获胜"）
+     - Plotly 时间线图表
+     - 统计面板
+     - 事件流水日志
+     - 数据合约说明（可折叠区域）
+
+
+三、交互方式
+───────────
+
+1. 鼠标悬停
+   所有数据点（阶梯拐点、击杀菱形、炸弹标记）均支持悬停 tooltip。
+   - 杀点击：显示 ☠ 击杀者 → 被击杀者 · 武器名 · 时刻
+   - 下包：显示 ◎ C4 已安装 @ A/B 区 · 安装者 · 时刻
+   - 爆炸：显示 💥 C4 爆炸 · 时刻
+   - 拆包：显示 🔧 拆包中 · 拆包者 · 位置 · 时刻
+
+2. 点击跳转（预留接口）
+   Plotly 图表绑定 key="timeline_main"，通过 Streamlit 的
+   on_select 事件可以捕获点击坐标。后续接入 real data 时，
+   在 main() 中添加：
+
+       if chart and chart.selection:
+           pts = chart.selection.points
+           if pts:
+               st.session_state.selected_second = pts[0].x
+
+   即可实现"点击时间线节点 → 跳转到对应回放时间"。
+
+3. 情景切换
+   通过 radio 按钮在两种回合走势间切换，验证时间线对不同
+   结局（爆炸胜 vs 拆包胜）的渲染正确性。
+
+
+四、视觉设计
+───────────
+
+   - 整体遵循 CS Tactical Lens 黑色战术室主题
+   - 背景 #080b0f，面板 #0e131b，边框 #1c2330
+   - T 存活曲线：黄色 #F0AA3C，粗线 3px，阶梯形状
+   - CT 存活曲线：蓝色 #4DA3FF，粗线 3px，阶梯形状
+   - 击杀标记：菱形，颜色 = 击杀者阵营色
+   - 炸弹标记：★ 橙色 / ✕ 红色 / ✛ 绿色
+   - 当前时间：白色虚线 + "42s" 标签
+   - 悬停 tooltip：深底圆角，清晰的信息层级
+   - X 轴：回合时间（秒），Y 轴：存活人数（0-5）
+
+
+五、模拟数据说明
+───────────────
+
+两个预设回合情景：
+
+情景 A — T 方 C4 爆炸获胜（Round 8）
+   T 方进攻 A 区 → 下包 → CT 回防 → 激烈交火 →
+   1v1 残局 → C4 爆炸，T 获胜。
+   展示重点：存活曲线阶梯下降 + 炸弹爆炸终结回合。
+
+情景 B — CT 方拆包获胜
+   T 方进攻 B 区 → 下包 → CT 回防 → 逐个击杀 T →
+   成功拆包，CT 获胜。
+   展示重点：拆包事件 + CT 回防节奏。
+
+每个情景包含约 10 个事件，5v5 起始，存活人数变化可追踪。
+
+
+六、接入真实数据需要的字段
+─────────────────────────
+
+当 Codex 后续接入真实 demo 数据时，需要将解析结果映射为
+TimelineEvent 列表。映射关系如下：
+
+┌──────────────┬──────────────────────┬──────────────────────────────┐
+│ 事件类型      │ 源数据表              │ 字段映射                     │
+├──────────────┼──────────────────────┼──────────────────────────────┤
+│ kill         │ data.kills           │ seconds → seconds            │
+│              │                      │ attacker → attacker          │
+│              │                      │ victim → victim              │
+│              │                      │ weapon → weapon              │
+│              │                      │ attacker_side → team         │
+├──────────────┼──────────────────────┼──────────────────────────────┤
+│ bomb_plant   │ data.grenades        │ seconds → seconds            │
+│              │ (grenade_type='he')   │ thrower → attacker           │
+│              │ 或新增 bomb_events    │ area → site                  │
+├──────────────┼──────────────────────┼──────────────────────────────┤
+│ bomb_defuse  │ data.grenades        │ seconds → seconds            │
+│              │ 或新增 bomb_events    │ thrower → attacker           │
+│              │                      │ area → site                  │
+├──────────────┼──────────────────────┼──────────────────────────────┤
+│ bomb_explode │ 需新增字段            │ 从 round 元数据获取           │
+│              │                      │ bomb_exploded_second         │
+└──────────────┴──────────────────────┴──────────────────────────────┘
+
+如果 demo 解析层提供 "bomb_planted_second" 和 "bomb_exploded_second"
+这样的字段，直接填入对应 TimelineEvent 即可。
+
+注意：
+  survivor_curves() 通过遍历 kill 事件推算存活人数，不依赖
+  外部胜率模型。如果真实数据包含 kills.attacker_side 字段，
+  则完全不需要额外的数据准备。
+
+
+七、限制与后续
+─────────────
+
+- 当前为纯前端原型，使用模拟数据。
+- "点击跳转回放时间" 功能预留了 Streamlit session_state 接口，
+  但需要 app.py 中的播放器组件配合消费该状态。
+- 如果真实 DEMO 中某回合包含 0 击杀（例如 T 方速通无伤获胜），
+  存活曲线将为两条水平线，当前逻辑可正确处理。
+- 单回合事件数超过 20 个时，标记密集度可能过高，后续可引入
+  分组的逻辑（例如 5 秒窗口聚合）。
+
+EOF

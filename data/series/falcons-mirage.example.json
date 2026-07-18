@@ -1,0 +1,15 @@
+{
+  "team": "Team Falcons",
+  "map": "de_mirage",
+  "season": "2026-05-09 之后（karrigan 阵容）",
+  "notes": "仅收集 2026-05-09 起的职业 Mirage；阵容口径为 karrigan、NiKo、TeSeS、m0NESY、kyousuke。至少收集 6 场，不要混入换阵前、不同地图或阵容明显不一致的比赛。经济局类型尚未解析。",
+  "matches": [
+    {
+      "id": "falcons-vs-furia-mirage",
+      "bundle": "../processed/furia-falcons-mirage",
+      "opponent": "FURIA",
+      "event": "待补充",
+      "date": ""
+    }
+  ]
+}

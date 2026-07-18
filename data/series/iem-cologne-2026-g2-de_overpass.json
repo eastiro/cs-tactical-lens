@@ -1,0 +1,45 @@
+{
+  "team": "G2",
+  "map": "de_overpass",
+  "season": "IEM Cologne Major 2026",
+  "coverage_tier": "standard",
+  "parsed_match_count": 5,
+  "boundary": "样本等级是覆盖提示，不是战术结论。经济标签描述冻结结束装备证据，不等于购买意图或默认战术。",
+  "matches": [
+    {
+      "id": "2394887",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394887\\de_overpass",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2",
+      "opponent": "Fut"
+    },
+    {
+      "id": "2394973",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394973\\de_overpass",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3",
+      "opponent": "Fut"
+    },
+    {
+      "id": "2394981",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394981\\de_overpass",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3",
+      "opponent": "Aurora"
+    },
+    {
+      "id": "2394992",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394992\\de_overpass",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3",
+      "opponent": "Legacy"
+    },
+    {
+      "id": "2394998",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394998\\de_overpass",
+      "event": "IEM Cologne Major 2026",
+      "stage": "playoffs",
+      "opponent": "Spirit"
+    }
+  ]
+}

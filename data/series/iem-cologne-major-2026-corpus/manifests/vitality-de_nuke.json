@@ -1,0 +1,22 @@
+{
+  "team": "Vitality",
+  "map": "de_nuke",
+  "season": "IEM Cologne Major 2026",
+  "notes": "从全量 corpus 导入生成。de_nuke 候选样本，队伍名已规范化。",
+  "matches": [
+    {
+      "id": "2394898",
+      "bundle": "",
+      "opponent": "Fut",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    },
+    {
+      "id": "2394989",
+      "bundle": "",
+      "opponent": "Betboom",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    }
+  ]
+}

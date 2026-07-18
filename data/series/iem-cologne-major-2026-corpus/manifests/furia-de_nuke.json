@@ -1,0 +1,15 @@
+{
+  "team": "Furia",
+  "map": "de_nuke",
+  "season": "IEM Cologne Major 2026",
+  "notes": "从全量 corpus 导入生成。de_nuke 候选样本，队伍名已规范化。",
+  "matches": [
+    {
+      "id": "2395000",
+      "bundle": "",
+      "opponent": "Aurora",
+      "event": "IEM Cologne Major 2026",
+      "stage": "playoffs"
+    }
+  ]
+}

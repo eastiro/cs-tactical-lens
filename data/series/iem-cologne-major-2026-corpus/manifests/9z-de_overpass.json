@@ -1,0 +1,43 @@
+{
+  "team": "9Z",
+  "map": "de_overpass",
+  "season": "IEM Cologne Major 2026",
+  "notes": "从全量 corpus 导入生成。de_overpass 候选样本，队伍名已规范化。",
+  "matches": [
+    {
+      "id": "2394892",
+      "bundle": "",
+      "opponent": "Tyloo",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2"
+    },
+    {
+      "id": "2394903",
+      "bundle": "",
+      "opponent": "Parivision",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    },
+    {
+      "id": "2394986",
+      "bundle": "",
+      "opponent": "Spirit",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    },
+    {
+      "id": "2394993",
+      "bundle": "",
+      "opponent": "The Mongolz",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    },
+    {
+      "id": "2394997",
+      "bundle": "",
+      "opponent": "Furia",
+      "event": "IEM Cologne Major 2026",
+      "stage": "playoffs"
+    }
+  ]
+}

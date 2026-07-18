@@ -1,0 +1,3 @@
+side,formation,sample_count,match_count,sample_share,match_ids,round_evidence
+T,A0·B0·中0·匪家5,2,1,0.6666666666666666,"('2394866',)","(2, 3)"
+T,A0·B0·中1·匪家4,1,1,0.3333333333333333,"('2394866',)","(1,)"

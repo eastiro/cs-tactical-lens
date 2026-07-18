@@ -1,0 +1,22 @@
+{
+  "team": "Gamerlegion",
+  "map": "de_nuke",
+  "season": "IEM Cologne Major 2026",
+  "notes": "从全量 corpus 导入生成。de_nuke 候选样本，队伍名已规范化。",
+  "matches": [
+    {
+      "id": "2394877",
+      "bundle": "",
+      "opponent": "Betboom",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2"
+    },
+    {
+      "id": "2394885",
+      "bundle": "",
+      "opponent": "B8",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2"
+    }
+  ]
+}

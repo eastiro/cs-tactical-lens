@@ -1,0 +1,38 @@
+{
+  "team": "B8",
+  "map": "de_ancient",
+  "season": "IEM Cologne Major 2026",
+  "coverage_tier": "exploratory",
+  "parsed_match_count": 4,
+  "boundary": "样本等级是覆盖提示，不是战术结论。经济标签描述冻结结束装备证据，不等于购买意图或默认战术。",
+  "matches": [
+    {
+      "id": "2394868",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394868\\de_ancient",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2",
+      "opponent": "Fut"
+    },
+    {
+      "id": "2394890",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394890\\de_ancient",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2",
+      "opponent": "Mibr"
+    },
+    {
+      "id": "2394897",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394897\\de_ancient",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2",
+      "opponent": "Big"
+    },
+    {
+      "id": "2394980",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394980\\de_ancient",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3",
+      "opponent": "Fut"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "team": "Fut",
+  "map": "de_mirage",
+  "season": "IEM Cologne Major 2026",
+  "notes": "从全量 corpus 导入生成。de_mirage 候选样本，队伍名已规范化。",
+  "matches": [
+    {
+      "id": "2394973",
+      "bundle": "",
+      "opponent": "G2",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    },
+    {
+      "id": "2394980",
+      "bundle": "",
+      "opponent": "B8",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    },
+    {
+      "id": "2394987",
+      "bundle": "",
+      "opponent": "Mouz",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    },
+    {
+      "id": "2394994",
+      "bundle": "",
+      "opponent": "Betboom",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    }
+  ]
+}

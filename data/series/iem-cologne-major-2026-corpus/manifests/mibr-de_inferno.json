@@ -1,0 +1,15 @@
+{
+  "team": "Mibr",
+  "map": "de_inferno",
+  "season": "IEM Cologne Major 2026",
+  "notes": "从全量 corpus 导入生成。de_inferno 候选样本，队伍名已规范化。",
+  "matches": [
+    {
+      "id": "2394884",
+      "bundle": "",
+      "opponent": "Big",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2"
+    }
+  ]
+}

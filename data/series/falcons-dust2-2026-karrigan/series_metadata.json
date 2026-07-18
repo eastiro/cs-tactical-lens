@@ -1,0 +1,26 @@
+{
+  "team": "Team Falcons",
+  "map": "de_dust2",
+  "season": "2026-05-09 之后（karrigan 阵容）",
+  "match_count": 9,
+  "sample_second": 20.0,
+  "economy_sample_seconds": {
+    "full_buy": 20.0,
+    "pistol": 15.0,
+    "half_buy": 12.0,
+    "force_buy": 15.0,
+    "eco": 15.0
+  },
+  "total_round_samples": 206,
+  "eligible_precontact_samples": 120,
+  "economy_scope": "freeze_end_snapshot",
+  "economy_label_counts": {
+    "full_buy": 78,
+    "force_buy": 12,
+    "half_buy": 12,
+    "pistol": 11,
+    "mixed": 4,
+    "eco": 3
+  },
+  "boundary": "Only samples before the first observed opposing-team damage (or first kill when damage events are unavailable). Known economy labels use documented observation checkpoints; this does not identify a set play or a team tendency. Economy labels describe freeze-end loadout evidence only."
+}

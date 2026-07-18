@@ -1,0 +1,149 @@
+Team Falcons 职业 Mirage Demo 清单（karrigan 阵容 · 2026-05-09 之后）
+=====================================================================
+
+阵容口径：karrigan / NiKo / TeSeS / m0NESY / kyousuke
+排除标准：不收录 kyxsan 时期的比赛，不含阵容不一致的比赛
+共收录 10 场（下限 6，上限 10）
+
+
+1. PGL Astana 2026 — Swiss 第二轮
+----------------------------------------------------
+  日期       : 2026-05-10
+  赛事       : PGL Astana 2026（瑞士轮 1-0 组）
+  对手       : 9z
+  Mirage 比分: Falcons 13 : 9 9z（Falcons 胜）
+  确认进行   : 是，第二图
+  Demo 来源页: https://www.hltv.org/matches/2394130/pgl-astana-2026-swiss-round-2-7-pgl-astana-2026
+  直接下载   : 页面底部「Demo download」→ PGL (Map 2 - Mirage)
+  单图/整场  : BO3 的第二图
+
+
+2. PGL Astana 2026 — Swiss 第四轮
+----------------------------------------------------
+  日期       : 2026-05-12
+  赛事       : PGL Astana 2026（瑞士轮 2-1 组）
+  对手       : The MongolZ
+  Mirage 比分: Falcons 16 : 12 The MongolZ（加时，Falcons 胜）
+  确认进行   : 是，决胜图
+  Demo 来源页: https://www.hltv.org/matches/2394142/the-mongolz-vs-falcons-pgl-astana-2026
+  直接下载   : 页面底部「Demo download」→ PGL (Map 3 - Mirage)
+  单图/整场  : BO3 的决胜图
+
+
+3. PGL Astana 2026 — 四分之一决赛
+----------------------------------------------------
+  日期       : 2026-05-15
+  赛事       : PGL Astana 2026（季后赛四分之一决赛）
+  对手       : FURIA
+  Mirage 比分: FURIA 13 : 9 Falcons（FURIA 胜）
+  确认进行   : 是，第一图（Falcons 选）
+  Demo 来源页: https://www.hltv.org/matches/2394152/furia-vs-falcons-pgl-astana-2026
+  直接下载   : 页面底部「Demo download」→ PGL (Map 1 - Mirage)
+  单图/整场  : BO3 的第一图
+
+
+4. PGL Astana 2026 — 总决赛
+----------------------------------------------------
+  日期       : 2026-05-17
+  赛事       : PGL Astana 2026（总决赛）
+  对手       : Spirit
+  Mirage 比分: Spirit 13 : 7 Falcons（Spirit 胜）
+  确认进行   : 是，第二图（Falcons 选）
+  Demo 来源页: https://www.hltv.org/matches/2394156/spirit-vs-falcons-pgl-astana-2026
+  直接下载   : 页面底部「Demo download」→ PGL (Map 2 - Mirage)
+  单图/整场  : BO5 的第二图
+
+
+5. CS Asia Championships 2026 — 半决赛
+----------------------------------------------------
+  日期       : 2026-05-23
+  赛事       : CS Asia Championships 2026（CAC，半决赛）
+  对手       : MOUZ
+  Mirage 比分: MOUZ 13 : 7 Falcons（MOUZ 胜）
+  确认进行   : 是，第一图（MOUZ 选）
+  Demo 来源页: https://www.hltv.org/matches/2394225/falcons-vs-mouz-cs-asia-championships-2026
+  直接下载   : 页面底部「Demo download」→ PGL (Map 1 - Mirage)
+  单图/整场  : BO3 的第一图
+
+
+6. CS Asia Championships 2026 — 总决赛
+----------------------------------------------------
+  日期       : 2026-05-24
+  赛事       : CS Asia Championships 2026（CAC，总决赛）
+  对手       : Legacy
+  Mirage 比分: Legacy 13 : 6 Falcons（Legacy 胜）
+  确认进行   : 是，第三图（Legacy 选）
+  Demo 来源页: https://www.hltv.org/matches/2394228/falcons-vs-legacy-cs-asia-championships-2026
+  直接下载   : 页面底部「Demo download」→ PGL (Map 3 - Mirage)
+  单图/整场  : BO5 的第三图
+
+
+7. IEM Cologne Major 2026 — 第三阶段瑞士轮
+----------------------------------------------------
+  日期       : 2026-06-13
+  赛事       : IEM Cologne Major 2026（Stage 3 瑞士轮，1-1 组）
+  对手       : Monte
+  Mirage 比分: Falcons 13 : 10 Monte（Falcons 胜）
+  确认进行   : 是，决胜图
+  Demo 来源页: https://www.hltv.org/matches/2394982/falcons-vs-monte-iem-cologne-major-2026
+  直接下载   : 页面底部「Demo download」→ ESL TV (Map 3 - Mirage)
+  单图/整场  : BO3 的决胜图
+
+
+8. IEM Cologne Major 2026 — 第三阶段瑞士轮
+----------------------------------------------------
+  日期       : 2026-06-14
+  赛事       : IEM Cologne Major 2026（Stage 3 瑞士轮，2-1 组）
+  对手       : NAVI
+  Mirage 比分: NAVI 13 : 7 Falcons（NAVI 胜）
+  确认进行   : 是，第二图（NAVI 选）
+  Demo 来源页: https://www.hltv.org/matches/2394991/natus-vincere-vs-falcons-iem-cologne-major-2026
+  直接下载   : 页面底部「Demo download」→ ESL TV (Map 2 - Mirage)
+  单图/整场  : BO3 的第二图
+
+
+9. IEM Cologne Major 2026 — 半决赛
+----------------------------------------------------
+  日期       : 2026-06-20
+  赛事       : IEM Cologne Major 2026（季后赛半决赛）
+  对手       : Spirit
+  Mirage 比分: Spirit 13 : 8 Falcons（Spirit 胜）
+  确认进行   : 是，第二图（Spirit 选）
+  Demo 来源页: https://www.hltv.org/matches/2395001/spirit-vs-falcons-iem-cologne-major-2026
+  直接下载   : 页面底部「Demo download」→ ESL TV (Map 2 - Mirage)
+  单图/整场  : BO3 的第二图
+
+
+10. IEM Cologne Major 2026 — 总决赛
+----------------------------------------------------
+   日期       : 2026-06-21
+   赛事       : IEM Cologne Major 2026（总决赛）
+   对手       : FURIA
+   Mirage 比分: Falcons 13 : 8 FURIA（Falcons 胜）
+   确认进行   : 是，第一图
+   Demo 来源页: https://www.hltv.org/matches/2395002/furia-vs-falcons-iem-cologne-major-2026
+   直接下载   : 页面底部「Demo download」→ ESL TV (Map 1 - Mirage)
+   单图/整场  : BO5 的第一图
+
+
+统计数据汇总
+----------------------------------------------------
+  总场次      : 10
+  时间跨度    : 2026-05-10 → 2026-06-21（43 天）
+  涉及赛事    : PGL Astana 2026 / CAC 2026 / IEM Cologne Major 2026
+  Mirage 胜负 : Falcons 4 胜 6 负（含加时 1 胜）
+  Falcons 赢 Mirage 的对手: 9z、The MongolZ(OT)、Monte、FURIA
+
+
+注意事项
+----------------------------------------------------
+  1. 直接下载链接 — HLTV 的 demo 文件嵌入在 match 页面底部，
+     通常为 hltv.org/download/demo/XXXXX 格式，需 HLTV 账户登录。
+     上述「Demo 来源页」即 HLTV match 主页面，进入后滚动到底部
+     找到对应地图的下载入口。
+
+  2. 阵容核实 — 以上 10 场 Falcons 阵容均为
+     karrigan / NiKo / TeSeS / m0NESY / kyousuke，
+     不包含 kyxsan 时期的比赛，阵容口径符合要求。
+
+  3. 本清单仅用于 Demo 收集参考，不做任何战术分析。

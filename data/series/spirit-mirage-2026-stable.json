@@ -1,0 +1,64 @@
+{
+  "team": "Team Spirit",
+  "map": "de_mirage",
+  "season": "2026 稳定阵容期（zont1x/donk/sh1ro/tN1R/magixx）",
+  "notes": "只包含已解析、已校验的 bundle；接触前样本仍需按首次交火时间排除回合。",
+  "matches": [
+    {
+      "id": "blast-bounty-2026-season-1-finals-parivision-vs-spirit",
+      "bundle": "..\\processed\\spirit-2026-stable\\blast-bounty-2026-season-1-finals-parivision-vs-spirit\\de_mirage",
+      "opponent": "PARIVISION",
+      "event": "BLAST Bounty 2026 Season 1 Finals",
+      "date": "2026-01-23"
+    },
+    {
+      "id": "iem-rio-2026-g2-vs-spirit",
+      "bundle": "..\\processed\\spirit-2026-stable\\iem-rio-2026-g2-vs-spirit\\de_mirage",
+      "opponent": "G2",
+      "event": "IEM Rio 2026",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "iem-rio-2026-falcons-vs-spirit",
+      "bundle": "..\\processed\\spirit-2026-stable\\iem-rio-2026-falcons-vs-spirit\\de_mirage",
+      "opponent": "Falcons",
+      "event": "IEM Rio 2026",
+      "date": "2026-04-18"
+    },
+    {
+      "id": "iem-rio-2026-spirit-vs-mouz",
+      "bundle": "..\\processed\\spirit-2026-stable\\iem-rio-2026-spirit-vs-mouz\\de_mirage",
+      "opponent": "MOUZ",
+      "event": "IEM Rio 2026",
+      "date": "2026-04-18"
+    },
+    {
+      "id": "iem-rio-2026-spirit-vs-vitality",
+      "bundle": "..\\processed\\spirit-2026-stable\\iem-rio-2026-spirit-vs-vitality\\de_mirage",
+      "opponent": "Vitality",
+      "event": "IEM Rio 2026",
+      "date": "2026-04-20"
+    },
+    {
+      "id": "pgl-astana-2026-spirit-vs-falcons",
+      "bundle": "..\\processed\\spirit-2026-stable\\pgl-astana-2026-spirit-vs-falcons\\de_mirage",
+      "opponent": "Falcons",
+      "event": "PGL Astana 2026",
+      "date": "2026-05-17"
+    },
+    {
+      "id": "iem-cologne-major-2026-stage-2-spirit-vs-9z",
+      "bundle": "..\\processed\\spirit-2026-stable\\iem-cologne-major-2026-stage-2-spirit-vs-9z\\de_mirage",
+      "opponent": "9z",
+      "event": "IEM Cologne Major 2026",
+      "date": "2026-06-07"
+    },
+    {
+      "id": "iem-cologne-major-2026-spirit-vs-9z",
+      "bundle": "..\\processed\\spirit-2026-stable\\iem-cologne-major-2026-spirit-vs-9z\\de_mirage",
+      "opponent": "9z",
+      "event": "IEM Cologne Major 2026",
+      "date": "2026-06-13"
+    }
+  ]
+}

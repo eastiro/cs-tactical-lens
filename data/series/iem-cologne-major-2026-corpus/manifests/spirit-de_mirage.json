@@ -1,0 +1,43 @@
+{
+  "team": "Spirit",
+  "map": "de_mirage",
+  "season": "IEM Cologne Major 2026",
+  "notes": "从全量 corpus 导入生成。de_mirage 候选样本，队伍名已规范化。",
+  "matches": [
+    {
+      "id": "2394865",
+      "bundle": "",
+      "opponent": "Betboom",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2"
+    },
+    {
+      "id": "2394879",
+      "bundle": "",
+      "opponent": "Mibr",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2"
+    },
+    {
+      "id": "2394888",
+      "bundle": "",
+      "opponent": "9Z",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2"
+    },
+    {
+      "id": "2394986",
+      "bundle": "",
+      "opponent": "9Z",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    },
+    {
+      "id": "2395001",
+      "bundle": "data\\processed\\iem-cologne-major-2026-corpus\\2395001\\de_mirage",
+      "opponent": "Falcons",
+      "event": "IEM Cologne Major 2026",
+      "stage": "playoffs"
+    }
+  ]
+}

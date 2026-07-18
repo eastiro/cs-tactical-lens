@@ -1,0 +1,17 @@
+{
+  "team": "Team Falcons",
+  "map": "de_dust2",
+  "season": "2026-05-09 之后（karrigan 阵容）",
+  "notes": "只包含已解析、已校验的 Dust2 bundle；接触前样本仍按首次交火时间排除回合。",
+  "matches": [
+    {"id": "pgl-astana-2026-falcons-vs-9z", "bundle": "..\\processed\\falcons-2026-karrigan\\pgl-astana-2026-falcons-vs-9z\\de_dust2", "opponent": "9z", "event": "PGL Astana 2026", "date": "2026-05-10"},
+    {"id": "pgl-astana-2026-the-mongolz-vs-falcons", "bundle": "..\\processed\\falcons-2026-karrigan\\pgl-astana-2026-the-mongolz-vs-falcons\\de_dust2", "opponent": "The MongolZ", "event": "PGL Astana 2026", "date": "2026-05-12"},
+    {"id": "pgl-astana-2026-furia-vs-falcons", "bundle": "..\\processed\\falcons-2026-karrigan\\pgl-astana-2026-furia-vs-falcons\\de_dust2", "opponent": "FURIA", "event": "PGL Astana 2026", "date": "2026-05-15"},
+    {"id": "pgl-astana-2026-spirit-vs-falcons", "bundle": "..\\processed\\falcons-2026-karrigan\\pgl-astana-2026-spirit-vs-falcons\\de_dust2", "opponent": "Spirit", "event": "PGL Astana 2026", "date": "2026-05-17"},
+    {"id": "cs-asia-championships-2026-falcons-vs-mouz", "bundle": "..\\processed\\falcons-2026-karrigan\\cs-asia-championships-2026-falcons-vs-mouz\\de_dust2", "opponent": "MOUZ", "event": "CS Asia Championships 2026", "date": "2026-05-23"},
+    {"id": "cs-asia-championships-2026-falcons-vs-legacy", "bundle": "..\\processed\\falcons-2026-karrigan\\cs-asia-championships-2026-falcons-vs-legacy\\de_dust2", "opponent": "Legacy", "event": "CS Asia Championships 2026", "date": "2026-05-24"},
+    {"id": "iem-cologne-major-2026-falcons-vs-monte", "bundle": "..\\processed\\falcons-2026-karrigan\\iem-cologne-major-2026-falcons-vs-monte\\de_dust2", "opponent": "Monte", "event": "IEM Cologne Major 2026", "date": "2026-06-13"},
+    {"id": "iem-cologne-major-2026-natus-vincere-vs-falcons", "bundle": "..\\processed\\falcons-2026-karrigan\\iem-cologne-major-2026-natus-vincere-vs-falcons\\de_dust2", "opponent": "Natus Vincere", "event": "IEM Cologne Major 2026", "date": "2026-06-14"},
+    {"id": "iem-cologne-major-2026-spirit-vs-falcons", "bundle": "..\\processed\\falcons-2026-karrigan\\iem-cologne-major-2026-spirit-vs-falcons\\de_dust2", "opponent": "Spirit", "event": "IEM Cologne Major 2026", "date": "2026-06-20"}
+  ]
+}

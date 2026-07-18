@@ -1,0 +1,24 @@
+{
+  "team": "Fut",
+  "map": "de_nuke",
+  "season": "IEM Cologne Major 2026",
+  "coverage_tier": "insufficient",
+  "parsed_match_count": 2,
+  "boundary": "样本等级是覆盖提示，不是战术结论。经济标签描述冻结结束装备证据，不等于购买意图或默认战术。",
+  "matches": [
+    {
+      "id": "2394898",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394898\\de_nuke",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3",
+      "opponent": "Vitality"
+    },
+    {
+      "id": "2394987",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394987\\de_nuke",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3",
+      "opponent": "Mouz"
+    }
+  ]
+}

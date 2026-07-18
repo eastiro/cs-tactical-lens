@@ -1,0 +1,38 @@
+{
+  "team": "Fut",
+  "map": "de_ancient",
+  "season": "IEM Cologne Major 2026",
+  "coverage_tier": "exploratory",
+  "parsed_match_count": 4,
+  "boundary": "样本等级是覆盖提示，不是战术结论。经济标签描述冻结结束装备证据，不等于购买意图或默认战术。",
+  "matches": [
+    {
+      "id": "2394868",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394868\\de_ancient",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2",
+      "opponent": "B8"
+    },
+    {
+      "id": "2394887",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394887\\de_ancient",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2",
+      "opponent": "G2"
+    },
+    {
+      "id": "2394980",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394980\\de_ancient",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3",
+      "opponent": "B8"
+    },
+    {
+      "id": "2394987",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394987\\de_ancient",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3",
+      "opponent": "Mouz"
+    }
+  ]
+}

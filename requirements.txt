@@ -1,0 +1,4 @@
+streamlit>=1.48,<2.0
+pandas>=2.2,<3.0
+plotly>=6.0,<7.0
+awpy>=2.0,<3.0

@@ -1,0 +1,229 @@
+CS Tactical Lens — 纯前端视觉精修报告
+========================================
+
+目标定位：CS 职业战队教练战术室 / 赛事复盘工作站
+改造范围：app.py 中的布局、CSS、字体层级、间距、颜色、图标和响应式表现；
+          .streamlit/config.toml 暗色主题配置
+未改动：src/、data/、解析逻辑、指标计算、测试代码
+测试状态：19/19 项 pytest 全部通过
+
+
+一、色彩体系重构
+─────────────────
+
+  旧                          新
+  ───                        ───
+  --bg: #0d1015              --bg: #080b0f
+  --panel: #151a21           --surface: #0e131b
+  --panel2: #1b212a          --surface2: #171e28
+  --line: #2a323e            --border: #1c2330
+                             --border2: #293040
+  --text: #edf2f7            --text: #e1e7ef
+  --muted: #8f9baa           --muted: #78869a
+                             --dim: #4b5769
+
+  背景叠加 T/CT 双色极淡径向渐变：
+    radial-gradient(ellipse at 25% 0%,  rgba(240,170,60,0.025))
+    radial-gradient(ellipse at 75% 100%, rgba(77,163,255,0.025))
+
+  T 方: #F0AA3C（不变）
+  CT 方: #4DA3FF（不变）
+  击杀: #FF5F65（不变）
+
+
+二、字体系统
+─────────────────
+
+  引入 Google Fonts：Inter（西文正文）+ JetBrains Mono（数字/代码）
+  中文回退栈：PingFang SC → Microsoft YaHei → Noto Sans SC
+
+  层级：
+    h1 → Inter 800, 1.45rem, -0.025em
+    h2 → Inter 700, 1.05rem
+    h3 → Inter 600, 0.88rem, muted
+    section-label → Mono 600, 0.62rem, 0.2em 字距, 大写
+    event-body → 0.80rem, line-height 1.4
+    caption → Mono, 0.68rem, dim
+
+
+三、比分条（Scoreboard）——赛事转播覆盖层风格
+───────────────────────────────────────────────
+
+  布局：display:grid 三栏（1fr auto 1fr）
+  顶部 2px 双色渐变线 (T → border → CT)
+  左侧：胜者标记 + 队名大写 + 比分(等宽 2.3rem, T 色)
+  中间：地图名(MIRAGE) + 副标题(PRO MATCH · MAP 1 · N ROUNDS)
+  右侧：比分(CT 色) + 队名
+  去除渐变背景，改用纯色 #0c1118
+
+
+四、雷达图（核心视觉中心）
+─────────────────────────────
+
+  plot_bgcolor: #0d1118（与页融合）
+  height: 690 → 676（配合更紧凑控件）
+  选手标记 size:16 → 15，描边颜色同步新 bg
+  hoverlabel: 深底大字体 13px
+  地图列占比: 73% → 69%（从 2.2/3.0 调至 1.9/2.75），detail 列获得更宽空间
+
+
+五、控制区紧凑化
+─────────────────
+
+  列比调整:
+    回合选择 / 时间滑块 / 图层 / 选手名
+    旧: [1.0, 2.25, 1.55, 0.85]
+    新: [0.85, 2.0, 1.3, 0.7]
+
+  selectbox/multiselect 统一：
+    background: #0b0f14
+    border-color: var(--border)
+    min-height: 32px（原默认约 38px）
+
+  页面切换 radio → 赛博标签栏：
+    深底 + 分割线 + hover 高亮 #19212b
+    去除 Streamlit 默认圆角边框样式
+
+
+六、事件流（Event Feed）→ 军事情报时间线
+─────────────────────────────────────────────
+
+  每行结构三列：[时间 36px] [竖线+圆点 14px] [正文 1fr]
+  所有事件通过垂直线(1px #1a212c)连接，形成连续时间线
+  击杀事件：红色方点 + 发光 + 文字暖色调
+  道具事件：黄色圆点 + 文字暖色调
+  最大显示条数: 12 → 16
+  空状态文字精简
+
+  武器名称翻译（纯展示映射，不修改源数据）：
+    ak47        → AK-47
+    awp         → AWP
+    deagle      → 沙漠之鹰
+    elite       → 双持贝瑞塔
+    famas       → FAMAS
+    fiveseven   → Five-SeveN
+    galilar     → Galil AR
+    glock       → Glock-18
+    knife_m9_bayonet → M9 刺刀
+    m4a1        → M4A4
+    m4a1_silencer → M4A1-S
+    mp7         → MP7
+    tec9        → Tec-9
+    usp_silencer → USP-S
+
+  修复：`投出 闪光弹` → `投出闪光弹`（去除多余空格）
+
+
+七、回合走势条（Round Rail）
+───────────────────────────────
+
+  芯片高度: 30px → 24px
+  当前激活: 38px → 32px
+  芯片间距: 3px → 2px
+  字号: 0.67rem → 0.55rem
+  不透明度 0.78 → 0.7
+
+
+八、战术模式页
+─────────────────
+
+  控制列比微调 [1.35,1.2,0.8,1.4] → [1.2,1.1,0.75,1.25]
+  首杀转化条:
+    高度 8px → 5px
+    颜色: 蓝渐变 (3b82f6 → 60a5fa)
+  标题精简
+  位置观测表格字体改用 mono
+
+
+九、复盘报告页
+─────────────────
+
+  Insight 卡片:
+    左边框 3px #475569
+    背景 #0c1118
+    字号 0.85rem, line-height 1.55
+  范围列表间距压缩
+
+
+十、暗色主题一致性修复
+─────────────────────────
+
+  【.streamlit/config.toml】新增 Streamlit 系统级暗色主题：
+    base = "dark"
+    backgroundColor = "#080b0f"
+    secondaryBackgroundColor = "#0e131b"
+    textColor = "#e1e7ef"
+    primaryColor = "#4da3ff"
+
+    该配置作用于所有 Streamlit 原生组件，包括使用 Glide Data Grid
+    渲染的 st.dataframe。网格组件读取 --gdg-* CSS 变量生成画布，
+    base="dark" 确保所有默认值都为暗色。
+
+  【Header/Toolbar 白色区域消除】
+    header[data-testid="stHeader"]:
+      background: transparent !important
+      height: 0 !important
+      所有直接子元素 hidden
+    [data-testid="stToolbar"]: display: none !important
+    div[data-testid="stToolbar"]: display: none !important
+    section[data-testid="stSidebar"] > div:first-child:
+      padding-top 微调以补偿 header 压缩
+
+  【st.dataframe 全面暗色覆盖】
+    容器: border/background 同步页面暗色
+    Glide Data Grid 变量映射:
+      --gdg-bg-cell:        #0c1118
+      --gdg-bg-header:      #131a23
+      --gdg-border-color:   #1c2330
+      --gdg-text-dark:      #e1e7ef
+      --gdg-text-medium:    #78869a
+      --gdg-text-light:     #4b5769
+      --gdg-accent-color:   #4da3ff
+      --gdg-font-family:    var(--mono)
+    HTML 回退表格:
+      thead 深底 #131a23, tbody 交替 #0c1118 / #0e141c
+      hover 行高亮 #161e28
+      单元格字体 mono 0.75rem
+      滚动条暗色处理
+
+
+十一、Deploy 按钮修正
+───────────────────────
+
+  Streamlit 1.57.0 的 DOM class 为 stAppDeployButton（而非旧版
+  stDeployButton），已修正选择器。
+
+  移除的 Streamlit 默认 UI 元素：
+    #MainMenu                → display: none
+    .stAppDeployButton       → display: none
+    div[data-testid="stDecoration"] → display: none
+    header[data-testid="stHeader"]  → transparent / height: 0
+    [data-testid="stToolbar"]      → display: none
+    footer                   → visibility: hidden
+
+
+十二、1440×900 屏幕实测
+──────────────────────────
+
+  回合复盘主区域内容高度约 1243px，900px 视口无法完全容纳，需纵向滚动。
+
+  已做的垂直空间优化（比原始版本减少约 80px）：
+    - block-container padding-top: 1.1rem → 0.75rem
+    - 比分条 padding/margin 缩减约 15px
+    - 控制区 selectbox min-height 压缩约 6px
+    - 回合芯片高度降低 6px / 激活态降低 6px
+    - 各部分间距微调
+    - header 压缩为 height:0（约消除 50px 额外空白）
+
+  雷达图 height 维持在 676px 以保证可读性。
+  若需无滚动，需缩小雷达图至约 500px 以下，将严重损害战术复盘核心体验，
+  因此当前方案优先保证雷达可读，接受纵向滚动。
+
+
+十三、测试验证
+─────────────────
+
+  执行命令: python -m pytest -q --basetemp=C:/temp/pytest -p no:cacheprovider
+  结果: 19 passed, 0 failed
+
+EOF

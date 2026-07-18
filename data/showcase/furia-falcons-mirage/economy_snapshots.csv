@@ -1,0 +1,211 @@
+round,tick,player,team,side,seconds,inventory,current_equip_value,armor,has_helmet,has_defuser,cash_after_buy,start_cash,cash_spent
+1,1274,FalleN,Furia,T,0.0,"[""M9 Bayonet"", ""Glock-18"", ""Smoke Grenade""]",500,0,False,False,100,800,700
+1,1274,KSCERATO,Furia,T,0.0,"[""Karambit"", ""Glock-18"", ""Flashbang"", ""Flashbang"", ""Molotov""]",1000,0,False,False,100,800,700
+1,1274,NiKo,Falcons,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""High Explosive Grenade"", ""Smoke Grenade""]",1450,100,False,False,150,800,650
+1,1274,TeSeS,Falcons,CT,0.0,"[""Karambit"", ""USP-S"", ""Flashbang""]",1000,0,False,False,0,800,800
+1,1274,YEKINDAR,Furia,T,0.0,"[""Karambit"", ""Glock-18""]",850,100,False,False,150,800,650
+1,1274,karrigan,Falcons,CT,0.0,"[""Karambit"", ""Dual Berettas""]",800,0,False,False,0,800,800
+1,1274,kyousuke,Falcons,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""High Explosive Grenade"", ""Flashbang""]",1350,100,False,False,150,800,650
+1,1274,m0NESY,Falcons,CT,0.0,"[""Butterfly Knife"", ""USP-S""]",850,100,False,False,150,800,650
+1,1274,molodoy,Furia,T,0.0,"[""Karambit"", ""Glock-18"", ""C4 Explosive""]",850,100,False,False,150,800,650
+1,1274,yuurih,Furia,T,0.0,"[""Karambit"", ""Glock-18"", ""Smoke Grenade""]",1150,100,False,False,150,800,650
+2,5641,FalleN,Furia,T,0.0,"[""M9 Bayonet"", ""Glock-18"", ""C4 Explosive""]",200,0,False,False,2000,2000,0
+2,5641,KSCERATO,Furia,T,0.0,"[""Karambit"", ""Glock-18""]",200,0,False,False,2300,2300,0
+2,5641,NiKo,Falcons,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""Smoke Grenade"", ""FAMAS"", ""High Explosive Grenade""]",4150,100,True,False,0,3650,3650
+2,5641,TeSeS,Falcons,CT,0.0,"[""Karambit"", ""USP-S"", ""FAMAS"", ""Smoke Grenade"", ""Flashbang"", ""Incendiary Grenade""]",4150,100,True,False,50,3800,3750
+2,5641,YEKINDAR,Furia,T,0.0,"[""Karambit"", ""Glock-18""]",200,0,False,False,2050,2050,0
+2,5641,karrigan,Falcons,CT,0.0,"[""Karambit"", ""USP-S"", ""MP7"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Incendiary Grenade""]",3900,100,True,False,100,3800,3700
+2,5641,kyousuke,Falcons,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""M4A1-S"", ""Flashbang"", ""Flashbang""]",4500,100,True,False,50,3950,3900
+2,5641,m0NESY,Falcons,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""High Explosive Grenade"", ""M4A1-S"", ""Smoke Grenade""]",5100,100,True,True,300,4250,3950
+2,5641,molodoy,Furia,T,0.0,"[""Karambit"", ""Glock-18""]",200,0,False,False,2350,2350,0
+2,5641,yuurih,Furia,T,0.0,"[""Karambit"", ""Glock-18""]",200,0,False,False,2050,2050,0
+3,11061,FalleN,Furia,T,0.0,"[""M9 Bayonet"", ""Glock-18"", ""AK-47"", ""Smoke Grenade"", ""Flashbang"", ""Flashbang""]",4600,100,True,False,0,4400,4400
+3,11061,KSCERATO,Furia,T,0.0,"[""Karambit"", ""Glock-18"", ""AK-47"", ""Smoke Grenade"", ""Molotov"", ""Flashbang"", ""High Explosive Grenade""]",5100,100,True,False,100,5000,4900
+3,11061,NiKo,Falcons,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""FAMAS"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Incendiary Grenade"", ""Flashbang""]",4450,100,True,False,2200,3500,1300
+3,11061,TeSeS,Falcons,CT,0.0,"[""Karambit"", ""USP-S"", ""FAMAS"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Flashbang"", ""Incendiary Grenade""]",4450,100,True,False,2250,3550,1300
+3,11061,YEKINDAR,Furia,T,0.0,"[""Karambit"", ""Glock-18"", ""AK-47"", ""Smoke Grenade"", ""Molotov""]",4600,100,True,False,50,4450,4400
+3,11061,karrigan,Falcons,CT,0.0,"[""Karambit"", ""USP-S"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Incendiary Grenade"", ""Flashbang"", ""M4A1-S""]",5400,100,True,False,200,5400,5200
+3,11061,kyousuke,Falcons,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""M4A1-S"", ""Flashbang"", ""Incendiary Grenade"", ""Smoke Grenade"", ""High Explosive Grenade""]",5400,100,True,False,2750,3850,1100
+3,11061,m0NESY,Falcons,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""M4A1-S"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Incendiary Grenade"", ""Flashbang""]",5800,100,True,True,3100,4100,1000
+3,11061,molodoy,Furia,T,0.0,"[""Karambit"", ""Glock-18"", ""Galil AR"", ""Molotov"", ""Smoke Grenade"", ""Flashbang"", ""Flashbang""]",4100,100,True,False,150,4050,3900
+3,11061,yuurih,Furia,T,0.0,"[""Karambit"", ""Glock-18"", ""AK-47"", ""Smoke Grenade"", ""Molotov""]",4600,100,True,False,50,4450,4400
+4,19590,FalleN,Furia,T,0.0,"[""M9 Bayonet"", ""Flashbang"", ""Desert Eagle""]",900,0,False,False,0,2900,2900
+4,19590,KSCERATO,Furia,T,0.0,"[""Karambit"", ""Glock-18"", ""AK-47""]",3900,100,True,False,1600,3300,1700
+4,19590,NiKo,Falcons,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""M4A4"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Incendiary Grenade"", ""Flashbang""]",5400,100,True,False,500,5700,5200
+4,19590,TeSeS,Falcons,CT,0.0,"[""Karambit"", ""USP-S"", ""M4A4"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Incendiary Grenade"", ""Flashbang""]",5400,100,True,False,1150,6350,5200
+4,19590,YEKINDAR,Furia,T,0.0,"[""Karambit"", ""Tec-9"", ""Smoke Grenade""]",1800,100,True,False,1450,3250,1800
+4,19590,karrigan,Falcons,CT,0.0,"[""Karambit"", ""USP-S"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Incendiary Grenade"", ""Flashbang"", ""M4A4""]",5800,100,True,False,1400,3700,2300
+4,19590,kyousuke,Falcons,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""Molotov"", ""AK-47"", ""High Explosive Grenade"", ""Flashbang"", ""Smoke Grenade""]",5500,100,True,True,900,6850,5950
+4,19590,m0NESY,Falcons,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""AWP"", ""Flashbang"", ""Smoke Grenade"", ""Incendiary Grenade"", ""High Explosive Grenade""]",7650,100,True,True,1300,6900,5600
+4,19590,molodoy,Furia,T,0.0,"[""Karambit"", ""Desert Eagle""]",1350,0,False,False,2950,3650,700
+4,19590,yuurih,Furia,T,0.0,"[""Karambit"", ""Tec-9"", ""Smoke Grenade""]",1450,100,False,False,1500,2950,1450
+5,24537,FalleN,Furia,T,0.0,"[""M9 Bayonet"", ""Glock-18"", ""Galil AR"", ""Smoke Grenade"", ""Flashbang""]",3500,100,True,False,100,3400,3300
+5,24537,KSCERATO,Furia,T,0.0,"[""Karambit"", ""Glock-18"", ""AK-47"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Molotov"", ""Flashbang""]",5100,100,True,False,100,5000,4900
+5,24537,NiKo,Falcons,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""M4A4"", ""Flashbang"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Incendiary Grenade""]",5800,100,True,False,2900,4000,1100
+5,24537,TeSeS,Falcons,CT,0.0,"[""Karambit"", ""M4A4"", ""High Explosive Grenade"", ""Desert Eagle"", ""Incendiary Grenade"", ""Smoke Grenade"", ""Flashbang""]",5900,99,True,False,3950,4950,1000
+5,24537,YEKINDAR,Furia,T,0.0,"[""Karambit"", ""Glock-18"", ""AK-47"", ""Smoke Grenade"", ""Flashbang"", ""Flashbang"", ""Molotov""]",5000,100,True,False,50,4850,4800
+5,24537,karrigan,Falcons,CT,0.0,"[""Karambit"", ""USP-S"", ""M4A4"", ""Incendiary Grenade"", ""High Explosive Grenade"", ""Smoke Grenade"", ""Flashbang""]",5800,100,True,True,3500,5200,1700
+5,24537,kyousuke,Falcons,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""AK-47"", ""Flashbang"", ""Incendiary Grenade"", ""Smoke Grenade"", ""High Explosive Grenade""]",5600,100,True,True,3900,5000,1100
+5,24537,m0NESY,Falcons,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""AWP"", ""Flashbang"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Incendiary Grenade""]",7650,100,True,True,3800,4900,1100
+5,24537,molodoy,Furia,T,0.0,"[""Karambit"", ""Glock-18"", ""AWP"", ""Smoke Grenade""]",5900,100,False,False,0,5700,5700
+5,24537,yuurih,Furia,T,0.0,"[""Karambit"", ""Glock-18"", ""AK-47"", ""Smoke Grenade"", ""Molotov""]",4600,100,True,False,150,4550,4400
+6,35549,FalleN,Furia,T,0.0,"[""M9 Bayonet"", ""Tec-9"", ""Smoke Grenade"", ""Flashbang"", ""Molotov"", ""High Explosive Grenade""]",2700,100,True,False,1100,3800,2700
+6,35549,KSCERATO,Furia,T,0.0,"[""Karambit"", ""Tec-9"", ""Smoke Grenade"", ""Flashbang""]",2000,100,True,False,1500,3500,2000
+6,35549,NiKo,Falcons,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""M4A4"", ""High Explosive Grenade"", ""Incendiary Grenade"", ""Smoke Grenade"", ""Flashbang""]",5400,97,True,False,2800,7000,4200
+6,35549,TeSeS,Falcons,CT,0.0,"[""Karambit"", ""USP-S"", ""M4A4"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Incendiary Grenade"", ""Flashbang""]",5400,100,True,False,2250,7450,5200
+6,35549,YEKINDAR,Furia,T,0.0,"[""Karambit"", ""Smoke Grenade"", ""Tec-9"", ""Flashbang""]",1650,100,False,False,2100,3750,1650
+6,35549,karrigan,Falcons,CT,0.0,"[""Karambit"", ""USP-S"", ""M4A1-S"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Incendiary Grenade"", ""Flashbang""]",5800,100,True,True,2800,7000,4200
+6,35549,kyousuke,Falcons,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""AK-47"", ""Incendiary Grenade"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Flashbang""]",5600,100,True,True,4700,7400,2700
+6,35549,m0NESY,Falcons,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""AWP"", ""Flashbang"", ""Smoke Grenade"", ""Incendiary Grenade"", ""High Explosive Grenade""]",7650,100,True,True,4900,7600,2700
+6,35549,molodoy,Furia,T,0.0,"[""Karambit"", ""Tec-9"", ""Smoke Grenade"", ""Flashbang"", ""Flashbang""]",1850,100,False,False,1550,3400,1850
+6,35549,yuurih,Furia,T,0.0,"[""Karambit"", ""Smoke Grenade"", ""Tec-9""]",1800,100,True,False,2050,3850,1800
+7,42291,FalleN,Furia,T,0.0,"[""M9 Bayonet"", ""Glock-18"", ""C4 Explosive"", ""AK-47"", ""Flashbang"", ""Flashbang"", ""Smoke Grenade"", ""Molotov""]",5000,100,True,False,600,5400,4800
+7,42291,KSCERATO,Furia,T,0.0,"[""Karambit"", ""Glock-18"", ""AK-47"", ""Smoke Grenade"", ""Molotov"", ""Flashbang"", ""Flashbang""]",5000,100,True,False,700,5500,4800
+7,42291,NiKo,Falcons,CT,0.0,"[""Butterfly Knife"", ""M4A4"", ""Tec-9"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Incendiary Grenade"", ""Flashbang""]",5700,94,True,False,5850,7150,1300
+7,42291,TeSeS,Falcons,CT,0.0,"[""Karambit"", ""USP-S"", ""M4A4"", ""Smoke Grenade"", ""Incendiary Grenade"", ""High Explosive Grenade"", ""Flashbang""]",5450,100,False,False,1150,6000,4850
+7,42291,YEKINDAR,Furia,T,0.0,"[""Karambit"", ""Glock-18"", ""AK-47"", ""Smoke Grenade"", ""Flashbang"", ""Flashbang"", ""Molotov""]",5000,100,True,False,1100,5900,4800
+7,42291,karrigan,Falcons,CT,0.0,"[""Karambit"", ""USP-S"", ""M4A1-S"", ""High Explosive Grenade"", ""Incendiary Grenade"", ""Smoke Grenade""]",5600,100,True,True,2850,6850,4000
+7,42291,kyousuke,Falcons,CT,0.0,"[""Butterfly Knife"", ""AK-47"", ""Smoke Grenade"", ""Incendiary Grenade"", ""High Explosive Grenade"", ""Flashbang"", ""USP-S""]",5600,100,True,True,7750,8750,1000
+7,42291,m0NESY,Falcons,CT,0.0,"[""Butterfly Knife"", ""Flashbang"", ""Smoke Grenade"", ""Incendiary Grenade"", ""AWP"", ""High Explosive Grenade"", ""Tec-9""]",7950,100,True,True,6150,8850,2700
+7,42291,molodoy,Furia,T,0.0,"[""Karambit"", ""Glock-18"", ""Smoke Grenade"", ""Flashbang"", ""Flashbang"", ""AWP""]",6300,100,False,False,50,6150,6100
+7,42291,yuurih,Furia,T,0.0,"[""Karambit"", ""Glock-18"", ""AK-47"", ""Smoke Grenade"", ""Molotov"", ""Flashbang"", ""High Explosive Grenade""]",5100,100,True,False,750,5650,4900
+8,52677,FalleN,Furia,T,0.0,"[""M9 Bayonet"", ""Glock-18"", ""Galil AR"", ""Smoke Grenade"", ""Flashbang"", ""Flashbang"", ""Molotov""]",4100,100,True,False,100,4000,3900
+8,52677,KSCERATO,Furia,T,0.0,"[""Karambit"", ""Glock-18"", ""Molotov"", ""Galil AR"", ""Smoke Grenade"", ""Flashbang"", ""Flashbang""]",4100,100,True,False,200,4100,3900
+8,52677,NiKo,Falcons,CT,0.0,"[""Butterfly Knife"", ""Tec-9"", ""Flashbang"", ""AK-47"", ""High Explosive Grenade"", ""Smoke Grenade"", ""Incendiary Grenade""]",5900,88,True,True,5850,9950,4100
+8,52677,TeSeS,Falcons,CT,0.0,"[""Karambit"", ""USP-S"", ""M4A4"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Flashbang"", ""Incendiary Grenade""]",5800,100,True,True,2250,4950,2700
+8,52677,YEKINDAR,Furia,T,0.0,"[""Karambit"", ""Glock-18"", ""AK-47"", ""Smoke Grenade"", ""Molotov"", ""Flashbang"", ""Flashbang""]",5000,100,True,False,0,4800,4800
+8,52677,karrigan,Falcons,CT,0.0,"[""Karambit"", ""USP-S"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Incendiary Grenade"", ""Flashbang"", ""M4A1-S""]",5800,100,True,True,5050,6350,1300
+8,52677,kyousuke,Falcons,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""AK-47"", ""Incendiary Grenade"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Flashbang""]",5600,100,True,True,5650,11250,5600
+8,52677,m0NESY,Falcons,CT,0.0,"[""Butterfly Knife"", ""AWP"", ""Tec-9"", ""Flashbang"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Incendiary Grenade""]",7950,100,True,True,8550,9850,1300
+8,52677,molodoy,Furia,T,0.0,"[""Karambit"", ""Glock-18"", ""Galil AR"", ""Flashbang"", ""Flashbang""]",3700,100,True,False,50,3550,3500
+8,52677,yuurih,Furia,T,0.0,"[""Karambit"", ""Glock-18"", ""Galil AR"", ""Smoke Grenade"", ""Molotov""]",3700,100,True,False,450,3950,3500
+9,57106,FalleN,Furia,T,0.0,"[""M9 Bayonet"", ""C4 Explosive"", ""Tec-9"", ""Smoke Grenade"", ""Flashbang"", ""Flashbang""]",2200,100,True,False,1300,3500,2200
+9,57106,KSCERATO,Furia,T,0.0,"[""Karambit"", ""Tec-9"", ""Smoke Grenade"", ""Flashbang"", ""Flashbang""]",2200,100,True,False,1400,3600,2200
+9,57106,NiKo,Falcons,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""M4A4"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Incendiary Grenade"", ""Flashbang""]",5400,100,True,False,4250,9650,5400
+9,57106,TeSeS,Falcons,CT,0.0,"[""Karambit"", ""USP-S"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Incendiary Grenade"", ""M4A4"", ""Flashbang""]",5800,100,True,True,2850,5750,2900
+9,57106,YEKINDAR,Furia,T,0.0,"[""Karambit"", ""Smoke Grenade"", ""Flashbang"", ""Flashbang"", ""Molotov"", ""Tec-9""]",2250,100,False,False,1450,3700,2250
+9,57106,karrigan,Falcons,CT,0.0,"[""Karambit"", ""USP-S"", ""Smoke Grenade"", ""High Explosive Grenade"", ""M4A1-S"", ""Incendiary Grenade"", ""Flashbang""]",5800,81,True,True,8150,8850,700
+9,57106,kyousuke,Falcons,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""AK-47"", ""Incendiary Grenade"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Flashbang""]",5600,93,True,True,8950,9750,800
+9,57106,m0NESY,Falcons,CT,0.0,"[""Butterfly Knife"", ""AWP"", ""Tec-9"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Incendiary Grenade"", ""Flashbang""]",7950,97,True,True,8250,12150,3900
+9,57106,molodoy,Furia,T,0.0,"[""Karambit"", ""Glock-18"", ""Galil AR"", ""Smoke Grenade"", ""Flashbang""]",3500,100,True,False,150,3450,3300
+9,57106,yuurih,Furia,T,0.0,"[""Karambit"", ""Glock-18"", ""AK-47""]",4200,100,True,False,150,4150,4000
+10,66288,FalleN,Furia,T,0.0,"[""M9 Bayonet"", ""Tec-9"", ""M4A1-S"", ""Smoke Grenade"", ""Molotov"", ""High Explosive Grenade"", ""Flashbang""]",5600,90,True,False,3450,4850,1400
+10,66288,KSCERATO,Furia,T,0.0,"[""Karambit"", ""Tec-9"", ""AK-47"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Molotov"", ""Flashbang""]",5400,100,True,False,3450,4650,1200
+10,66288,NiKo,Falcons,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""M4A4"", ""Smoke Grenade"", ""Incendiary Grenade"", ""High Explosive Grenade"", ""Flashbang""]",5050,100,False,False,800,5650,4850
+10,66288,TeSeS,Falcons,CT,0.0,"[""Karambit"", ""USP-S"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Flashbang"", ""Incendiary Grenade"", ""M4A4""]",5050,100,False,False,2300,4250,1950
+10,66288,YEKINDAR,Furia,T,0.0,"[""Karambit"", ""Tec-9"", ""M4A4"", ""Smoke Grenade"", ""Flashbang"", ""Flashbang"", ""Molotov""]",5500,100,True,False,2600,4700,2100
+10,66288,karrigan,Falcons,CT,0.0,"[""Karambit"", ""USP-S"", ""M4A1-S"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Incendiary Grenade"", ""Flashbang""]",5400,100,True,False,4350,9550,5200
+10,66288,kyousuke,Falcons,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""Incendiary Grenade"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Flashbang"", ""M4A4""]",5800,100,True,True,1850,10350,8500
+10,66288,m0NESY,Falcons,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""AWP"", ""Flashbang"", ""Smoke Grenade"", ""Incendiary Grenade"", ""High Explosive Grenade""]",7650,100,True,True,2200,9650,7450
+10,66288,molodoy,Furia,T,0.0,"[""Karambit"", ""Glock-18"", ""Molotov"", ""Flashbang"", ""Flashbang"", ""AWP"", ""High Explosive Grenade""]",7050,80,True,False,2900,4300,1400
+10,66288,yuurih,Furia,T,0.0,"[""Karambit"", ""Glock-18"", ""Flashbang"", ""Flashbang"", ""C4 Explosive"", ""AK-47"", ""Smoke Grenade"", ""Molotov""]",5000,100,True,False,400,4000,3600
+11,73419,FalleN,Furia,T,0.0,"[""M9 Bayonet"", ""Glock-18"", ""AK-47"", ""Flashbang"", ""Smoke Grenade"", ""Molotov"", ""High Explosive Grenade""]",5100,100,True,False,2050,6950,4900
+11,73419,KSCERATO,Furia,T,0.0,"[""Karambit"", ""Tec-9"", ""High Explosive Grenade"", ""AK-47"", ""Smoke Grenade"", ""Molotov"", ""Flashbang""]",5400,61,True,False,3950,7550,3600
+11,73419,NiKo,Falcons,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""M4A4"", ""Incendiary Grenade"", ""High Explosive Grenade"", ""Smoke Grenade"", ""Flashbang""]",5050,93,False,False,2350,2850,500
+11,73419,TeSeS,Falcons,CT,0.0,"[""Karambit"", ""USP-S"", ""Smoke Grenade"", ""M4A4"", ""Incendiary Grenade"", ""High Explosive Grenade""]",4850,96,False,False,950,4650,3700
+11,73419,YEKINDAR,Furia,T,0.0,"[""Karambit"", ""Glock-18"", ""AK-47"", ""Smoke Grenade"", ""Flashbang"", ""Flashbang"", ""Molotov""]",5000,100,True,False,1300,6100,4800
+11,73419,karrigan,Falcons,CT,0.0,"[""Karambit"", ""USP-S"", ""Smoke Grenade"", ""Incendiary Grenade"", ""M4A4"", ""Flashbang""]",4750,100,False,False,0,6400,6400
+11,73419,kyousuke,Falcons,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""M4A4"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Incendiary Grenade""]",4850,100,False,False,50,4200,4150
+11,73419,m0NESY,Falcons,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""AWP"", ""Smoke Grenade"", ""High Explosive Grenade""]",6950,100,True,True,1850,4350,2500
+11,73419,molodoy,Furia,T,0.0,"[""Karambit"", ""Molotov"", ""Smoke Grenade"", ""Flashbang"", ""Flashbang"", ""AWP"", ""Tec-9""]",7350,100,True,False,3900,6500,2600
+11,73419,yuurih,Furia,T,0.0,"[""Karambit"", ""Glock-18"", ""AK-47"", ""Smoke Grenade"", ""Molotov"", ""Flashbang"", ""High Explosive Grenade""]",5100,100,True,False,3300,4200,900
+12,81771,FalleN,Furia,T,0.0,"[""M9 Bayonet"", ""AK-47"", ""Flashbang"", ""Flashbang"", ""Smoke Grenade"", ""Molotov"", ""Tec-9""]",5300,99,True,False,4250,5850,1600
+12,81771,KSCERATO,Furia,T,0.0,"[""Karambit"", ""Tec-9"", ""AK-47"", ""Flashbang"", ""High Explosive Grenade"", ""Molotov"", ""Smoke Grenade""]",5400,61,True,False,7150,8150,1000
+12,81771,NiKo,Falcons,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""M4A4"", ""Smoke Grenade""]",4550,100,False,False,50,4400,4350
+12,81771,TeSeS,Falcons,CT,0.0,"[""Karambit"", ""Smoke Grenade"", ""Five-SeveN"", ""High Explosive Grenade"", ""Incendiary Grenade""]",2250,100,False,False,750,3000,2250
+12,81771,YEKINDAR,Furia,T,0.0,"[""Karambit"", ""Smoke Grenade"", ""Flashbang"", ""Flashbang"", ""Molotov"", ""AK-47"", ""Tec-9"", ""C4 Explosive""]",5300,100,True,False,2500,5100,2600
+12,81771,karrigan,Falcons,CT,0.0,"[""Karambit"", ""USP-S"", ""MP7"", ""Smoke Grenade"", ""High Explosive Grenade""]",2850,100,False,False,100,2750,2650
+12,81771,kyousuke,Falcons,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""MP5-SD"", ""Smoke Grenade""]",2550,100,False,False,150,2500,2350
+12,81771,m0NESY,Falcons,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""M4A1-S"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Incendiary Grenade""]",4850,100,False,False,150,4300,4150
+12,81771,molodoy,Furia,T,0.0,"[""Karambit"", ""AWP"", ""Tec-9"", ""Molotov"", ""Smoke Grenade"", ""Flashbang"", ""Flashbang""]",7350,100,True,False,3700,7500,3800
+12,81771,yuurih,Furia,T,0.0,"[""Karambit"", ""Glock-18"", ""AK-47"", ""Smoke Grenade"", ""Molotov"", ""Flashbang"", ""Flashbang""]",5000,89,True,False,5500,6600,1100
+13,106338,FalleN,Furia,CT,0.0,"[""M9 Bayonet"", ""USP-S""]",1100,0,False,True,100,800,700
+13,106338,KSCERATO,Furia,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""Flashbang"", ""Smoke Grenade""]",1350,100,False,False,150,800,650
+13,106338,NiKo,Falcons,T,0.0,"[""Butterfly Knife"", ""Glock-18"", ""Smoke Grenade""]",1150,100,False,False,150,800,650
+13,106338,TeSeS,Falcons,T,0.0,"[""Karambit"", ""Glock-18"", ""Molotov""]",900,0,False,False,100,800,700
+13,106338,YEKINDAR,Furia,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""High Explosive Grenade""]",700,0,False,False,0,800,800
+13,106338,karrigan,Falcons,T,0.0,"[""Karambit"", ""Glock-18"", ""Flashbang"", ""Flashbang"", ""C4 Explosive""]",600,0,False,False,100,800,700
+13,106338,kyousuke,Falcons,T,0.0,"[""Butterfly Knife"", ""Glock-18""]",850,100,False,False,150,800,650
+13,106338,m0NESY,Falcons,T,0.0,"[""Butterfly Knife"", ""Glock-18"", ""Smoke Grenade""]",1150,100,False,False,150,800,650
+13,106338,molodoy,Furia,CT,0.0,"[""Karambit"", ""USP-S""]",850,100,False,False,150,800,650
+13,106338,yuurih,Furia,CT,0.0,"[""Karambit"", ""Dual Berettas""]",950,100,False,False,150,800,650
+14,113068,FalleN,Furia,CT,0.0,"[""M9 Bayonet"", ""Five-SeveN"", ""Smoke Grenade"", ""High Explosive Grenade""]",2100,100,True,False,300,2400,2100
+14,113068,KSCERATO,Furia,CT,0.0,"[""Butterfly Knife"", ""Desert Eagle"", ""Smoke Grenade""]",2000,100,True,False,150,2150,2000
+14,113068,NiKo,Falcons,T,0.0,"[""Butterfly Knife"", ""Glock-18"", ""Galil AR"", ""Smoke Grenade"", ""Molotov"", ""Flashbang""]",3900,100,True,False,0,3700,3700
+14,113068,TeSeS,Falcons,T,0.0,"[""Karambit"", ""USP-S"", ""C4 Explosive"", ""Galil AR"", ""Smoke Grenade"", ""Flashbang""]",3500,100,True,False,50,3350,3300
+14,113068,YEKINDAR,Furia,CT,0.0,"[""Butterfly Knife"", ""Smoke Grenade"", ""Five-SeveN""]",1800,100,True,False,200,2000,1800
+14,113068,karrigan,Falcons,T,0.0,"[""Karambit"", ""Dual Berettas"", ""MP7"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Molotov"", ""Flashbang""]",3900,100,True,False,50,3650,3600
+14,113068,kyousuke,Falcons,T,0.0,"[""Butterfly Knife"", ""USP-S"", ""Flashbang"", ""AK-47"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Molotov""]",5100,100,True,False,0,4300,4300
+14,113068,m0NESY,Falcons,T,0.0,"[""Butterfly Knife"", ""Glock-18"", ""Galil AR"", ""Smoke Grenade"", ""Flashbang""]",3500,100,True,False,0,3700,3700
+14,113068,molodoy,Furia,CT,0.0,"[""Karambit"", ""Desert Eagle"", ""Smoke Grenade""]",1650,100,False,False,800,2450,1650
+14,113068,yuurih,Furia,CT,0.0,"[""Karambit"", ""Desert Eagle"", ""Smoke Grenade""]",2000,100,True,False,150,2150,2000
+15,121315,FalleN,Furia,CT,0.0,"[""M9 Bayonet"", ""Five-SeveN"", ""M4A1-S"", ""Smoke Grenade"", ""High Explosive Grenade""]",5000,100,True,False,100,3600,3500
+15,121315,KSCERATO,Furia,CT,0.0,"[""Butterfly Knife"", ""Desert Eagle"", ""Galil AR"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Incendiary Grenade"", ""Flashbang""]",4800,100,True,False,2350,3650,1300
+15,121315,NiKo,Falcons,T,0.0,"[""Butterfly Knife"", ""Desert Eagle""]",1350,100,False,False,50,1400,1350
+15,121315,TeSeS,Falcons,T,0.0,"[""Karambit"", ""Desert Eagle""]",1350,100,False,False,100,1450,1350
+15,121315,YEKINDAR,Furia,CT,0.0,"[""Butterfly Knife"", ""Five-SeveN"", ""AK-47"", ""Smoke Grenade"", ""Incendiary Grenade"", ""High Explosive Grenade"", ""Flashbang""]",5500,96,True,False,2800,3800,1000
+15,121315,karrigan,Falcons,T,0.0,"[""Karambit"", ""Smoke Grenade"", ""Tec-9""]",1450,100,False,False,0,1450,1450
+15,121315,kyousuke,Falcons,T,0.0,"[""Butterfly Knife"", ""Desert Eagle""]",1700,100,True,False,0,1700,1700
+15,121315,m0NESY,Falcons,T,0.0,"[""Butterfly Knife"", ""Desert Eagle""]",1350,100,False,False,50,1400,1350
+15,121315,molodoy,Furia,CT,0.0,"[""Karambit"", ""USP-S"", ""M4A1-S"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Incendiary Grenade"", ""Flashbang""]",5400,100,True,False,0,5200,5200
+15,121315,yuurih,Furia,CT,0.0,"[""Karambit"", ""Desert Eagle"", ""M4A1-S"", ""Smoke Grenade"", ""Incendiary Grenade"", ""Flashbang""]",5600,83,True,False,50,3950,3900
+16,133759,FalleN,Furia,CT,0.0,"[""M9 Bayonet"", ""Five-SeveN"", ""Smoke Grenade"", ""Incendiary Grenade"", ""Flashbang"", ""Flashbang""]",2700,72,True,False,50,1550,1500
+16,133759,KSCERATO,Furia,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""Smoke Grenade"", ""Flashbang"", ""M4A4"", ""High Explosive Grenade""]",4550,100,False,False,50,4100,4050
+16,133759,NiKo,Falcons,T,0.0,"[""Butterfly Knife"", ""Desert Eagle"", ""M4A1-S"", ""Smoke Grenade"", ""Molotov"", ""High Explosive Grenade"", ""Flashbang""]",5800,100,True,False,1950,3850,1900
+16,133759,TeSeS,Falcons,T,0.0,"[""Karambit"", ""Desert Eagle"", ""Galil AR"", ""Smoke Grenade"", ""Molotov"", ""Flashbang"", ""High Explosive Grenade""]",4700,100,True,False,1400,3600,2200
+16,133759,YEKINDAR,Furia,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""M4A4"", ""Smoke Grenade""]",4400,100,True,False,50,4250,4200
+16,133759,karrigan,Falcons,T,0.0,"[""Karambit"", ""Glock-18"", ""M4A1-S"", ""Flashbang"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Molotov""]",5300,100,True,False,1300,3500,2200
+16,133759,kyousuke,Falcons,T,0.0,"[""Butterfly Knife"", ""Desert Eagle"", ""AK-47"", ""Molotov"", ""Smoke Grenade"", ""Flashbang"", ""Flashbang""]",5500,88,True,False,300,4100,3800
+16,133759,m0NESY,Falcons,T,0.0,"[""Butterfly Knife"", ""Desert Eagle"", ""AK-47"", ""Flashbang"", ""Flashbang"", ""Smoke Grenade"", ""Molotov""]",5500,100,True,False,2900,4150,1250
+16,133759,molodoy,Furia,CT,0.0,"[""Karambit"", ""Desert Eagle""]",1350,100,False,False,100,1450,1350
+16,133759,yuurih,Furia,CT,0.0,"[""Karambit"", ""M4A1-S"", ""Smoke Grenade"", ""USP-S""]",4050,100,False,False,50,1500,1450
+17,141694,FalleN,Furia,CT,0.0,"[""M9 Bayonet"", ""USP-S""]",200,0,False,False,2000,2000,0
+17,141694,KSCERATO,Furia,CT,0.0,"[""Butterfly Knife"", ""USP-S""]",200,0,False,False,2300,2300,0
+17,141694,NiKo,Falcons,T,0.0,"[""Butterfly Knife"", ""Desert Eagle"", ""Flashbang"", ""M4A4"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Molotov""]",5800,100,True,False,4000,5000,1000
+17,141694,TeSeS,Falcons,T,0.0,"[""Karambit"", ""Glock-18"", ""Smoke Grenade"", ""Molotov"", ""Flashbang"", ""Flashbang"", ""AK-47""]",5000,100,True,False,2950,5050,2100
+17,141694,YEKINDAR,Furia,CT,0.0,"[""Butterfly Knife"", ""USP-S""]",200,0,False,False,2000,2000,0
+17,141694,karrigan,Falcons,T,0.0,"[""Karambit"", ""Glock-18"", ""M4A1-S"", ""Flashbang"", ""High Explosive Grenade"", ""Smoke Grenade"", ""Molotov"", ""C4 Explosive""]",5300,97,True,False,3550,4550,1000
+17,141694,kyousuke,Falcons,T,0.0,"[""Butterfly Knife"", ""Desert Eagle"", ""AK-47"", ""Molotov"", ""Flashbang"", ""High Explosive Grenade"", ""Smoke Grenade""]",5600,88,True,False,3550,3850,300
+17,141694,m0NESY,Falcons,T,0.0,"[""Butterfly Knife"", ""Desert Eagle"", ""Flashbang"", ""Flashbang"", ""AWP"", ""Smoke Grenade"", ""Molotov""]",7550,96,True,False,1100,6750,5650
+17,141694,molodoy,Furia,CT,0.0,"[""Karambit"", ""USP-S"", ""Zeus x27""]",400,0,False,False,1850,2050,200
+17,141694,yuurih,Furia,CT,0.0,"[""Karambit"", ""USP-S""]",200,0,False,False,2000,2000,0
+18,145859,FalleN,Furia,CT,0.0,"[""M9 Bayonet"", ""USP-S"", ""M4A1-S"", ""Smoke Grenade"", ""Incendiary Grenade""]",4550,100,False,False,100,4450,4350
+18,145859,KSCERATO,Furia,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""M4A1-S"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Incendiary Grenade"", ""Flashbang""]",5050,100,False,False,200,5050,4850
+18,145859,NiKo,Falcons,T,0.0,"[""Butterfly Knife"", ""Desert Eagle"", ""Flashbang"", ""Smoke Grenade"", ""Molotov"", ""AK-47"", ""High Explosive Grenade""]",5600,59,True,False,4850,7850,3000
+18,145859,TeSeS,Falcons,T,0.0,"[""Karambit"", ""Glock-18"", ""Molotov"", ""Flashbang"", ""Flashbang"", ""AK-47"", ""Smoke Grenade""]",5000,100,True,False,5900,6200,300
+18,145859,YEKINDAR,Furia,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""M4A4"", ""Smoke Grenade"", ""Flashbang""]",4600,100,True,False,50,4450,4400
+18,145859,karrigan,Falcons,T,0.0,"[""Karambit"", ""Glock-18"", ""Flashbang"", ""Flashbang"", ""Smoke Grenade"", ""Molotov"", ""M4A1-S""]",5200,100,True,False,5000,7100,2100
+18,145859,kyousuke,Falcons,T,0.0,"[""Butterfly Knife"", ""Desert Eagle"", ""AK-47"", ""Flashbang"", ""High Explosive Grenade"", ""Smoke Grenade"", ""Molotov""]",5600,53,True,False,7000,7400,400
+18,145859,m0NESY,Falcons,T,0.0,"[""Butterfly Knife"", ""Desert Eagle"", ""Smoke Grenade"", ""Molotov"", ""Flashbang"", ""Flashbang"", ""AWP""]",7550,96,True,False,3950,4350,400
+18,145859,molodoy,Furia,CT,0.0,"[""Karambit"", ""USP-S"", ""Smoke Grenade"", ""High Explosive Grenade"", ""M4A1-S""]",4350,100,False,False,150,4300,4150
+18,145859,yuurih,Furia,CT,0.0,"[""Karambit"", ""USP-S"", ""M4A1-S"", ""Smoke Grenade"", ""Incendiary Grenade""]",4550,100,False,False,100,4450,4350
+19,149379,FalleN,Furia,CT,0.0,"[""M9 Bayonet"", ""USP-S"", ""M4A1-S"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Flashbang"", ""Incendiary Grenade""]",5800,100,True,True,1850,3600,1750
+19,149379,KSCERATO,Furia,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Incendiary Grenade"", ""Flashbang"", ""M4A1-S""]",5800,100,True,True,1300,4000,2700
+19,149379,NiKo,Falcons,T,0.0,"[""Butterfly Knife"", ""Glock-18"", ""AK-47"", ""Smoke Grenade"", ""Molotov"", ""Flashbang"", ""Flashbang""]",5000,100,True,False,1450,6250,4800
+19,149379,TeSeS,Falcons,T,0.0,"[""Karambit"", ""Glock-18"", ""Smoke Grenade"", ""Flashbang"", ""Flashbang"", ""Molotov"", ""AK-47""]",5000,100,True,False,750,7600,6850
+19,149379,YEKINDAR,Furia,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""Flashbang"", ""Molotov"", ""AK-47"", ""High Explosive Grenade"", ""Smoke Grenade""]",5100,98,True,False,3550,4150,600
+19,149379,karrigan,Falcons,T,0.0,"[""Karambit"", ""Glock-18"", ""AK-47"", ""Flashbang"", ""Flashbang"", ""Smoke Grenade"", ""Molotov""]",5000,100,True,False,1600,6400,4800
+19,149379,kyousuke,Falcons,T,0.0,"[""Butterfly Knife"", ""Glock-18"", ""Molotov"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Flashbang"", ""AK-47""]",5100,100,True,False,3500,8400,4900
+19,149379,m0NESY,Falcons,T,0.0,"[""Butterfly Knife"", ""Glock-18"", ""AWP"", ""Flashbang"", ""Flashbang"", ""Smoke Grenade"", ""Molotov""]",7050,100,True,False,550,5350,4800
+19,149379,molodoy,Furia,CT,0.0,"[""Karambit"", ""USP-S"", ""Smoke Grenade"", ""Flashbang"", ""AWP"", ""Incendiary Grenade"", ""High Explosive Grenade""]",7300,100,False,True,150,4250,4100
+19,149379,yuurih,Furia,CT,0.0,"[""Karambit"", ""USP-S"", ""AK-47"", ""Flashbang"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Molotov""]",5500,100,True,True,1100,3600,2500
+20,157514,FalleN,Furia,CT,0.0,"[""M9 Bayonet"", ""USP-S"", ""M4A1-S"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Incendiary Grenade"", ""Flashbang""]",5800,100,True,True,4050,5350,1300
+20,157514,KSCERATO,Furia,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""AK-47"", ""High Explosive Grenade"", ""Incendiary Grenade"", ""Smoke Grenade"", ""Flashbang""]",5600,97,True,True,3800,5100,1300
+20,157514,NiKo,Falcons,T,0.0,"[""Butterfly Knife"", ""Desert Eagle""]",700,0,False,False,2350,3050,700
+20,157514,TeSeS,Falcons,T,0.0,"[""Karambit"", ""Glock-18""]",200,0,False,False,2650,2650,0
+20,157514,YEKINDAR,Furia,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""AK-47"", ""Smoke Grenade"", ""Flashbang"", ""High Explosive Grenade"", ""Incendiary Grenade""]",5600,91,True,True,5950,7650,1700
+20,157514,karrigan,Falcons,T,0.0,"[""Karambit"", ""Glock-18""]",200,0,False,False,3500,3500,0
+20,157514,kyousuke,Falcons,T,0.0,"[""Butterfly Knife"", ""Glock-18"", ""AK-47""]",3550,100,False,False,2050,5400,3350
+20,157514,m0NESY,Falcons,T,0.0,"[""Butterfly Knife"", ""Glock-18""]",200,0,False,False,2450,2450,0
+20,157514,molodoy,Furia,CT,0.0,"[""Karambit"", ""USP-S"", ""AWP"", ""Incendiary Grenade"", ""High Explosive Grenade"", ""Smoke Grenade"", ""Flashbang""]",7650,100,True,True,2800,3650,850
+20,157514,yuurih,Furia,CT,0.0,"[""Karambit"", ""USP-S"", ""AK-47"", ""Molotov"", ""Flashbang"", ""Smoke Grenade"", ""High Explosive Grenade""]",5500,100,True,True,4600,5200,600
+21,164990,FalleN,Furia,CT,0.0,"[""M9 Bayonet"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Incendiary Grenade"", ""Flashbang"", ""AWP"", ""Five-SeveN""]",7950,62,True,True,2000,8750,6750
+21,164990,KSCERATO,Furia,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""AK-47"", ""High Explosive Grenade"", ""Smoke Grenade"", ""Flashbang"", ""Incendiary Grenade""]",5600,97,True,True,7100,7600,500
+21,164990,NiKo,Falcons,T,0.0,"[""Butterfly Knife"", ""Glock-18"", ""AK-47"", ""Smoke Grenade"", ""Molotov"", ""Flashbang""]",4800,100,True,False,150,4750,4600
+21,164990,TeSeS,Falcons,T,0.0,"[""Karambit"", ""Glock-18"", ""AK-47"", ""Smoke Grenade"", ""Molotov""]",4600,100,True,False,0,4400,4400
+21,164990,YEKINDAR,Furia,CT,0.0,"[""Butterfly Knife"", ""USP-S"", ""AK-47"", ""Flashbang"", ""High Explosive Grenade"", ""Incendiary Grenade"", ""Smoke Grenade""]",5600,91,True,True,9150,9450,300
+21,164990,karrigan,Falcons,T,0.0,"[""Karambit"", ""Glock-18"", ""Smoke Grenade"", ""AK-47"", ""Flashbang""]",4050,100,False,False,0,5900,5900
+21,164990,kyousuke,Falcons,T,0.0,"[""Butterfly Knife"", ""Glock-18"", ""AK-47"", ""Molotov""]",4600,100,True,False,50,4450,4400
+21,164990,m0NESY,Falcons,T,0.0,"[""Butterfly Knife"", ""Glock-18"", ""AWP"", ""Flashbang"", ""Flashbang"", ""Smoke Grenade"", ""Molotov""]",7050,100,True,False,50,4850,4800
+21,164990,molodoy,Furia,CT,0.0,"[""Karambit"", ""AWP"", ""High Explosive Grenade"", ""Incendiary Grenade"", ""Smoke Grenade"", ""Flashbang"", ""Five-SeveN""]",7950,100,True,True,4500,6300,1800
+21,164990,yuurih,Furia,CT,0.0,"[""Karambit"", ""USP-S"", ""AK-47"", ""Smoke Grenade"", ""High Explosive Grenade"", ""Incendiary Grenade"", ""Flashbang""]",5600,100,True,True,6600,8100,1500

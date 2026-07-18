@@ -1,0 +1,22 @@
+{
+  "team": "Fut",
+  "map": "de_anubis",
+  "season": "IEM Cologne Major 2026",
+  "notes": "从全量 corpus 导入生成。de_anubis 候选样本，队伍名已规范化。",
+  "matches": [
+    {
+      "id": "2394887",
+      "bundle": "",
+      "opponent": "G2",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2"
+    },
+    {
+      "id": "2394898",
+      "bundle": "",
+      "opponent": "Vitality",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    }
+  ]
+}

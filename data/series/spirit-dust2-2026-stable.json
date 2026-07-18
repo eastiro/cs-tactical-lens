@@ -1,0 +1,15 @@
+{
+  "team": "Team Spirit",
+  "map": "de_dust2",
+  "season": "2026 稳定阵容期（zont1x/donk/sh1ro/tN1R/magixx）",
+  "notes": "只包含已解析、已校验的 Dust2 bundle；接触前样本仍按首次交火时间排除回合。",
+  "matches": [
+    {"id": "iem-rio-2026-g2-vs-spirit", "bundle": "..\\processed\\spirit-2026-stable\\iem-rio-2026-g2-vs-spirit\\de_dust2", "opponent": "G2", "event": "IEM Rio 2026", "date": "2026-04-15"},
+    {"id": "iem-rio-2026-falcons-vs-spirit", "bundle": "..\\processed\\spirit-2026-stable\\iem-rio-2026-falcons-vs-spirit\\de_dust2", "opponent": "Falcons", "event": "IEM Rio 2026", "date": "2026-04-18"},
+    {"id": "iem-rio-2026-spirit-vs-mouz", "bundle": "..\\processed\\spirit-2026-stable\\iem-rio-2026-spirit-vs-mouz\\de_dust2", "opponent": "MOUZ", "event": "IEM Rio 2026", "date": "2026-04-18"},
+    {"id": "iem-rio-2026-spirit-vs-vitality", "bundle": "..\\processed\\spirit-2026-stable\\iem-rio-2026-spirit-vs-vitality\\de_dust2", "opponent": "Vitality", "event": "IEM Rio 2026", "date": "2026-04-20"},
+    {"id": "pgl-astana-2026-spirit-vs-falcons", "bundle": "..\\processed\\spirit-2026-stable\\pgl-astana-2026-spirit-vs-falcons\\de_dust2", "opponent": "Falcons", "event": "PGL Astana 2026", "date": "2026-05-17"},
+    {"id": "iem-cologne-major-2026-spirit-vs-9z", "bundle": "..\\processed\\spirit-2026-stable\\iem-cologne-major-2026-spirit-vs-9z\\de_dust2", "opponent": "9z", "event": "IEM Cologne Major 2026", "date": "2026-06-13"},
+    {"id": "iem-cologne-major-2026-g2-vs-spirit", "bundle": "..\\processed\\spirit-2026-stable\\iem-cologne-major-2026-g2-vs-spirit\\de_dust2", "opponent": "G2", "event": "IEM Cologne Major 2026", "date": "2026-06-19"}
+  ]
+}

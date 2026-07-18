@@ -1,0 +1,43 @@
+{
+  "team": "Betboom",
+  "map": "de_dust2",
+  "season": "IEM Cologne Major 2026",
+  "notes": "从全量 corpus 导入生成。de_dust2 候选样本，队伍名已规范化。",
+  "matches": [
+    {
+      "id": "2394883",
+      "bundle": "",
+      "opponent": "M80",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2"
+    },
+    {
+      "id": "2394891",
+      "bundle": "",
+      "opponent": "Monte",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2"
+    },
+    {
+      "id": "2394904",
+      "bundle": "",
+      "opponent": "The Mongolz",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    },
+    {
+      "id": "2394985",
+      "bundle": "",
+      "opponent": "Furia",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    },
+    {
+      "id": "2394994",
+      "bundle": "",
+      "opponent": "Fut",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    }
+  ]
+}

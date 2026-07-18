@@ -1,0 +1,118 @@
+﻿profile_id,team,map,tier,match_count,status,reason
+iem-cologne-2026-9z-de_dust2,9Z,de_dust2,standard,6,skipped,已存在且三件套完整
+iem-cologne-2026-9z-de_inferno,9Z,de_inferno,exploratory,4,skipped,已存在且三件套完整
+iem-cologne-2026-9z-de_mirage,9Z,de_mirage,exploratory,3,skipped,已存在且三件套完整
+iem-cologne-2026-9z-de_nuke,9Z,de_nuke,exploratory,3,skipped,已存在且三件套完整
+iem-cologne-2026-9z-de_overpass,9Z,de_overpass,standard,5,skipped,已存在且三件套完整
+iem-cologne-2026-astralis-de_ancient,Astralis,de_ancient,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-astralis-de_nuke,Astralis,de_nuke,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-astralis-de_overpass,Astralis,de_overpass,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-aurora-de_anubis,Aurora,de_anubis,exploratory,4,skipped,已存在且三件套完整
+iem-cologne-2026-aurora-de_dust2,Aurora,de_dust2,exploratory,3,skipped,已存在且三件套完整
+iem-cologne-2026-aurora-de_nuke,Aurora,de_nuke,standard,5,skipped,已存在且三件套完整
+iem-cologne-2026-aurora-de_overpass,Aurora,de_overpass,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-b8-de_ancient,B8,de_ancient,exploratory,4,skipped,已存在且三件套完整
+iem-cologne-2026-b8-de_dust2,B8,de_dust2,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-b8-de_inferno,B8,de_inferno,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-b8-de_mirage,B8,de_mirage,standard,6,skipped,已存在且三件套完整
+iem-cologne-2026-b8-de_nuke,B8,de_nuke,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-b8-de_overpass,B8,de_overpass,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-betboom-de_ancient,Betboom,de_ancient,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-betboom-de_anubis,Betboom,de_anubis,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-betboom-de_dust2,Betboom,de_dust2,standard,5,skipped,已存在且三件套完整
+iem-cologne-2026-betboom-de_mirage,Betboom,de_mirage,exploratory,4,skipped,已存在且三件套完整
+iem-cologne-2026-betboom-de_nuke,Betboom,de_nuke,standard,5,skipped,已存在且三件套完整
+iem-cologne-2026-betboom-de_overpass,Betboom,de_overpass,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-big-de_ancient,Big,de_ancient,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-big-de_dust2,Big,de_dust2,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-big-de_inferno,Big,de_inferno,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-big-de_mirage,Big,de_mirage,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-big-de_overpass,Big,de_overpass,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-falcons-de_ancient,Falcons,de_ancient,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-falcons-de_anubis,Falcons,de_anubis,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-falcons-de_dust2,Falcons,de_dust2,standard,5,skipped,已存在且三件套完整
+iem-cologne-2026-falcons-de_inferno,Falcons,de_inferno,exploratory,4,skipped,已存在且三件套完整
+iem-cologne-2026-falcons-de_mirage,Falcons,de_mirage,exploratory,4,skipped,已存在且三件套完整
+iem-cologne-2026-falcons-de_nuke,Falcons,de_nuke,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-flyquest-de_anubis,Flyquest,de_anubis,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-flyquest-de_dust2,Flyquest,de_dust2,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-flyquest-de_nuke,Flyquest,de_nuke,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-furia-de_anubis,Furia,de_anubis,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-furia-de_dust2,Furia,de_dust2,exploratory,3,skipped,已存在且三件套完整
+iem-cologne-2026-furia-de_inferno,Furia,de_inferno,exploratory,3,skipped,已存在且三件套完整
+iem-cologne-2026-furia-de_mirage,Furia,de_mirage,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-furia-de_nuke,Furia,de_nuke,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-furia-de_overpass,Furia,de_overpass,exploratory,3,skipped,已存在且三件套完整
+iem-cologne-2026-fut-de_ancient,Fut,de_ancient,exploratory,4,skipped,已存在且三件套完整
+iem-cologne-2026-fut-de_anubis,Fut,de_anubis,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-fut-de_dust2,Fut,de_dust2,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-fut-de_mirage,Fut,de_mirage,exploratory,4,skipped,已存在且三件套完整
+iem-cologne-2026-fut-de_nuke,Fut,de_nuke,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-fut-de_overpass,Fut,de_overpass,exploratory,4,skipped,已存在且三件套完整
+iem-cologne-2026-g2-de_ancient,G2,de_ancient,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-g2-de_anubis,G2,de_anubis,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-g2-de_dust2,G2,de_dust2,exploratory,4,skipped,已存在且三件套完整
+iem-cologne-2026-g2-de_inferno,G2,de_inferno,exploratory,3,skipped,已存在且三件套完整
+iem-cologne-2026-g2-de_mirage,G2,de_mirage,exploratory,3,skipped,已存在且三件套完整
+iem-cologne-2026-g2-de_overpass,G2,de_overpass,standard,5,skipped,已存在且三件套完整
+iem-cologne-2026-gamerlegion-de_ancient,Gamerlegion,de_ancient,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-gamerlegion-de_mirage,Gamerlegion,de_mirage,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-gamerlegion-de_nuke,Gamerlegion,de_nuke,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-legacy-de_ancient,Legacy,de_ancient,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-legacy-de_dust2,Legacy,de_dust2,exploratory,4,skipped,已存在且三件套完整
+iem-cologne-2026-legacy-de_inferno,Legacy,de_inferno,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-legacy-de_overpass,Legacy,de_overpass,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-m80-de_dust2,M80,de_dust2,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-m80-de_mirage,M80,de_mirage,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-mibr-de_ancient,Mibr,de_ancient,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-mibr-de_inferno,Mibr,de_inferno,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-mibr-de_mirage,Mibr,de_mirage,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-mibr-de_nuke,Mibr,de_nuke,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-monte-de_ancient,Monte,de_ancient,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-monte-de_anubis,Monte,de_anubis,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-monte-de_dust2,Monte,de_dust2,exploratory,4,skipped,已存在且三件套完整
+iem-cologne-2026-monte-de_inferno,Monte,de_inferno,exploratory,3,skipped,已存在且三件套完整
+iem-cologne-2026-monte-de_mirage,Monte,de_mirage,standard,5,skipped,已存在且三件套完整
+iem-cologne-2026-monte-de_nuke,Monte,de_nuke,exploratory,4,skipped,已存在且三件套完整
+iem-cologne-2026-mouz-de_ancient,Mouz,de_ancient,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-mouz-de_dust2,Mouz,de_dust2,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-mouz-de_inferno,Mouz,de_inferno,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-mouz-de_mirage,Mouz,de_mirage,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-mouz-de_nuke,Mouz,de_nuke,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-mouz-de_overpass,Mouz,de_overpass,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-natus_vincere-de_ancient,Natus Vincere,de_ancient,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-natus_vincere-de_anubis,Natus Vincere,de_anubis,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-natus_vincere-de_dust2,Natus Vincere,de_dust2,exploratory,3,skipped,已存在且三件套完整
+iem-cologne-2026-natus_vincere-de_inferno,Natus Vincere,de_inferno,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-natus_vincere-de_mirage,Natus Vincere,de_mirage,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-natus_vincere-de_nuke,Natus Vincere,de_nuke,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-pain-de_anubis,Pain,de_anubis,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-pain-de_dust2,Pain,de_dust2,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-pain-de_mirage,Pain,de_mirage,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-pain-de_nuke,Pain,de_nuke,exploratory,3,skipped,已存在且三件套完整
+iem-cologne-2026-pain-de_overpass,Pain,de_overpass,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-parivision-de_ancient,Parivision,de_ancient,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-parivision-de_dust2,Parivision,de_dust2,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-parivision-de_inferno,Parivision,de_inferno,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-parivision-de_mirage,Parivision,de_mirage,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-parivision-de_overpass,Parivision,de_overpass,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-spirit-de_anubis,Spirit,de_anubis,exploratory,3,skipped,已存在且三件套完整
+iem-cologne-2026-spirit-de_dust2,Spirit,de_dust2,standard,5,skipped,已存在且三件套完整
+iem-cologne-2026-spirit-de_mirage,Spirit,de_mirage,standard,5,skipped,已存在且三件套完整
+iem-cologne-2026-spirit-de_nuke,Spirit,de_nuke,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-spirit-de_overpass,Spirit,de_overpass,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-the_mongolz-de_ancient,The Mongolz,de_ancient,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-the_mongolz-de_dust2,The Mongolz,de_dust2,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-the_mongolz-de_inferno,The Mongolz,de_inferno,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-the_mongolz-de_mirage,The Mongolz,de_mirage,exploratory,3,skipped,已存在且三件套完整
+iem-cologne-2026-the_mongolz-de_nuke,The Mongolz,de_nuke,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-the_mongolz-de_overpass,The Mongolz,de_overpass,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-tyloo-de_inferno,Tyloo,de_inferno,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-tyloo-de_mirage,Tyloo,de_mirage,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-tyloo-de_overpass,Tyloo,de_overpass,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-vitality-de_anubis,Vitality,de_anubis,insufficient,1,skipped,已存在且三件套完整
+iem-cologne-2026-vitality-de_dust2,Vitality,de_dust2,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-vitality-de_inferno,Vitality,de_inferno,exploratory,3,skipped,已存在且三件套完整
+iem-cologne-2026-vitality-de_mirage,Vitality,de_mirage,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-vitality-de_nuke,Vitality,de_nuke,insufficient,2,skipped,已存在且三件套完整
+iem-cologne-2026-vitality-de_overpass,Vitality,de_overpass,insufficient,2,skipped,已存在且三件套完整

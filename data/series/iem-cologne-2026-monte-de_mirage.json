@@ -1,0 +1,45 @@
+{
+  "team": "Monte",
+  "map": "de_mirage",
+  "season": "IEM Cologne Major 2026",
+  "coverage_tier": "standard",
+  "parsed_match_count": 5,
+  "boundary": "样本等级是覆盖提示，不是战术结论。经济标签描述冻结结束装备证据，不等于购买意图或默认战术。",
+  "matches": [
+    {
+      "id": "2394872",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394872\\de_mirage",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2",
+      "opponent": "Big"
+    },
+    {
+      "id": "2394875",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394875\\de_mirage",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2",
+      "opponent": "G2"
+    },
+    {
+      "id": "2394891",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394891\\de_mirage",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2",
+      "opponent": "Betboom"
+    },
+    {
+      "id": "2394974",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394974\\de_mirage",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3",
+      "opponent": "Parivision"
+    },
+    {
+      "id": "2394982",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394982\\de_mirage",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3",
+      "opponent": "Falcons"
+    }
+  ]
+}

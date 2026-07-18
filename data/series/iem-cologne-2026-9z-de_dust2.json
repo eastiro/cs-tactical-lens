@@ -1,0 +1,52 @@
+{
+  "team": "9Z",
+  "map": "de_dust2",
+  "season": "IEM Cologne Major 2026",
+  "coverage_tier": "standard",
+  "parsed_match_count": 6,
+  "boundary": "样本等级是覆盖提示，不是战术结论。经济标签描述冻结结束装备证据，不等于购买意图或默认战术。",
+  "matches": [
+    {
+      "id": "2394870",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394870\\de_dust2",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2",
+      "opponent": "Flyquest"
+    },
+    {
+      "id": "2394903",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394903\\de_dust2",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3",
+      "opponent": "Parivision"
+    },
+    {
+      "id": "2394978",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394978\\de_dust2",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3",
+      "opponent": "Vitality"
+    },
+    {
+      "id": "2394986",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394986\\de_dust2",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3",
+      "opponent": "Spirit"
+    },
+    {
+      "id": "2394990",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394990\\de_dust2",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3",
+      "opponent": "Aurora"
+    },
+    {
+      "id": "2394997",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394997\\de_dust2",
+      "event": "IEM Cologne Major 2026",
+      "stage": "playoffs",
+      "opponent": "Furia"
+    }
+  ]
+}

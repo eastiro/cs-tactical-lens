@@ -1,0 +1,22 @@
+{
+  "team": "M80",
+  "map": "de_dust2",
+  "season": "IEM Cologne Major 2026",
+  "notes": "从全量 corpus 导入生成。de_dust2 候选样本，队伍名已规范化。",
+  "matches": [
+    {
+      "id": "2394883",
+      "bundle": "",
+      "opponent": "Betboom",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2"
+    },
+    {
+      "id": "2394894",
+      "bundle": "",
+      "opponent": "Legacy",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2"
+    }
+  ]
+}

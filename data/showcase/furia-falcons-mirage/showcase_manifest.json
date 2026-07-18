@@ -1,0 +1,93 @@
+{
+  "showcase": true,
+  "showcase_version": "1.0",
+  "source_match_id": "2395002",
+  "files": [
+    {
+      "name": "rounds.csv",
+      "status": "copied",
+      "rows": 21,
+      "bytes": 1065,
+      "sha256_src": "8d5b53c392f3156ca7ce067d1ef6615d0fe84b8747323c6a0ad7124c2b7845f7",
+      "sha256_out": "8d5b53c392f3156ca7ce067d1ef6615d0fe84b8747323c6a0ad7124c2b7845f7"
+    },
+    {
+      "name": "kills.csv",
+      "status": "copied",
+      "rows": 134,
+      "bytes": 15427,
+      "sha256_src": "4800bfba5709f2ec458360e01e7d815061eac6fd8451c6e29ba9b1e5d3a353bf",
+      "sha256_out": "4800bfba5709f2ec458360e01e7d815061eac6fd8451c6e29ba9b1e5d3a353bf"
+    },
+    {
+      "name": "grenades.csv",
+      "status": "copied",
+      "rows": 453,
+      "bytes": 455435,
+      "sha256_src": "b6028131f26ba1d3d41d4d454586c070bdc0f6447c7b0a74ef634e475a0f3fd3",
+      "sha256_out": "b6028131f26ba1d3d41d4d454586c070bdc0f6447c7b0a74ef634e475a0f3fd3"
+    },
+    {
+      "name": "damages.csv",
+      "status": "copied",
+      "rows": 491,
+      "bytes": 41932,
+      "sha256_src": "1c86ab26d47ab6d264fb1447281ab78a9c8594cc93a0691447009da87c279377",
+      "sha256_out": "1c86ab26d47ab6d264fb1447281ab78a9c8594cc93a0691447009da87c279377"
+    },
+    {
+      "name": "bomb_events.csv",
+      "status": "copied",
+      "rows": 132,
+      "bytes": 7888,
+      "sha256_src": "57e542416818e1fe5456c214b84bc4309e026a3950f55c362095e90b71e6a69c",
+      "sha256_out": "57e542416818e1fe5456c214b84bc4309e026a3950f55c362095e90b71e6a69c"
+    },
+    {
+      "name": "economy_snapshots.csv",
+      "status": "copied",
+      "rows": 210,
+      "bytes": 33479,
+      "sha256_src": "ba8883f082668731d98e30683e4e1fdcdcb1a2938b82b9a84b81e7773f563e1b",
+      "sha256_out": "ba8883f082668731d98e30683e4e1fdcdcb1a2938b82b9a84b81e7773f563e1b"
+    },
+    {
+      "name": "loadout_events.csv",
+      "status": "copied",
+      "rows": 1302,
+      "bytes": 165861,
+      "sha256_src": "243e72ebbfbe43ca77197b81a38823d39a8bc48fdb02e6dfdcc53db4f5775b2d",
+      "sha256_out": "243e72ebbfbe43ca77197b81a38823d39a8bc48fdb02e6dfdcc53db4f5775b2d"
+    },
+    {
+      "name": "positions.csv.gz",
+      "source_rows": 1482670,
+      "output_rows": 185740,
+      "compression_ratio": 7.98,
+      "target_hz": 8,
+      "source_interval_ticks": 8,
+      "bytes": 2189846,
+      "sha256_out": "821d78497276f4826400bce7485ac9bf4214891b0e56107ab2258047dce06e8a"
+    },
+    {
+      "name": "metadata.json",
+      "bytes": 7448,
+      "sha256_out": "da8c3e2511b69a34e83d24185dae40098ec4a54ca11ecef89abdd84a4a293047"
+    }
+  ],
+  "position_sampling_hz": 8,
+  "position_sampling_rule": "first/last per round-player + every 8 source ticks",
+  "total_bytes": 2910933,
+  "reproducible": true,
+  "source_sha256": {
+    "bomb_events.csv": "57e542416818e1fe5456c214b84bc4309e026a3950f55c362095e90b71e6a69c",
+    "damages.csv": "1c86ab26d47ab6d264fb1447281ab78a9c8594cc93a0691447009da87c279377",
+    "economy_snapshots.csv": "ba8883f082668731d98e30683e4e1fdcdcb1a2938b82b9a84b81e7773f563e1b",
+    "grenades.csv": "b6028131f26ba1d3d41d4d454586c070bdc0f6447c7b0a74ef634e475a0f3fd3",
+    "kills.csv": "4800bfba5709f2ec458360e01e7d815061eac6fd8451c6e29ba9b1e5d3a353bf",
+    "loadout_events.csv": "243e72ebbfbe43ca77197b81a38823d39a8bc48fdb02e6dfdcc53db4f5775b2d",
+    "metadata.json": "36bcc5d1952e718e0926dfcaa30a5f11a2314e6e86cfba6a6c554d765ffafffc",
+    "positions.csv": "930f1a76eb045aaae1a207f98b0773422fe8412271006f7962a1b15c7032ade6",
+    "rounds.csv": "8d5b53c392f3156ca7ce067d1ef6615d0fe84b8747323c6a0ad7124c2b7845f7"
+  }
+}

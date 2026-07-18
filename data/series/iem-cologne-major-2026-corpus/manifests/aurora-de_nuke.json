@@ -1,0 +1,43 @@
+{
+  "team": "Aurora",
+  "map": "de_nuke",
+  "season": "IEM Cologne Major 2026",
+  "notes": "从全量 corpus 导入生成。de_nuke 候选样本，队伍名已规范化。",
+  "matches": [
+    {
+      "id": "2394902",
+      "bundle": "",
+      "opponent": "Monte",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    },
+    {
+      "id": "2394977",
+      "bundle": "",
+      "opponent": "Spirit",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    },
+    {
+      "id": "2394990",
+      "bundle": "",
+      "opponent": "9Z",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    },
+    {
+      "id": "2394996",
+      "bundle": "",
+      "opponent": "Betboom",
+      "event": "IEM Cologne Major 2026",
+      "stage": "playoffs"
+    },
+    {
+      "id": "2395000",
+      "bundle": "",
+      "opponent": "Furia",
+      "event": "IEM Cologne Major 2026",
+      "stage": "playoffs"
+    }
+  ]
+}

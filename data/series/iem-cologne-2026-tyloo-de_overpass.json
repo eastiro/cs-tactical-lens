@@ -1,0 +1,24 @@
+{
+  "team": "Tyloo",
+  "map": "de_overpass",
+  "season": "IEM Cologne Major 2026",
+  "coverage_tier": "insufficient",
+  "parsed_match_count": 2,
+  "boundary": "样本等级是覆盖提示，不是战术结论。经济标签描述冻结结束装备证据，不等于购买意图或默认战术。",
+  "matches": [
+    {
+      "id": "2394873",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394873\\de_overpass",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2",
+      "opponent": "Fut"
+    },
+    {
+      "id": "2394892",
+      "bundle": "..\\processed\\iem-cologne-major-2026-corpus\\2394892\\de_overpass",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2",
+      "opponent": "9Z"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+match_id,opponent,event,date,round,side,sample_second,contact_second,contact_source,sample_eligible,exclusion_reason,economy_scope,economy_label,economy_confidence,economy_reason,A,B,MID,OTHER,dominant_zone,formation
+2394904,The Mongolz,IEM Cologne Major 2026,,1,T,15.0,16.546875,damage,True,,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,0,0,0,5,OTHER,A0·B0·中0·匪家5
+2394904,The Mongolz,IEM Cologne Major 2026,,2,T,15.0,11.09375,damage,False,contact_before_sample,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,,,,,,
+2394904,The Mongolz,IEM Cologne Major 2026,,3,T,15.0,6.6875,damage,False,contact_before_sample,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,,,,,,
+2394904,The Mongolz,IEM Cologne Major 2026,,4,T,15.0,6.5,damage,False,contact_before_sample,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,,,,,,
+2394904,The Mongolz,IEM Cologne Major 2026,,5,T,20.0,18.453125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394904,The Mongolz,IEM Cologne Major 2026,,6,T,20.0,9.078125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394904,The Mongolz,IEM Cologne Major 2026,,7,T,20.0,8.625,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394904,The Mongolz,IEM Cologne Major 2026,,8,T,20.0,10.90625,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394904,The Mongolz,IEM Cologne Major 2026,,9,T,20.0,13.875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394904,The Mongolz,IEM Cologne Major 2026,,10,T,20.0,10.328125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394904,The Mongolz,IEM Cologne Major 2026,,11,T,20.0,51.421875,damage,True,,freeze_end_snapshot,mixed,medium,少数选手有主武器，其余选手仍为低配,0,0,0,5,OTHER,A0·B0·中0·匪家5
+2394904,The Mongolz,IEM Cologne Major 2026,,12,T,20.0,8.046875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394904,The Mongolz,IEM Cologne Major 2026,,13,CT,15.0,29.75,damage,True,,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,0,2,2,1,MIXED,A0·B2·中2·警家1
+2394904,The Mongolz,IEM Cologne Major 2026,,14,CT,20.0,43.03125,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,3,0,2,B,A0·B3·中0·警家2
+2394904,The Mongolz,IEM Cologne Major 2026,,15,CT,20.0,16.328125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394904,The Mongolz,IEM Cologne Major 2026,,16,CT,20.0,18.046875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394904,The Mongolz,IEM Cologne Major 2026,,17,CT,20.0,8.984375,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394904,The Mongolz,IEM Cologne Major 2026,,18,CT,20.0,46.640625,damage,True,,freeze_end_snapshot,mixed,medium,少数选手有主武器，其余选手仍为低配,0,2,2,1,MIXED,A0·B2·中2·警家1
+2394904,The Mongolz,IEM Cologne Major 2026,,19,CT,20.0,13.53125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394904,The Mongolz,IEM Cologne Major 2026,,20,CT,20.0,9.046875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394904,The Mongolz,IEM Cologne Major 2026,,21,CT,20.0,6.75,damage,False,contact_before_sample,freeze_end_snapshot,mixed,medium,少数选手有主武器，其余选手仍为低配,,,,,,
+2394904,The Mongolz,IEM Cologne Major 2026,,22,CT,20.0,14.171875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394904,The Mongolz,IEM Cologne Major 2026,,23,CT,15.0,8.796875,damage,False,contact_before_sample,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,,,,,,
+2394904,The Mongolz,IEM Cologne Major 2026,,24,CT,15.0,8.5625,damage,False,contact_before_sample,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,,,,,,
+2394975,Falcons,IEM Cologne Major 2026,,13,T,15.0,35.484375,damage,True,,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,0,0,0,5,OTHER,A0·B0·中0·匪家5
+2394975,Falcons,IEM Cologne Major 2026,,14,T,15.0,17.734375,damage,True,,freeze_end_snapshot,eco,medium,队伍大多数只有默认手枪，未见中高档主武器,0,0,0,5,OTHER,A0·B0·中0·匪家5
+2394975,Falcons,IEM Cologne Major 2026,,15,T,20.0,8.09375,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394975,Falcons,IEM Cologne Major 2026,,16,T,12.0,6.890625,damage,False,contact_before_sample,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,,,,,,
+2394975,Falcons,IEM Cologne Major 2026,,17,T,20.0,7.703125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394975,Falcons,IEM Cologne Major 2026,,18,T,20.0,11.921875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394975,Falcons,IEM Cologne Major 2026,,19,T,20.0,7.84375,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394975,Falcons,IEM Cologne Major 2026,,20,T,20.0,50.875,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,0,0,0,5,OTHER,A0·B0·中0·匪家5
+2394975,Falcons,IEM Cologne Major 2026,,21,T,20.0,13.734375,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394975,Falcons,IEM Cologne Major 2026,,22,T,20.0,9.078125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394975,Falcons,IEM Cologne Major 2026,,23,T,20.0,7.890625,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394975,Falcons,IEM Cologne Major 2026,,1,CT,15.0,41.40625,damage,True,,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,1,1,0,3,OTHER,A1·B1·中0·警家3
+2394975,Falcons,IEM Cologne Major 2026,,2,CT,20.0,8.1875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394975,Falcons,IEM Cologne Major 2026,,3,CT,20.0,6.75,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394975,Falcons,IEM Cologne Major 2026,,4,CT,20.0,34.15625,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,1,1,0,3,OTHER,A1·B1·中0·警家3
+2394975,Falcons,IEM Cologne Major 2026,,5,CT,20.0,8.96875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394975,Falcons,IEM Cologne Major 2026,,6,CT,20.0,10.640625,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394975,Falcons,IEM Cologne Major 2026,,7,CT,20.0,30.171875,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,1,1,2,1,MID,A1·B1·中2·警家1
+2394975,Falcons,IEM Cologne Major 2026,,8,CT,20.0,7.234375,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394975,Falcons,IEM Cologne Major 2026,,9,CT,20.0,10.921875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394975,Falcons,IEM Cologne Major 2026,,10,CT,20.0,11.078125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394975,Falcons,IEM Cologne Major 2026,,11,CT,20.0,6.75,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394975,Falcons,IEM Cologne Major 2026,,12,CT,20.0,6.828125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,

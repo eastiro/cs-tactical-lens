@@ -1,0 +1,36 @@
+{
+  "team": "Monte",
+  "map": "de_dust2",
+  "season": "IEM Cologne Major 2026",
+  "notes": "从全量 corpus 导入生成。de_dust2 候选样本，队伍名已规范化。",
+  "matches": [
+    {
+      "id": "2394891",
+      "bundle": "",
+      "opponent": "Betboom",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2"
+    },
+    {
+      "id": "2394895",
+      "bundle": "",
+      "opponent": "Pain",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2"
+    },
+    {
+      "id": "2394982",
+      "bundle": "",
+      "opponent": "Falcons",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    },
+    {
+      "id": "2394988",
+      "bundle": "",
+      "opponent": "The Mongolz",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    }
+  ]
+}

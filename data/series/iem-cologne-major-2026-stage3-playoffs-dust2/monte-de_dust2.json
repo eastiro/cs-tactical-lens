@@ -1,0 +1,15 @@
+{
+  "team": "Monte",
+  "map": "de_dust2",
+  "season": "IEM Cologne Major 2026",
+  "notes": "从注册表批量导入生成。de_dust2 候选样本，队伍名已规范化。",
+  "matches": [
+    {
+      "id": "2394982",
+      "bundle": "..\\..\\processed\\iem-cologne-major-2026-stage3-playoffs-dust2\\2394982\\de_dust2",
+      "opponent": "Falcons",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "team": "Spirit",
+  "map": "de_anubis",
+  "season": "IEM Cologne Major 2026",
+  "notes": "从全量 corpus 导入生成。de_anubis 候选样本，队伍名已规范化。",
+  "matches": [
+    {
+      "id": "2394900",
+      "bundle": "",
+      "opponent": "Natus Vincere",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    },
+    {
+      "id": "2394977",
+      "bundle": "",
+      "opponent": "Aurora",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-3"
+    },
+    {
+      "id": "2395001",
+      "bundle": "data\\processed\\iem-cologne-major-2026-corpus\\2395001\\de_anubis",
+      "opponent": "Falcons",
+      "event": "IEM Cologne Major 2026",
+      "stage": "playoffs"
+    }
+  ]
+}

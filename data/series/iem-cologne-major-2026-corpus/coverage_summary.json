@@ -1,0 +1,709 @@
+{
+  "event": "IEM Cologne Major 2026",
+  "generated_at": "2026-07-18T07:00:23.611463+00:00",
+  "coverage": [
+    {
+      "team": "9Z",
+      "map": "de_dust2",
+      "parsed_match_count": 6,
+      "tier": "standard"
+    },
+    {
+      "team": "9Z",
+      "map": "de_inferno",
+      "parsed_match_count": 4,
+      "tier": "exploratory"
+    },
+    {
+      "team": "9Z",
+      "map": "de_mirage",
+      "parsed_match_count": 3,
+      "tier": "exploratory"
+    },
+    {
+      "team": "9Z",
+      "map": "de_nuke",
+      "parsed_match_count": 3,
+      "tier": "exploratory"
+    },
+    {
+      "team": "9Z",
+      "map": "de_overpass",
+      "parsed_match_count": 5,
+      "tier": "standard"
+    },
+    {
+      "team": "Astralis",
+      "map": "de_ancient",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Astralis",
+      "map": "de_nuke",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Astralis",
+      "map": "de_overpass",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Aurora",
+      "map": "de_anubis",
+      "parsed_match_count": 4,
+      "tier": "exploratory"
+    },
+    {
+      "team": "Aurora",
+      "map": "de_dust2",
+      "parsed_match_count": 3,
+      "tier": "exploratory"
+    },
+    {
+      "team": "Aurora",
+      "map": "de_nuke",
+      "parsed_match_count": 5,
+      "tier": "standard"
+    },
+    {
+      "team": "Aurora",
+      "map": "de_overpass",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "B8",
+      "map": "de_ancient",
+      "parsed_match_count": 4,
+      "tier": "exploratory"
+    },
+    {
+      "team": "B8",
+      "map": "de_dust2",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "B8",
+      "map": "de_inferno",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "B8",
+      "map": "de_mirage",
+      "parsed_match_count": 6,
+      "tier": "standard"
+    },
+    {
+      "team": "B8",
+      "map": "de_nuke",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "B8",
+      "map": "de_overpass",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Betboom",
+      "map": "de_ancient",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Betboom",
+      "map": "de_anubis",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Betboom",
+      "map": "de_dust2",
+      "parsed_match_count": 5,
+      "tier": "standard"
+    },
+    {
+      "team": "Betboom",
+      "map": "de_mirage",
+      "parsed_match_count": 4,
+      "tier": "exploratory"
+    },
+    {
+      "team": "Betboom",
+      "map": "de_nuke",
+      "parsed_match_count": 5,
+      "tier": "standard"
+    },
+    {
+      "team": "Betboom",
+      "map": "de_overpass",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Big",
+      "map": "de_ancient",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Big",
+      "map": "de_dust2",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Big",
+      "map": "de_inferno",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Big",
+      "map": "de_mirage",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Big",
+      "map": "de_overpass",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Falcons",
+      "map": "de_ancient",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Falcons",
+      "map": "de_anubis",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Falcons",
+      "map": "de_dust2",
+      "parsed_match_count": 5,
+      "tier": "standard"
+    },
+    {
+      "team": "Falcons",
+      "map": "de_inferno",
+      "parsed_match_count": 4,
+      "tier": "exploratory"
+    },
+    {
+      "team": "Falcons",
+      "map": "de_mirage",
+      "parsed_match_count": 4,
+      "tier": "exploratory"
+    },
+    {
+      "team": "Falcons",
+      "map": "de_nuke",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Flyquest",
+      "map": "de_anubis",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Flyquest",
+      "map": "de_dust2",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Flyquest",
+      "map": "de_nuke",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Furia",
+      "map": "de_anubis",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Furia",
+      "map": "de_dust2",
+      "parsed_match_count": 3,
+      "tier": "exploratory"
+    },
+    {
+      "team": "Furia",
+      "map": "de_inferno",
+      "parsed_match_count": 3,
+      "tier": "exploratory"
+    },
+    {
+      "team": "Furia",
+      "map": "de_mirage",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Furia",
+      "map": "de_nuke",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Furia",
+      "map": "de_overpass",
+      "parsed_match_count": 3,
+      "tier": "exploratory"
+    },
+    {
+      "team": "Fut",
+      "map": "de_ancient",
+      "parsed_match_count": 4,
+      "tier": "exploratory"
+    },
+    {
+      "team": "Fut",
+      "map": "de_anubis",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Fut",
+      "map": "de_dust2",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Fut",
+      "map": "de_mirage",
+      "parsed_match_count": 4,
+      "tier": "exploratory"
+    },
+    {
+      "team": "Fut",
+      "map": "de_nuke",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Fut",
+      "map": "de_overpass",
+      "parsed_match_count": 4,
+      "tier": "exploratory"
+    },
+    {
+      "team": "G2",
+      "map": "de_ancient",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "G2",
+      "map": "de_anubis",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "G2",
+      "map": "de_dust2",
+      "parsed_match_count": 4,
+      "tier": "exploratory"
+    },
+    {
+      "team": "G2",
+      "map": "de_inferno",
+      "parsed_match_count": 3,
+      "tier": "exploratory"
+    },
+    {
+      "team": "G2",
+      "map": "de_mirage",
+      "parsed_match_count": 3,
+      "tier": "exploratory"
+    },
+    {
+      "team": "G2",
+      "map": "de_overpass",
+      "parsed_match_count": 5,
+      "tier": "standard"
+    },
+    {
+      "team": "Gamerlegion",
+      "map": "de_ancient",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Gamerlegion",
+      "map": "de_mirage",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Gamerlegion",
+      "map": "de_nuke",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Legacy",
+      "map": "de_ancient",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Legacy",
+      "map": "de_dust2",
+      "parsed_match_count": 4,
+      "tier": "exploratory"
+    },
+    {
+      "team": "Legacy",
+      "map": "de_inferno",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Legacy",
+      "map": "de_overpass",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "M80",
+      "map": "de_dust2",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "M80",
+      "map": "de_mirage",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Mibr",
+      "map": "de_ancient",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Mibr",
+      "map": "de_inferno",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Mibr",
+      "map": "de_mirage",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Mibr",
+      "map": "de_nuke",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Monte",
+      "map": "de_ancient",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Monte",
+      "map": "de_anubis",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Monte",
+      "map": "de_dust2",
+      "parsed_match_count": 4,
+      "tier": "exploratory"
+    },
+    {
+      "team": "Monte",
+      "map": "de_inferno",
+      "parsed_match_count": 3,
+      "tier": "exploratory"
+    },
+    {
+      "team": "Monte",
+      "map": "de_mirage",
+      "parsed_match_count": 5,
+      "tier": "standard"
+    },
+    {
+      "team": "Monte",
+      "map": "de_nuke",
+      "parsed_match_count": 4,
+      "tier": "exploratory"
+    },
+    {
+      "team": "Mouz",
+      "map": "de_ancient",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Mouz",
+      "map": "de_dust2",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Mouz",
+      "map": "de_inferno",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Mouz",
+      "map": "de_mirage",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Mouz",
+      "map": "de_nuke",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Mouz",
+      "map": "de_overpass",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Natus Vincere",
+      "map": "de_ancient",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Natus Vincere",
+      "map": "de_anubis",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Natus Vincere",
+      "map": "de_dust2",
+      "parsed_match_count": 3,
+      "tier": "exploratory"
+    },
+    {
+      "team": "Natus Vincere",
+      "map": "de_inferno",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Natus Vincere",
+      "map": "de_mirage",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Natus Vincere",
+      "map": "de_nuke",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Pain",
+      "map": "de_anubis",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Pain",
+      "map": "de_dust2",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Pain",
+      "map": "de_mirage",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Pain",
+      "map": "de_nuke",
+      "parsed_match_count": 3,
+      "tier": "exploratory"
+    },
+    {
+      "team": "Pain",
+      "map": "de_overpass",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Parivision",
+      "map": "de_ancient",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Parivision",
+      "map": "de_dust2",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Parivision",
+      "map": "de_inferno",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Parivision",
+      "map": "de_mirage",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Parivision",
+      "map": "de_overpass",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Spirit",
+      "map": "de_anubis",
+      "parsed_match_count": 3,
+      "tier": "exploratory"
+    },
+    {
+      "team": "Spirit",
+      "map": "de_dust2",
+      "parsed_match_count": 5,
+      "tier": "standard"
+    },
+    {
+      "team": "Spirit",
+      "map": "de_mirage",
+      "parsed_match_count": 5,
+      "tier": "standard"
+    },
+    {
+      "team": "Spirit",
+      "map": "de_nuke",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Spirit",
+      "map": "de_overpass",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "The Mongolz",
+      "map": "de_ancient",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "The Mongolz",
+      "map": "de_dust2",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "The Mongolz",
+      "map": "de_inferno",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "The Mongolz",
+      "map": "de_mirage",
+      "parsed_match_count": 3,
+      "tier": "exploratory"
+    },
+    {
+      "team": "The Mongolz",
+      "map": "de_nuke",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "The Mongolz",
+      "map": "de_overpass",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Tyloo",
+      "map": "de_inferno",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Tyloo",
+      "map": "de_mirage",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Tyloo",
+      "map": "de_overpass",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Vitality",
+      "map": "de_anubis",
+      "parsed_match_count": 1,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Vitality",
+      "map": "de_dust2",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Vitality",
+      "map": "de_inferno",
+      "parsed_match_count": 3,
+      "tier": "exploratory"
+    },
+    {
+      "team": "Vitality",
+      "map": "de_mirage",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Vitality",
+      "map": "de_nuke",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    },
+    {
+      "team": "Vitality",
+      "map": "de_overpass",
+      "parsed_match_count": 2,
+      "tier": "insufficient"
+    }
+  ],
+  "boundary": "覆盖状态仅反映已解析比赛数量，不代表战术结论或样本充足性。standard >= 5, exploratory 3-4, insufficient < 3。"
+}

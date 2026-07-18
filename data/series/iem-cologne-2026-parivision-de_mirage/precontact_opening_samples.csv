@@ -1,0 +1,21 @@
+match_id,opponent,event,date,round,side,sample_second,contact_second,contact_source,sample_eligible,exclusion_reason,economy_scope,economy_label,economy_confidence,economy_reason,A,B,MID,OTHER,dominant_zone,formation
+2394974,Monte,IEM Cologne Major 2026,,13,T,15.0,19.0,damage,True,,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,0,3,2,0,B,A0·B3·中2·匪家0
+2394974,Monte,IEM Cologne Major 2026,,14,T,15.0,24.171875,damage,True,,freeze_end_snapshot,eco,medium,队伍大多数只有默认手枪，未见中高档主武器,5,0,0,0,A,A5·B0·中0·匪家0
+2394974,Monte,IEM Cologne Major 2026,,15,T,20.0,72.421875,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,2,2,1,0,MIXED,A2·B2·中1·匪家0
+2394974,Monte,IEM Cologne Major 2026,,16,T,15.0,19.53125,damage,True,,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,2,1,2,0,MIXED,A2·B1·中2·匪家0
+2394974,Monte,IEM Cologne Major 2026,,17,T,20.0,7.359375,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394974,Monte,IEM Cologne Major 2026,,18,T,20.0,9.703125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394974,Monte,IEM Cologne Major 2026,,19,T,20.0,59.703125,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,2,1,2,0,MIXED,A2·B1·中2·匪家0
+2394974,Monte,IEM Cologne Major 2026,,20,T,12.0,20.28125,damage,True,,freeze_end_snapshot,half_buy,medium,介于全起与 Eco 之间的中间装备结构,0,5,0,0,B,A0·B5·中0·匪家0
+2394974,Monte,IEM Cologne Major 2026,,1,CT,15.0,26.1875,damage,True,,freeze_end_snapshot,pistol,high,半场首回合按手枪局单独处理,3,0,1,1,A,A3·B0·中1·警家1
+2394974,Monte,IEM Cologne Major 2026,,2,CT,15.0,31.34375,damage,True,,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,2,1,1,1,A,A2·B1·中1·警家1
+2394974,Monte,IEM Cologne Major 2026,,3,CT,15.0,25.390625,damage,True,,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,1,1,3,0,MID,A1·B1·中3·警家0
+2394974,Monte,IEM Cologne Major 2026,,4,CT,20.0,15.140625,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394974,Monte,IEM Cologne Major 2026,,5,CT,15.0,23.234375,damage,True,,freeze_end_snapshot,force_buy,medium,未达全起且冻结结束剩余现金较低，队伍仍投入了非默认武器,2,2,1,0,MIXED,A2·B2·中1·警家0
+2394974,Monte,IEM Cologne Major 2026,,6,CT,20.0,10.125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394974,Monte,IEM Cologne Major 2026,,7,CT,20.0,30.9375,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,1,1,3,0,MID,A1·B1·中3·警家0
+2394974,Monte,IEM Cologne Major 2026,,8,CT,20.0,12.84375,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394974,Monte,IEM Cologne Major 2026,,9,CT,20.0,13.421875,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394974,Monte,IEM Cologne Major 2026,,10,CT,20.0,9.3125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,
+2394974,Monte,IEM Cologne Major 2026,,11,CT,20.0,38.015625,damage,True,,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,1,1,2,1,MID,A1·B1·中2·警家1
+2394974,Monte,IEM Cologne Major 2026,,12,CT,20.0,10.078125,damage,False,contact_before_sample,freeze_end_snapshot,full_buy,high,至少 4 人有步枪/AWP 且至少 4 人有护甲,,,,,,

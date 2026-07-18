@@ -1,0 +1,15 @@
+{
+  "team": "Big",
+  "map": "de_ancient",
+  "season": "IEM Cologne Major 2026",
+  "notes": "从全量 corpus 导入生成。de_ancient 候选样本，队伍名已规范化。",
+  "matches": [
+    {
+      "id": "2394897",
+      "bundle": "",
+      "opponent": "B8",
+      "event": "IEM Cologne Major 2026",
+      "stage": "stage-2"
+    }
+  ]
+}
