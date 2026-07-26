@@ -504,12 +504,15 @@ class TestMirageTacticalBoundary:
         load_manual_bundle(at, timeout=30,
                            profile_id="iem-cologne-2026-falcons-de_mirage")
         at.get("radio")[0].set_value("单场工具")
-        at.run(timeout=15)
+        # Loading a real Mirage bundle and its replay panel can exceed the
+        # generic 15 s AppTest budget on slower Windows machines.  This is an
+        # integration path, so use the same allowance as bundle loading.
+        at.run(timeout=30)
         for r in at.get("radio"):
             if r.key == "single_match_tool":
                 r.set_value("战术模式")
                 break
-        at.run(timeout=15)
+        at.run(timeout=30)
 
         assert len(at.exception) == 0, [str(e) for e in at.exception[:2]]
         bodies = [str(m.value) for m in at.get("markdown") if m.value]

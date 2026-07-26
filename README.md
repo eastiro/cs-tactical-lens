@@ -2,7 +2,7 @@
 
 一个把真实 CS2 比赛 Demo 转化为**可复核的多场接触前结构比较工作台**的个人数据分析项目。支持跨队伍、跨地图的站位证据提取与回放，所有结论都能回到实际比赛回合、雷达地图与 OB 式装备 HUD 逐秒核对。
 
-V4 作品集版本已经完成：它不再是固定单场演示，而是一套经过 350 项本地测试验证的分析工作台。
+V4 作品集版本已经完成：它不再是固定单场演示，而是一套经过 352 项本地测试验证的分析工作台。当前 V4.1 使用集中式 Obsidian 视觉系统统一研究工作台、回放和响应式界面。
 
 > **代码许可证**：项目源代码采用 [MIT License](LICENSE)。
 > **雷达/游戏素材**：不自动属于未来代码许可证，详见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
@@ -74,8 +74,10 @@ V4 作品集版本已经完成：它不再是固定单场演示，而是一套�
 | corpus research profile | **117**（全部被 `discover_research_profiles()` 发现） |
 | 可用比赛地图 | 7（Ancient、Anubis、Dust2、Inferno、Mirage、Nuke、Overpass） |
 | 雷达底图 | 7 张 + 辅助图 |
-| 全量测试 | **350 passed** |
+| 全量测试 | **352 passed** |
 | 发布审计 | **20/20 checks passed** |
+
+V4.1 将界面主题集中到 `assets/theme.css`：研究命令台、最强差异信号、证据入口、回放 HUD 和移动端布局现在共用同一套设计变量与组件规则。详细状态和研究边界参见 [PROJECT.md](PROJECT.md)。
 
 ---
 
@@ -172,6 +174,8 @@ python scripts/build_team_map_series.py data/series/your-team-map.json --output 
 
 ```
 app.py                     # Streamlit 主界面
+assets/
+  theme.css                # V4.1 Obsidian 统一视觉系统
 src/
   awpy_adapter.py          # Awpy 数据规范化与校验
   map_geometry.py          # 游戏坐标 → 雷达坐标
@@ -239,6 +243,6 @@ reports/                   # 验收与审计报告
 python -m py_compile app.py                          # 编译检查
 python scripts/audit_v4_release.py                   # 发布审计（20/20）
 python -m pytest -q tests/test_replay_state_machine.py  # 回放状态机（34 passed）
-python -m pytest -q                                  # 全量（350 passed）
+python -m pytest -q                                  # 全量（352 passed）
 python -m pytest -q tests/test_showcase_bundle.py    # Showcase 专项（32 passed）
 ```

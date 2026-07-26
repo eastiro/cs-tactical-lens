@@ -86,868 +86,11 @@ def weapon_name(internal: str) -> str:
 st.set_page_config(page_title="CS Tactical Lens", page_icon="◎", layout="wide")
 
 # ──────────────────────────────────────────────────────────────────────
-# VISUAL — 战术指挥中心 / 赛事转播风格
+# VISUAL — V5 "Obsidian" 统一设计系统（assets/theme.css）
 # 只改动布局、CSS、字体、间距、颜色、图标和响应式
 # ──────────────────────────────────────────────────────────────────────
 st.markdown(
-    """
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700;800;900&display=swap');
-
-  :root {
-    --bg:      #080b0f;
-    --surface: #0e131b;
-    --surface2:#171e28;
-    --border:  #1c2330;
-    --border2: #293040;
-    --text:    #e1e7ef;
-    --muted:   #78869a;
-    --dim:     #4b5769;
-    --t:       #f0aa3c;
-    --ct:      #4da3ff;
-    --kill:    #ff5f65;
-    --green:   #47c97e;
-    --font:    'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-                'PingFang SC','Microsoft YaHei','Noto Sans SC', sans-serif;
-    --mono:    'JetBrains Mono','SF Mono','Cascadia Code',ui-monospace,Consolas,monospace;
-  }
-
-  /* ── base ── */
-  .stApp {
-    background: var(--bg);
-    background-image:
-      radial-gradient(ellipse at 25% 0%, rgba(240,170,60,0.025) 0%, transparent 55%),
-      radial-gradient(ellipse at 75% 100%, rgba(77,163,255,0.025) 0%, transparent 55%);
-    color: var(--text);
-    font-family: var(--font);
-  }
-  .block-container {
-    max-width: 1640px;
-    padding: 0.75rem 2rem 3rem;
-  }
-  [data-testid="stSidebar"] {
-    background: #0b0f14;
-    border-right: 1px solid var(--border);
-  }
-  [data-testid="stSidebar"] * { color: var(--text); }
-  [data-testid="stSidebar"] hr { border-color: var(--border); margin: 0.8rem 0; }
-
-  h1, h2, h3, h4, h5, h6, p, label, .stCaptionContainer, .st-emotion-caption {
-    color: var(--text);
-  }
-
-  /* ── streamlit chrome / header / toolbar ── */
-  #MainMenu, .stAppDeployButton, div[data-testid="stDecoration"] { display: none; }
-  header[data-testid="stHeader"] {
-    background: transparent !important;
-    border-bottom: none !important;
-    height: 2.5rem !important;
-    min-height: 2.5rem !important;
-    overflow: visible !important;
-  }
-  /* Keep Streamlit's sidebar expand/collapse control available.  The old
-     blanket header/toolbar hide made the sidebar impossible to reopen. */
-  header[data-testid="stHeader"] > div,
-  header[data-testid="stHeader"] nav {
-    display: flex !important;
-    visibility: visible !important;
-  }
-  [data-testid="stSidebarCollapsedControl"],
-  [data-testid="stSidebarCollapseButton"] {
-    display: flex !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    pointer-events: auto !important;
-    z-index: 1000000 !important;
-  }
-  [data-testid="stToolbar"] { display: flex !important; }
-  div[data-testid="stToolbar"] { display: flex !important; }
-  section[data-testid="stSidebar"] > div:first-child {
-    padding-top: 0.75rem;
-  }
-
-  /* ── typography ── */
-  h1 {
-    font-family: var(--font);
-    font-weight: 800;
-    font-size: 1.45rem;
-    letter-spacing: -0.025em;
-    margin: 0 0 0.05rem;
-  }
-  h2 { font-size: 1.05rem; font-weight: 700; letter-spacing: -0.01em; }
-  h3 { font-size: 0.88rem; font-weight: 600; color: var(--muted); }
-
-  /* ── brand kicker ── */
-  .kicker {
-    display: flex; align-items: center; gap: 0.45rem;
-    color: var(--dim); font: 600 0.58rem/1.2 var(--mono);
-    letter-spacing: 0.24em; text-transform: uppercase; margin-bottom: 0.15rem;
-  }
-  .kicker .dot {
-    display: inline-block; width: 5px; height: 5px; border-radius: 50%;
-    background: var(--green);
-    box-shadow: 0 0 10px rgba(71,201,126,0.75);
-  }
-
-  /* ══════════════════════════════════════════════════════════════════
-     SCOREBOARD — 赛事转播覆盖层风格
-     ══════════════════════════════════════════════════════════════════ */
-  .scoreboard {
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    align-items: stretch;
-    background: #0c1118;
-    border: 1px solid var(--border);
-    margin: 0.4rem 0 1rem;
-    position: relative;
-  }
-  .scoreboard::before {
-    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
-    background: linear-gradient(90deg, #303a48, #78869a 50%, #303a48);
-  }
-  .team-block {
-    display: flex; align-items: center; gap: 1rem;
-    padding: 0.75rem 1.25rem;
-  }
-  .team-block.right { justify-content: flex-end; text-align: right; }
-  .team-info .team-label {
-    color: var(--dim); font: 600 0.52rem var(--mono);
-    letter-spacing: 0.2em; text-transform: uppercase;
-  }
-  .team-info .team-name {
-    color: #ecf1f7; font-weight: 800; font-size: 1.05rem;
-    letter-spacing: 0.04em;
-  }
-  .team-score-num {
-    font: 800 2.3rem/1 var(--mono);
-    letter-spacing: -0.04em;
-  }
-  /* 最终比分跨越上下半场，不使用 T/CT 阵营色。 */
-  .team-score-num.t, .team-score-num.ct { color: #eef3f8; }
-
-  .match-badge {
-    display: flex; flex-direction: column; align-items: center; justify-content: center;
-    padding: 0.45rem 1.2rem;
-    border-left: 1px solid var(--border);
-    border-right: 1px solid var(--border);
-    text-align: center; white-space: nowrap;
-  }
-  .match-badge .map-name {
-    color: #fff; font-weight: 700; font-size: 0.78rem; letter-spacing: 0.1em;
-    font-family: var(--mono);
-  }
-  .match-badge .match-meta {
-    color: var(--dim); font: 0.55rem var(--mono);
-    letter-spacing: 0.06em; margin-top: 0.12rem;
-  }
-
-  /* ── section label ── */
-  .section-label {
-    color: var(--dim);
-    font: 600 0.62rem var(--mono);
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    margin: 0 0 0.5rem;
-  }
-
-  /* ── radio tab strip ── */
-  div[role="radiogroup"] {
-    gap: 0;
-    background: #0b0f14;
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    overflow: hidden;
-    display: inline-flex;
-  }
-  div[role="radiogroup"] label {
-    background: transparent !important;
-    border: none !important;
-    border-radius: 0;
-    padding: 0.4rem 1.1rem;
-    margin: 0;
-    color: var(--muted);
-    font-size: 0.8rem;
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.12s;
-  }
-  div[role="radiogroup"] label:not(:last-child) {
-    border-right: 1px solid var(--border) !important;
-  }
-  div[role="radiogroup"] label:has(input:checked) {
-    background: #19212b !important;
-    color: #fff;
-  }
-
-  /* ── plotly chart ── */
-  .stPlotlyChart {
-    border: 1px solid var(--border);
-    border-radius: 3px;
-    overflow: hidden;
-  }
-
-  /* ── controls row ── */
-  .ctrl-label {
-    color: var(--dim) !important;
-    font: 600 0.58rem var(--mono) !important;
-    letter-spacing: 0.12em !important;
-    text-transform: uppercase !important;
-    margin-bottom: 0.2rem !important;
-  }
-  div[data-testid="stSelectbox"] label,
-  div[data-testid="stMultiSelect"] label {
-    font-size: 0.7rem !important;
-    font-weight: 500 !important;
-  }
-  div[data-baseweb="select"] > div,
-  div[data-baseweb="multi-select"] > div {
-    background: #0b0f14 !important;
-    border-color: var(--border) !important;
-    border-radius: 3px !important;
-    min-height: 32px !important;
-  }
-  div[data-baseweb="select"] input,
-  div[data-baseweb="multi-select"] input {
-    font-size: 0.8rem !important;
-  }
-  /* slider */
-  div[data-testid="stSlider"] label {
-    font-size: 0.7rem !important;
-  }
-  div[data-testid="stSlider"] div[data-baseweb="slider"] {
-    padding-top: 0.3rem !important;
-  }
-  /* toggle */
-  div[data-testid="stToggle"] label {
-    font-size: 0.78rem !important;
-  }
-
-  /* ── round detail event panel ── */
-  .round-panel {
-    background: #0c1118;
-    border: 1px solid var(--border);
-    border-left: 3px solid var(--border2);
-    padding: 0.9rem 1rem;
-    height: 100%;
-  }
-  .round-header {
-    display: flex; justify-content: space-between; align-items: flex-end;
-    padding-bottom: 0.6rem; border-bottom: 1px solid var(--border);
-    margin-bottom: 0.65rem;
-  }
-  .round-header .round-no {
-    color: var(--dim); font: 600 0.6rem var(--mono); letter-spacing: 0.14em;
-  }
-  .round-header .winner {
-    color: #fff; font-weight: 700; font-size: 0.95rem;
-    margin-top: 0.12rem;
-  }
-  .round-header .running-score {
-    color: #fff; font: 800 1.3rem var(--mono); letter-spacing: -0.03em;
-  }
-
-  /* event feed — 时间线风格 */
-  .event-feed-label {
-    color: var(--dim); font: 600 0.55rem var(--mono); letter-spacing: 0.18em;
-    text-transform: uppercase; margin-bottom: 0.35rem;
-  }
-  .event-feed {
-    max-height: 560px;
-    overflow-y: auto;
-    padding-right: 0.35rem;
-    scrollbar-color: #3d4756 #0c1118;
-    scrollbar-width: thin;
-  }
-  .event {
-    display: grid; grid-template-columns: 36px 14px 1fr;
-    gap: 0.3rem; padding: 0.42rem 0;
-    border-bottom: 1px solid #161d27;
-    align-items: start;
-  }
-  .event:last-child { border-bottom: none; }
-  .event-time {
-    color: var(--dim); font: 0.65rem var(--mono);
-    padding-top: 0.08rem; text-align: right;
-  }
-  .event-track {
-    display: flex; flex-direction: column; align-items: center; gap: 0;
-    height: 100%; min-height: 28px;
-  }
-  .event-dot {
-    width: 6px; height: 6px; border-radius: 50%;
-    background: var(--dim); z-index: 1;
-    flex-shrink: 0; margin-top: 3px;
-  }
-  .event-line {
-    width: 1px; flex: 1; background: #1a212c;
-    min-height: 20px;
-  }
-  .event-body {
-    color: #ccd3dc; font-size: 0.8rem; line-height: 1.4;
-    padding-top: 0.02rem;
-  }
-  .event-body b { color: #fff; font-weight: 600; }
-  .event.kill .event-dot {
-    background: var(--kill);
-    box-shadow: 0 0 8px rgba(255,95,101,0.5);
-    width: 7px; height: 7px; border-radius: 2px;
-  }
-  .event.kill .event-body { color: #ebd5d5; }
-  .event.utility .event-dot { background: var(--t); }
-  .event.utility .event-body { color: #dcd8c8; }
-  .event.bomb .event-dot { background: var(--green); }
-  .event.bomb .event-body { color: #b8e6c8; }
-  .event.smoke .event-dot {
-    background: #AAB4C2;
-    box-shadow: 0 0 6px rgba(170,180,194,0.4);
-  }
-  .event.smoke .event-body { color: #d0d8e0; }
-
-  .smoke-disclaimer {
-    color: var(--dim); font-size: 0.7rem; padding: 0.2rem 0 0.5rem;
-    font-style: italic; border-bottom: 1px solid var(--border);
-    margin-bottom: 0.4rem;
-  }
-
-  .empty-event {
-    color: var(--dim); font-size: 0.8rem; padding: 0.8rem 0;
-    font-style: italic;
-  }
-
-  /* ── round rail (回合进度条) ── */
-  .round-rail {
-    display: flex; gap: 2px; align-items: flex-end;
-    padding: 0.8rem 0 0.15rem; overflow-x: auto;
-  }
-  .round-chip {
-    flex: 1; min-width: 20px; height: 24px;
-    display: flex; align-items: center; justify-content: center;
-    color: rgba(12,16,20,0.85);
-    font: 700 0.55rem var(--mono);
-    border-radius: 2px;
-    opacity: 0.7;
-    transition: all 0.12s;
-  }
-  .round-chip.active {
-    height: 32px; opacity: 1;
-    outline: 2px solid #fff; outline-offset: 1px;
-    z-index: 2;
-  }
-  .round-chip.t { background: var(--t); }
-  .round-chip.ct { background: var(--ct); }
-
-  /* ── conversion rows ── */
-  .conversion-row {
-    display: grid; grid-template-columns: 120px 1fr 75px;
-    align-items: center; gap: 0.7rem;
-    padding: 0.6rem 0; border-bottom: 1px solid var(--border);
-  }
-  .conversion-name { color: #fff; font-weight: 600; font-size: 0.85rem; }
-  .conversion-track { height: 5px; background: #181f29; border-radius: 20px; overflow: hidden; }
-  .conversion-fill { height: 100%; background: linear-gradient(90deg,#3b82f6,#60a5fa); border-radius: 20px; }
-  .conversion-value { color: #ccd3dc; font: 0.68rem var(--mono); text-align: right; }
-
-  /* ── insights ── */
-  .insight {
-    border-left: 3px solid #475569;
-    background: #0c1118;
-    padding: 0.65rem 1rem;
-    margin: 0.45rem 0;
-    color: #ccd3dc;
-    font-size: 0.85rem;
-    line-height: 1.55;
-    border-radius: 0 3px 3px 0;
-  }
-  .tactical-finding {
-    background: linear-gradient(100deg, #0c1118, #101722);
-    border: 1px solid var(--border);
-    border-left: 3px solid var(--ct);
-    padding: 0.8rem 1rem;
-    margin: 0.65rem 0 0.35rem;
-  }
-  .tactical-finding .finding-kicker {
-    color: var(--dim); font: 600 0.55rem var(--mono);
-    letter-spacing: 0.16em; text-transform: uppercase;
-  }
-  .tactical-finding .finding-title {
-    color: #fff; font-size: 0.95rem; font-weight: 700; margin: 0.18rem 0 0.28rem;
-  }
-  .tactical-finding .finding-summary {
-    color: #ccd5df; font-size: 0.84rem; line-height: 1.55;
-  }
-  .tactical-finding .finding-sample {
-    color: var(--dim); font: 0.62rem var(--mono); margin-top: 0.45rem;
-  }
-
-  .scope-line {
-    display: flex; gap: 0.55rem; align-items: flex-start;
-    padding: 0.3rem 0; color: #c5cdd6; font-size: 0.82rem;
-  }
-  .scope-mark { color: var(--green); font-weight: 800; }
-  .scope-mark.out { color: var(--dim); }
-
-  /* ── dataframe / data grid 暗色主题 ── */
-  [data-testid="stDataFrame"] {
-    border: 1px solid var(--border);
-    border-radius: 3px;
-    overflow: hidden;
-    background: #0c1118 !important;
-  }
-  [data-testid="stDataFrame"] div {
-    background: #0c1118 !important;
-  }
-  [data-testid="stDataFrame"] table {
-    font-family: var(--mono);
-    font-size: 0.75rem;
-  }
-  /* Glide Data Grid — 强制暗色变量，覆盖主题默认值 */
-  [data-testid="stDataFrame"] {
-    --gdg-bg-cell: #0c1118;
-    --gdg-bg-header: #131a23;
-    --gdg-bg-bubble: #1a222d;
-    --gdg-border-color: #1c2330;
-    --gdg-text-dark: #e1e7ef;
-    --gdg-text-medium: #78869a;
-    --gdg-text-light: #4b5769;
-    --gdg-text-group-header: #78869a;
-    --gdg-accent-color: #4da3ff;
-    --gdg-accent-light: rgba(77,163,255,0.12);
-    --gdg-link-color: #4da3ff;
-    --gdg-font-family: var(--mono);
-    --gdg-header-font-style: 600 0.75rem var(--mono);
-    --gdg-editor-font-size: 0.75rem;
-  }
-  /* Glide Data Grid canvas */
-  [data-testid="stDataFrame"] canvas {
-    background: #0c1118 !important;
-  }
-  /* grid header row */
-  [data-testid="stDataFrame"] .gdg-header,
-  [data-testid="stDataFrame"] [class*="header"],
-  [data-testid="stDataFrame"] thead tr,
-  [data-testid="stDataFrame"] th {
-    background: #131a23 !important;
-    color: var(--muted) !important;
-    border-bottom: 1px solid var(--border) !important;
-    font-weight: 600 !important;
-  }
-  /* HTML table fallback cells */
-  [data-testid="stDataFrame"] tbody tr {
-    background: #0c1118 !important;
-  }
-  [data-testid="stDataFrame"] tbody tr:nth-child(even) {
-    background: #0e141c !important;
-  }
-  [data-testid="stDataFrame"] td {
-    color: var(--text) !important;
-    border-bottom: 1px solid #181f29 !important;
-    padding: 0.3rem 0.6rem !important;
-  }
-  /* hover and selected state */
-  [data-testid="stDataFrame"] tbody tr:hover td {
-    background: #161e28 !important;
-  }
-  [data-testid="stDataFrame"] tbody tr th,
-  [data-testid="stDataFrame"] thead th {
-    background: #131a23 !important;
-    color: var(--muted) !important;
-    font-weight: 600 !important;
-  }
-  /* row index column */
-  [data-testid="stDataFrame"] tbody tr th {
-    color: var(--dim) !important;
-    border-right: 1px solid var(--border) !important;
-  }
-  /* scrollbar inside grid */
-  [data-testid="stDataFrame"] ::-webkit-scrollbar {
-    width: 6px; height: 6px;
-  }
-  [data-testid="stDataFrame"] ::-webkit-scrollbar-track {
-    background: #0a0d12;
-  }
-  [data-testid="stDataFrame"] ::-webkit-scrollbar-thumb {
-    background: #2a3340;
-    border-radius: 3px;
-  }
-
-  /* Stable HTML tables for compact evidence summaries.  Streamlit's canvas
-     grid can turn blank when global dark-mode CSS overrides its paint layer. */
-  .tactical-table-wrap {
-    width: 100%; overflow-x: auto; border: 1px solid var(--border);
-    border-radius: 3px; background: #0c1118;
-  }
-  .tactical-table {
-    width: 100%; border-collapse: collapse; font-family: var(--font);
-    font-size: 0.84rem; line-height: 1.5; color: var(--text); white-space: nowrap;
-  }
-  .tactical-table thead th {
-    padding: 0.68rem 0.72rem; text-align: left; color: var(--muted);
-    background: #131a23; border-bottom: 1px solid var(--border);
-    font-size: 0.82rem; font-weight: 700; letter-spacing: 0.01em;
-  }
-  .tactical-table tbody td {
-    padding: 0.68rem 0.72rem; color: #dfe6ef;
-    border-bottom: 1px solid #181f29; background: #0c1118;
-  }
-  .tactical-table tbody tr:nth-child(even) td { background: #0e141c; }
-  .tactical-table tbody tr:last-child td { border-bottom: 0; }
-  .tactical-table tbody tr:hover td { background: #161e28; }
-
-  /* ── alerts / success / info ── */
-  .stAlert {
-    background: #0e131b; border-color: var(--border);
-    color: var(--text); border-radius: 3px; font-size: 0.82rem;
-  }
-  .stSuccess { background: rgba(71,201,126,0.07); border-color: var(--green); }
-  .stInfo    { background: rgba(77,163,255,0.07); border-color: var(--ct); }
-
-  /* ── sidebar ── */
-  [data-testid="stSidebar"] [data-testid="stMarkdownContainer"] p {
-    font-size: 0.82rem;
-  }
-  .sidebar-brand {
-    font: 600 0.55rem var(--mono); letter-spacing: 0.22em;
-    color: var(--dim); text-transform: uppercase;
-  }
-
-  /* ── caption ── */
-  .stCaptionContainer, [data-testid="stCaptionContainer"] {
-    color: var(--muted) !important;
-    font: 0.8rem/1.6 var(--font) !important;
-    overflow-wrap: anywhere;
-    word-break: break-word;
-  }
-
-  /* ── metrics (复盘报告首杀统计) ── */
-  [data-testid="stMetric"] {
-    background: #0c1118;
-    border: 1px solid var(--border);
-    border-radius: 3px;
-    padding: 0.7rem 0.9rem;
-  }
-  [data-testid="stMetric"] > div {
-    background: transparent !important;
-  }
-  [data-testid="stMetricLabel"] {
-    color: var(--muted) !important;
-    font: 600 0.6rem var(--mono) !important;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    padding: 0;
-  }
-  [data-testid="stMetricValue"] {
-    color: #ecf1f7 !important;
-    font: 800 1.35rem var(--mono) !important;
-    letter-spacing: -0.03em;
-    padding: 0;
-  }
-  [data-testid="stMetricDelta"] {
-    color: var(--dim) !important;
-    font: 0.68rem var(--mono) !important;
-  }
-
-  /* ── buttons (证据跳转 / 回看回合) ── */
-  .stButton button {
-    background: #111822 !important;
-    border: 1px solid var(--border) !important;
-    border-radius: 3px !important;
-    color: #c8d0da !important;
-    font: 500 0.75rem var(--font) !important;
-    padding: 0.35rem 0.7rem !important;
-    transition: all 0.12s;
-    cursor: pointer;
-  }
-  .stButton button:hover {
-    border-color: #4da3ff !important;
-    background: #172333 !important;
-    color: #e8edf4 !important;
-  }
-  .stButton button:active {
-    border-color: #3b82f6 !important;
-    background: #1e2d42 !important;
-  }
-  /* 证据折叠区内的按钮更紧凑 */
-  div[data-testid="stExpander"] .stButton button {
-    font-size: 0.7rem !important;
-    padding: 0.25rem 0.5rem !important;
-  }
-
-  /* ── tactical-finding 卡片 ── */
-  .tactical-finding {
-    background: #0c1118;
-    border: 1px solid var(--border);
-    border-left: 3px solid #475569;
-    border-radius: 0 3px 3px 0;
-    padding: 0.8rem 1rem;
-    margin: 0.45rem 0;
-  }
-  .finding-kicker {
-    color: var(--dim);
-    font: 600 0.55rem var(--mono);
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    margin-bottom: 0.15rem;
-  }
-  .finding-title {
-    color: #ecf1f7;
-    font-weight: 700;
-    font-size: 0.95rem;
-    margin-bottom: 0.2rem;
-  }
-  .finding-summary {
-    color: #ccd3dc;
-    font-size: 0.82rem;
-    line-height: 1.5;
-  }
-  .finding-sample {
-    color: var(--dim);
-    font: 0.7rem var(--mono);
-    margin-top: 0.3rem;
-  }
-
-  /* ── scope / boundary 右侧卡片 ── */
-  .scope-card {
-    background: #0c1118;
-    border: 1px solid var(--border);
-    border-radius: 3px;
-    padding: 1rem 1.1rem;
-  }
-  .scope-card h2 {
-    font-size: 0.95rem;
-    font-weight: 700;
-    color: #ecf1f7;
-    margin-bottom: 0.6rem;
-  }
-
-  /* ── expander (证据折叠区) ── */
-  div[data-testid="stExpander"] {
-    border-color: var(--border) !important;
-    background: transparent !important;
-  }
-  div[data-testid="stExpander"] > div[data-testid="stExpander"] > div:first-child {
-    background: #0e131b !important;
-    border-radius: 3px !important;
-  }
-  div[data-testid="stExpander"] span {
-    color: var(--text) !important;
-    font-size: 0.82rem;
-  }
-
-  /* ── 多场样本筛选控件与页面一致 ── */
-  .st-key-series_match_filter [data-baseweb="select"] > div {
-    background: #0b0f14 !important;
-    border-color: var(--border) !important;
-    min-height: 32px !important;
-  }
-  .st-key-series_match_filter label {
-    font-size: 0.8rem !important;
-    font-weight: 500 !important;
-    color: #aeb9c8 !important;
-  }
-
-  /* ── prevent horizontal overflow ── */
-  .block-container {
-    overflow-x: hidden;
-  }
-  .stPlotlyChart, [data-testid="stDataFrame"], .tactical-table-wrap {
-    max-width: 100%;
-  }
-  .tactical-table td, .tactical-table th {
-    white-space: normal;
-    word-break: break-word;
-    overflow-wrap: anywhere;
-  }
-
-  /* ── 多场样本摘要统计卡 ── */
-  .series-summary {
-    display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem;
-    background: #0c1118;
-    border: 1px solid var(--border);
-    border-left: 3px solid var(--border2);
-    border-radius: 0 3px 3px 0;
-    padding: 0.7rem 1.2rem;
-    margin: 0.5rem 0 1.2rem;
-    align-items: baseline;
-  }
-  .series-summary .stat {
-    display: flex; align-items: baseline; gap: 0.35rem;
-  }
-  .series-summary .stat-value {
-    color: #ecf1f7;
-    font: 800 1.15rem var(--mono);
-    letter-spacing: -0.02em;
-  }
-  .series-summary .stat-label {
-    color: #aeb9c8;
-    font: 600 0.78rem/1.45 var(--font);
-    letter-spacing: 0;
-  }
-  .series-summary .stat-divider {
-    color: var(--border);
-    font: 0.62rem var(--mono);
-    user-select: none;
-  }
-
-  /* ── 系列证据摘要卡片 ── */
-  .series-summary-card {
-    display: flex; flex-wrap: wrap; gap: 0.4rem 0.8rem;
-    align-items: baseline;
-    background: #0c1118;
-    border: 1px solid var(--border);
-    border-left: 3px solid #475569;
-    border-radius: 0 3px 3px 0;
-    padding: 0.7rem 1rem;
-    margin: 0.3rem 0 0.5rem;
-  }
-  .series-summary-card .ss-item {
-    display: flex; align-items: baseline; gap: 0.3rem;
-  }
-  .series-summary-card .ss-value {
-    color: #ecf1f7;
-    font: 800 1.05rem var(--mono);
-    letter-spacing: -0.02em;
-  }
-  .series-summary-card .ss-label {
-    color: #aeb9c8;
-    font: 600 0.78rem/1.45 var(--font);
-    letter-spacing: 0;
-  }
-  .series-summary-card .ss-note {
-    width: 100%;
-    color: #ccd3dc;
-    font-size: 0.82rem;
-    line-height: 1.4;
-    padding-top: 0.25rem;
-    margin-top: 0.15rem;
-    border-top: 1px solid var(--border);
-  }
-  .series-summary-card .ss-top-label {
-    color: #aeb9c8;
-    font: 600 0.78rem/1.45 var(--font);
-    letter-spacing: 0;
-  }
-
-  /* ── 筛选摘要行 ── */
-  .filter-summary {
-    color: #d5dee9;
-    font: 600 0.84rem/1.5 var(--font);
-    padding: 0.42rem 0 0.36rem;
-    letter-spacing: 0.02em;
-  }
-
-  /* ── 区块分隔线 ── */
-  .section-divider {
-    border: none; height: 1px;
-    background: var(--border);
-    margin: 1.4rem 0 1rem;
-  }
-
-  /* ── responsive fine-tune ── */
-  @media (max-width: 1200px) {
-    .block-container { padding-left: 1rem; padding-right: 1rem; }
-    .team-block { padding: 0.6rem 0.8rem; }
-    .team-score-num { font-size: 1.9rem; }
-    .match-badge { padding: 0.35rem 0.8rem; }
-  }
-  @media (max-width: 1100px) {
-    .st-key-checkpoint_maps [data-testid="stHorizontalBlock"] {
-      flex-wrap: wrap;
-      align-items: flex-start;
-    }
-    .st-key-checkpoint_maps [data-testid="column"] {
-      flex: 0 1 calc(50% - 0.5rem) !important;
-      min-width: 290px;
-    }
-  }
-  /* ── V3 跨队比较 ── */
-  .v3-status-card {
-    background: #0c1118;
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    padding: 1rem 1.2rem;
-    margin: 0.75rem 0;
-  }
-  .v3-status-card .v3-team-row {
-    display: flex; align-items: baseline; gap: 0.6rem;
-    padding: 0.35rem 0;
-    font-size: 0.85rem;
-  }
-  .v3-status-card .v3-team-name {
-    font-weight: 600; min-width: 6rem; color: var(--text);
-  }
-  .v3-status-card .v3-status-ok {
-    color: var(--green);
-  }
-  .v3-status-card .v3-status-pending {
-    color: var(--t);
-  }
-  .v3-status-card .v3-status-missing {
-    color: var(--kill);
-  }
-  .v3-threshold-box {
-    background: #131a24;
-    border: 1px dashed var(--border2);
-    border-radius: 3px;
-    padding: 0.75rem 1rem;
-    margin: 0.75rem 0;
-    font-size: 0.82rem;
-    line-height: 1.6;
-  }
-  .v3-threshold-box .v3-threshold-title {
-    font-weight: 600; color: var(--muted); margin-bottom: 0.3rem;
-  }
-  .v3-next-steps {
-    background: #131a24;
-    border-left: 3px solid var(--t);
-    border-radius: 2px;
-    padding: 0.7rem 1rem;
-    margin: 0.75rem 0;
-    font-size: 0.82rem;
-    line-height: 1.6;
-  }
-  /* ── V3 占比差颜色 ── */
-  .v3-delta-pos { color: var(--green); font-weight: 600; }
-  .v3-delta-neg { color: var(--kill); font-weight: 600; }
-  .v3-delta-zero { color: var(--muted); }
-  /* ── V3 证据选择预览 ── */
-  .v3-evidence-preview {
-    background: #0c1118;
-    border: 1px solid var(--border);
-    border-radius: 3px;
-    padding: 0.6rem 0.9rem;
-    margin: 0.4rem 0 0.6rem;
-    font-size: 0.82rem;
-    line-height: 1.5;
-  }
-  .v3-evidence-preview .v3-ev-label {
-    color: var(--dim); font-size: 0.72rem;
-  }
-  /* ── V3 窄屏适配 ── */
-  @media (max-width: 860px) {
-    .v3-status-card .v3-team-row {
-      flex-wrap: wrap; gap: 0.3rem;
-    }
-    .v3-status-card .v3-team-name {
-      min-width: 4rem;
-    }
-  }
-  @media (max-width: 720px) {
-    .st-key-checkpoint_maps [data-testid="column"] {
-      flex: 1 1 100% !important;
-      min-width: 0;
-    }
-    /* V3 表格在窄屏下启用水平滚动 */
-    .tactical-table-wrap {
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-    }
-    /* V3 摘要指标两列堆叠 */
-    [data-testid="column"] .stMetric {
-      padding: 0.3rem 0;
-    }
-  }
-</style>
-""",
+    f"<style>{(BASE_DIR / 'assets' / 'theme.css').read_text(encoding='utf-8')}</style>",
     unsafe_allow_html=True,
 )
 
@@ -1426,45 +569,52 @@ def round_playback_html(
 <meta charset="utf-8">
 <style>
   * { box-sizing: border-box; }
-  html, body { margin: 0; background: #080b0f; color: #e1e7ef; font-family: Inter, "Microsoft YaHei", sans-serif; overflow-x: hidden; overflow-y: auto; }
+  html, body { margin: 0; background: #05080d; color: #e9eff7; font-family: Inter, "Microsoft YaHei", sans-serif; overflow-x: hidden; overflow-y: auto; }
+  ::selection { background: rgba(86,226,164,.28); color: #f2fbf6; }
+  * { scrollbar-width: thin; scrollbar-color: #2b3646 transparent; }
   .shell { width: 100%; padding: 0; }
   .replay-grid { display: grid; grid-template-columns: minmax(0, 650px); grid-template-areas: 'map'; justify-content: center; width: 100%; margin: 0 auto; }
-  .stage { grid-area: map; position: relative; width: 100%; aspect-ratio: 1; margin: 0; background: #0d1118; border: 1px solid #1c2330; }
+  .stage { grid-area: map; position: relative; width: 100%; aspect-ratio: 1; margin: 0; background: #0c121b; border: 1px solid rgba(151,173,203,.16); border-radius: 12px; overflow: hidden; box-shadow: 0 24px 60px -18px rgba(0,0,0,.55), inset 0 1px 0 rgba(255,255,255,.03); }
+  .stage::before { content: ''; position: absolute; inset: 0 0 auto 0; height: 1px; background: linear-gradient(90deg, rgba(86,226,164,.5), rgba(77,163,255,.2) 45%, transparent 78%); z-index: 2; pointer-events: none; }
   canvas { display: block; width: 100%; height: 100%; }
-  .badge { position: absolute; top: 10px; left: 10px; padding: 5px 8px; background: rgba(8,11,15,.86); border: 1px solid #293040; color: #d9e1ea; font: 600 11px ui-monospace, Consolas, monospace; }
-  .controls { display: grid; grid-template-columns: auto auto minmax(0,1fr); align-items: center; gap: 8px; width: min(100%, 650px); margin: 8px auto 0; }
-  button { height: 34px; padding: 0 12px; border: 1px solid #293040; border-radius: 3px; background: #111822; color: #e1e7ef; font-weight: 650; cursor: pointer; }
-  button:hover, button.active { border-color: #4da3ff; background: #172333; }
+  .badge { position: absolute; top: 10px; left: 10px; padding: 5px 9px; background: rgba(5,8,13,.88); border: 1px solid rgba(151,173,203,.22); border-radius: 5px; color: #dbe3ec; font: 600 11px ui-monospace, Consolas, monospace; font-variant-numeric: tabular-nums; backdrop-filter: blur(6px); }
+  .controls { display: grid; grid-template-columns: auto auto minmax(0,1fr); align-items: center; gap: 8px; width: min(100%, 650px); margin: 10px auto 0; }
+  button { height: 34px; padding: 0 13px; border: 1px solid rgba(151,173,203,.22); border-radius: 7px; background: linear-gradient(180deg,#131f2b,#0e1721); color: #e9eff7; font-weight: 650; cursor: pointer; transition: border-color .14s ease, background .14s ease, transform .14s ease; }
+  button:hover { transform: translateY(-1px); }
+  button:hover, button.active { border-color: rgba(86,226,164,.55); background: linear-gradient(180deg,#182733,#12202b); }
+  button.active { box-shadow: 0 0 0 1px rgba(86,226,164,.18) inset; }
   .speeds { display: flex; gap: 4px; }
   .speeds button { padding: 0 9px; color: #8f9bad; font: 600 11px ui-monospace, Consolas, monospace; }
+  .speeds button.active { color: #d9f5e7; }
   .timeline-panel { min-width: 0; }
   .timeline-track { position: relative; height: 22px; display: flex; align-items: center; }
-  input[type=range] { position: relative; z-index: 2; width: 100%; height: 6px; margin: 0; appearance: none; border-radius: 999px; background: linear-gradient(to right,#4da3ff 0%,#4da3ff 0%,#293040 0%,#293040 100%); cursor: pointer; }
-  input[type=range]::-webkit-slider-thumb { appearance: none; width: 14px; height: 14px; border-radius: 50%; border: 2px solid #dbe8f5; background: #4da3ff; box-shadow: 0 0 0 3px rgba(77,163,255,.16); }
+  input[type=range] { position: relative; z-index: 2; width: 100%; height: 6px; margin: 0; appearance: none; border-radius: 999px; background: linear-gradient(to right,#56e2a4 0%,#56e2a4 0%,#28313f 0%,#28313f 100%); cursor: pointer; }
+  input[type=range]::-webkit-slider-thumb { appearance: none; width: 14px; height: 14px; border-radius: 50%; border: 2px solid #e4f6ec; background: #56e2a4; box-shadow: 0 0 0 4px rgba(86,226,164,.16); }
   .markers { position: absolute; z-index: 3; left: 7px; right: 7px; top: 0; height: 6px; pointer-events: none; }
-  .marker { position: absolute; width: 5px; height: 5px; padding: 0; min-width: 0; border: 0; border-radius: 50%; transform: translateX(-50%); pointer-events: auto; }
+  .marker { position: absolute; width: 5px; height: 5px; padding: 0; min-width: 0; border: 0; border-radius: 50%; transform: translateX(-50%); pointer-events: auto; transition: transform .12s ease; }
   .marker.kill { background: #ff5f65; box-shadow: 0 0 0 2px rgba(255,95,101,.16); }
   .marker.utility { background: #f0aa3c; box-shadow: 0 0 0 2px rgba(240,170,60,.13); }
   .marker.kill:hover { background: #ff5f65; transform: translateX(-50%) scale(1.6); }
   .marker.utility:hover { background: #f0aa3c; transform: translateX(-50%) scale(1.6); }
-  .timeline-meta { display: flex; align-items: center; justify-content: space-between; margin-top: 2px; gap: 12px; font-family: ui-monospace,Consolas,monospace; }
+  .timeline-meta { display: flex; align-items: center; justify-content: space-between; margin-top: 3px; gap: 12px; font-family: ui-monospace,Consolas,monospace; font-variant-numeric: tabular-nums; }
   .video-time { color: #eef4fb; font-size: 12px; font-weight: 750; white-space: nowrap; }
   .video-time .total { color: #78869a; font-weight: 600; }
   .clock { color: #9eabbc; font-size: 11px; font-weight: 700; white-space: nowrap; }
-  .hint { width: min(100%, 650px); margin: 7px auto 0; color: #596779; font: 10px ui-monospace, Consolas, monospace; text-align: right; }
+  .hint { width: min(100%, 650px); margin: 8px auto 0; color: #596779; font: 10px ui-monospace, Consolas, monospace; text-align: right; }
 
   /* Dynamic OB HUD — use the otherwise-empty flanks as readable equipment cards. */
-  .hud-col { display: none; flex-direction: column; min-width: 0; }
+  .hud-col { display: none; flex-direction: column; min-width: 0; border-radius: 10px; overflow: hidden; border: 1px solid rgba(151,173,203,.12); box-shadow: 0 18px 46px -18px rgba(0,0,0,.5); }
   .replay-grid.hud-visible { grid-template-columns: minmax(250px,.86fr) minmax(460px,700px) minmax(250px,.86fr); grid-template-areas: 't map ct'; gap: 14px; width: min(100%, 1360px); align-items: stretch; }
   .replay-grid.hud-visible .hud-col { display: flex; }
   .hud-col.t { grid-area: t; }
   .hud-col.ct { grid-area: ct; }
   .hud-col.t { border-left: 3px solid #f0aa3c; }
   .hud-col.ct { border-right: 3px solid #4da3ff; }
-  .hud-col-header { font: 700 0.68rem ui-monospace,Consolas,monospace; letter-spacing: 0.16em; text-transform: uppercase; padding: 8px 11px; color: #c5d0de; background: #0c1118; border-bottom: 1px solid #293040; }
-  .hud-col.ct .hud-col-header { text-align: right; }
-  .hud-player { display: flex; flex-direction: column; gap: 4px; padding: 8px 11px; border-bottom: 1px solid #202937; min-height: 66px; justify-content: center; background: linear-gradient(90deg,rgba(19,27,38,.9),rgba(12,17,24,.72)); }
-  .hud-col.ct .hud-player { background: linear-gradient(270deg,rgba(19,27,38,.9),rgba(12,17,24,.72)); }
+  .hud-col-header { font: 700 0.68rem ui-monospace,Consolas,monospace; letter-spacing: 0.16em; text-transform: uppercase; padding: 9px 12px; color: #c8d3e0; background: rgba(10,16,24,.95); border-bottom: 1px solid rgba(151,173,203,.16); }
+  .hud-col.t .hud-col-header { color: #ffd48f; }
+  .hud-col.ct .hud-col-header { text-align: right; color: #a9d1ff; }
+  .hud-player { display: flex; flex-direction: column; gap: 4px; padding: 8px 12px; border-bottom: 1px solid rgba(151,173,203,.08); min-height: 66px; justify-content: center; background: linear-gradient(90deg,rgba(18,26,37,.92),rgba(11,16,23,.75)); transition: background .2s ease; }
+  .hud-col.ct .hud-player { background: linear-gradient(270deg,rgba(18,26,37,.92),rgba(11,16,23,.75)); }
   .hud-player:last-child { border-bottom: none; }
   .hud-row1 { display: flex; align-items: center; gap: 9px; min-height: 1.35rem; }
   .hud-row2 { display: flex; align-items: center; gap: 5px; min-height: 1.35rem; flex-wrap: wrap; }
@@ -2275,6 +1425,70 @@ if data_loaded:
     score_a, score_b = int(final_round.team_a_score), int(final_round.team_b_score)
     winner = data.team_a if score_a > score_b else data.team_b
 
+# Resolve the initial workspace scope before rendering the sidebar.  Without
+# this pass the sidebar shows "? · 未选择 vs 未选择" while the main view has
+# already selected its default Mirage/Falcons/Spirit comparison.
+if is_workspace:
+    _workspace_profiles = list(available_research_profiles())
+    _workspace_maps = sorted(
+        map_name
+        for map_name in {str(profile["map"]) for profile in _workspace_profiles}
+        if len({
+            _research_team_key(profile["team"])
+            for profile in _workspace_profiles
+            if profile["map"] == map_name
+        }) >= 2
+    )
+    if _workspace_maps:
+        _workspace_default_map = (
+            "de_mirage" if "de_mirage" in _workspace_maps else _workspace_maps[0]
+        )
+        if st.session_state.get("research_map") not in _workspace_maps:
+            st.session_state["research_map"] = _workspace_default_map
+        _workspace_map_profiles = [
+            profile
+            for profile in _workspace_profiles
+            if profile["map"] == st.session_state["research_map"]
+        ]
+        _workspace_profile_ids = [
+            str(profile["id"]) for profile in _workspace_map_profiles
+        ]
+        _workspace_default_a = next(
+            (
+                str(profile["id"])
+                for profile in _workspace_map_profiles
+                if _research_team_key(profile["team"]) == "falcons"
+            ),
+            _workspace_profile_ids[0],
+        )
+        if st.session_state.get("research_team_a") not in _workspace_profile_ids:
+            st.session_state["research_team_a"] = _workspace_default_a
+        _workspace_selected_a = next(
+            profile
+            for profile in _workspace_map_profiles
+            if str(profile["id"]) == str(st.session_state["research_team_a"])
+        )
+        _workspace_candidates_b = [
+            profile
+            for profile in _workspace_map_profiles
+            if _research_team_key(profile["team"])
+            != _research_team_key(_workspace_selected_a["team"])
+        ]
+        if _workspace_candidates_b:
+            _workspace_candidate_b_ids = [
+                str(profile["id"]) for profile in _workspace_candidates_b
+            ]
+            _workspace_default_b = next(
+                (
+                    str(profile["id"])
+                    for profile in _workspace_candidates_b
+                    if _research_team_key(profile["team"]) == "spirit"
+                ),
+                _workspace_candidate_b_ids[0],
+            )
+            if st.session_state.get("research_team_b") not in _workspace_candidate_b_ids:
+                st.session_state["research_team_b"] = _workspace_default_b
+
 # ── 侧边栏 ──
 with st.sidebar:
     st.markdown(
@@ -2346,6 +1560,16 @@ with st.sidebar:
             )
 
 # ── 头部 / 比分 ──
+
+st.markdown(
+    """
+    <div class="product-rail">
+      <span><span class="rail-index">CTL / 04</span>&nbsp;&nbsp; COUNTER-STRIKE TACTICAL INTELLIGENCE</span>
+      <span class="rail-status">LOCAL CORPUS ONLINE</span>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
 
 # ── 头部 / 比分 ──
 if is_workspace:
@@ -3648,12 +2872,72 @@ elif screen == "单场工具" and tool == "多场样本":
 # 页面 5 — 研究工作台（V3 跨队比较）
 # ════════════════════════════════════════════════════════════════════
 elif screen == "研究工作台":
+    research_profiles = list(available_research_profiles())
+    research_map_count = len({
+        map_name
+        for map_name in {str(profile["map"]) for profile in research_profiles}
+        if len({
+            _research_team_key(profile["team"])
+            for profile in research_profiles
+            if profile["map"] == map_name
+        }) >= 2
+    })
+    research_team_count = len({_research_team_key(profile["team"]) for profile in research_profiles})
     st.markdown(
         '<div class="section-label">RESEARCH WORKSPACE · 同图跨队接触前结构比较</div>',
         unsafe_allow_html=True,
     )
-    st.markdown("## 比较范围")
-    research_profiles = list(available_research_profiles())
+    st.markdown(
+        f"""
+        <div class="workspace-command">
+          <div class="workspace-command-copy">
+            <div class="workspace-command-index">RESEARCH COMMAND / V4.1</div>
+            <div class="workspace-command-title">先发现差异，再回到具体回合验证。</div>
+            <div class="workspace-command-summary">
+              将同一地图、相同阵营与经济状态下的接触前结构放到同一口径中比较。
+              这里不猜战术意图，只把重复格局、样本覆盖和可回放证据组织成一条审计路径。
+            </div>
+            <div class="workspace-command-flow">
+              <span class="flow-node">选择范围</span><span class="flow-arrow">→</span>
+              <span class="flow-node">识别差异</span><span class="flow-arrow">→</span>
+              <span class="flow-node">检查样本</span><span class="flow-arrow">→</span>
+              <span class="flow-node">回放证据</span>
+            </div>
+          </div>
+          <div class="workspace-command-stats">
+            <div class="workspace-command-stat">
+              <span class="stat-name">Verified series</span>
+              <span class="stat-number">{len(research_profiles)}</span>
+            </div>
+            <div class="workspace-command-stat">
+              <span class="stat-name">Teams in corpus</span>
+              <span class="stat-number">{research_team_count}</span>
+            </div>
+            <div class="workspace-command-stat is-live">
+              <span class="stat-name">Comparable maps</span>
+              <span class="stat-number">{research_map_count}</span>
+            </div>
+          </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+    st.markdown(
+        '<div class="workspace-step"><span class="step-no">01</span><span>Define comparison scope</span></div>',
+        unsafe_allow_html=True,
+    )
+    st.markdown(
+        """
+        <div class="workspace-scope-label">
+          <div>
+            <div class="scope-title">构建比较</div>
+            <div class="scope-copy">固定地图与双方阵容期，再选择阵营和经济状态。</div>
+          </div>
+          <div class="scope-state">verified local series</div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
     research_ready = len(research_profiles) >= 2
     selected_profile_a: dict[str, str | int] | None = None
     selected_profile_b: dict[str, str | int] | None = None
@@ -3731,35 +3015,16 @@ elif screen == "研究工作台":
             with scope_team_b:
                 st.caption("该地图暂无第二份可比较 series")
 
-    if research_ready and selected_profile_a and selected_profile_b:
-        st.markdown(
-            f'<div class="series-summary">'
-            f'<span class="stat"><span class="stat-value">{html.escape(str(selected_profile_a["team"]))}</span>'
-            f'<span class="stat-label"> {int(selected_profile_a["match_count"])} 场 · {int(selected_profile_a["eligible_samples"])} 个有效样本'
-            f'{(" · " + _COVERAGE_TIER_LABELS.get(str(selected_profile_a.get("coverage_tier", "")), "")) if selected_profile_a.get("coverage_tier") else ""}</span></span>'
-            f'<span class="stat-divider">vs</span>'
-            f'<span class="stat"><span class="stat-value">{html.escape(str(selected_profile_b["team"]))}</span>'
-            f'<span class="stat-label"> {int(selected_profile_b["match_count"])} 场 · {int(selected_profile_b["eligible_samples"])} 个有效样本'
-            f'{(" · " + _COVERAGE_TIER_LABELS.get(str(selected_profile_b.get("coverage_tier", "")), "")) if selected_profile_b.get("coverage_tier") else ""}</span></span>'
-            f'<span class="stat-divider">|</span>'
-            f'<span class="stat"><span class="stat-value">{html.escape(str(selected_profile_a["map"]).replace("de_", "").title())}</span>'
-            f'<span class="stat-label"> 当前地图</span></span>'
-            f'</div>',
-            unsafe_allow_html=True,
-        )
-        st.caption(
-            "比较只在同一张地图、相同阵营和接触前取样口径下进行。"
-            "队伍与阵容期来自本地已验证的 series；新增队伍或地图后才会自动成为可选范围。"
-        )
-
-    side = st.radio("查看阵营", ["T", "CT"], horizontal=True, key="v3_side")
-
+    filter_side, filter_economy = st.columns([0.7, 1.3], gap="medium")
+    with filter_side:
+        side = st.radio("查看阵营", ["T", "CT"], horizontal=True, key="v3_side")
     # ── 经济状态筛选（只影响当前选中的两份 series） ──
-    economy_filter = st.selectbox(
-        "经济状态",
-        ECONOMY_FILTER_OPTIONS,
-        key=f"v3_economy_{side}",
-    )
+    with filter_economy:
+        economy_filter = st.selectbox(
+            "经济状态",
+            ECONOMY_FILTER_OPTIONS,
+            key=f"v3_economy_{side}",
+        )
     economy_value = _ECONOMY_TO_ENGLISH.get(economy_filter)
     obs_second = _OBSERVATION_SECONDS.get(economy_value, 20)
     st.caption(
@@ -3767,6 +3032,52 @@ elif screen == "研究工作台":
         f"当前观察秒数：{obs_second} 秒"
         f"（{economy_filter}时取样时刻为冻结后 {obs_second} 秒）。"
     )
+
+    if research_ready and selected_profile_a and selected_profile_b:
+        left_coverage = _COVERAGE_TIER_LABELS.get(
+            str(selected_profile_a.get("coverage_tier", "")),
+            "待评估",
+        )
+        right_coverage = _COVERAGE_TIER_LABELS.get(
+            str(selected_profile_b.get("coverage_tier", "")),
+            "待评估",
+        )
+        map_display = str(selected_profile_a["map"]).replace("de_", "").upper()
+        st.markdown(
+            f"""
+            <div class="workspace-duel">
+              <div class="workspace-duel-team">
+                <div class="workspace-duel-side">Team A / local series</div>
+                <div class="workspace-duel-name">{html.escape(str(selected_profile_a["team"]))}</div>
+                <div class="workspace-duel-meta">
+                  Series 总计 · <strong>{int(selected_profile_a["match_count"])} 场</strong> ·
+                  {int(selected_profile_a["eligible_samples"])} 个有效样本 ·
+                  {html.escape(left_coverage)}
+                </div>
+              </div>
+              <div class="workspace-duel-center">
+                <div class="workspace-duel-map">{html.escape(map_display)}</div>
+                <div class="workspace-duel-context side-{html.escape(side.lower())}">
+                  {html.escape(side)} side · {html.escape(economy_filter)} · {obs_second}s
+                </div>
+              </div>
+              <div class="workspace-duel-team right">
+                <div class="workspace-duel-side">Team B / local series</div>
+                <div class="workspace-duel-name">{html.escape(str(selected_profile_b["team"]))}</div>
+                <div class="workspace-duel-meta">
+                  Series 总计 · <strong>{int(selected_profile_b["match_count"])} 场</strong> ·
+                  {int(selected_profile_b["eligible_samples"])} 个有效样本 ·
+                  {html.escape(right_coverage)}
+                </div>
+              </div>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+        st.caption(
+            "比较只在同一张地图、相同阵营和接触前取样口径下进行。"
+            "队伍与阵容期来自本地已验证的 series；新增队伍或地图后才会自动成为可选范围。"
+        )
 
     if not research_ready or not selected_profile_a or not selected_profile_b:
         st.info(
@@ -3809,44 +3120,6 @@ elif screen == "研究工作台":
                     mask = mask & frame["economy_label"].eq(economy_value)
                 return int(len(frame.loc[mask]))
 
-            st.markdown("### 同口径开局结构比较")
-            st.caption(
-                f"以下只比较 {obs_second} 秒时仍未发生首次交火的有效样本。"
-                "频率是描述性分布，不表示默认战术；首次交火时间只作为同一批样本的另一项可核验指标。"
-            )
-            metric_cols = st.columns(4, gap="medium")
-            for column, team in zip(metric_cols[:2], team_samples):
-                valid = _eligible_count(team_samples[team])
-                coverage_mask = (
-                    team_samples[team]["side"].eq(side)
-                    & team_samples[team]["sample_eligible"].astype(str).str.lower().eq("true")
-                )
-                if economy_value and "economy_label" in team_samples[team].columns:
-                    coverage_mask = coverage_mask & team_samples[team]["economy_label"].eq(economy_value)
-                coverage = int(
-                    team_samples[team].loc[coverage_mask]["match_id"].nunique()
-                )
-                with column:
-                    st.metric(f"{team} · {side}", f"{valid} / {coverage} 场")
-                    st.caption("有效样本 / 覆盖比赛")
-            for column, team in zip(metric_cols[2:], team_samples):
-                contact_mask = (
-                    team_samples[team]["side"].eq(side)
-                    & team_samples[team]["sample_eligible"].astype(str).str.lower().eq("true")
-                )
-                if economy_value and "economy_label" in team_samples[team].columns:
-                    contact_mask = contact_mask & team_samples[team]["economy_label"].eq(economy_value)
-                weighted_contact = pd.to_numeric(
-                    team_samples[team].loc[contact_mask]["contact_second"],
-                    errors="coerce",
-                ).dropna()
-                with column:
-                    st.metric(
-                        f"{team} 首次交火中位",
-                        f"{weighted_contact.median():.1f}s" if not weighted_contact.empty else "—",
-                    )
-                    st.caption("有效样本内的接触时间")
-
             team_names = list(team_samples)
             left_team, right_team = team_names[0], team_names[1]
             left_prefix = left_team.lower().replace(" ", "_")
@@ -3859,9 +3132,115 @@ elif screen == "研究工作台":
             right_share_key = f"{right_prefix}_sample_share"
             comparison = compare_opening_profiles(team_samples, side, economy=economy_value)
             obs_label = _obs_label(economy_value)
+
+            valid_stats: dict[str, int] = {}
+            coverage_stats: dict[str, int] = {}
+            contact_stats: dict[str, str] = {}
+            for team in team_samples:
+                valid_stats[team] = _eligible_count(team_samples[team])
+                coverage_mask = (
+                    team_samples[team]["side"].eq(side)
+                    & team_samples[team]["sample_eligible"].astype(str).str.lower().eq("true")
+                )
+                if economy_value and "economy_label" in team_samples[team].columns:
+                    coverage_mask = coverage_mask & team_samples[team]["economy_label"].eq(economy_value)
+                coverage_stats[team] = int(
+                    team_samples[team].loc[coverage_mask]["match_id"].nunique()
+                )
+                weighted_contact = pd.to_numeric(
+                    team_samples[team].loc[coverage_mask]["contact_second"],
+                    errors="coerce",
+                ).dropna()
+                contact_stats[team] = (
+                    f"{weighted_contact.median():.1f}s"
+                    if not weighted_contact.empty
+                    else "—"
+                )
+
+            st.markdown(
+                '<div class="workspace-step"><span class="step-no">02</span><span>Read the strongest signal</span></div>',
+                unsafe_allow_html=True,
+            )
+            st.markdown("### 同口径开局结构比较")
+            st.caption(
+                f"以下只比较 {obs_second} 秒时仍未发生首次交火的有效样本。"
+                "频率是描述性分布，不表示默认战术；首次交火时间只作为同一批样本的另一项可核验指标。"
+            )
+
+            if not comparison.empty:
+                strongest_index = comparison["share_delta"].abs().idxmax()
+                strongest = comparison.loc[strongest_index]
+                strongest_delta = float(strongest["share_delta"])
+                signal_team = left_team if strongest_delta >= 0 else right_team
+                signal_value = abs(strongest_delta)
+                left_signal_share = float(strongest[left_share_key])
+                right_signal_share = float(strongest[right_share_key])
+                left_signal_count = int(strongest[left_count_key])
+                right_signal_count = int(strongest[right_count_key])
+                left_signal_matches = int(strongest[left_match_key])
+                right_signal_matches = int(strongest[right_match_key])
+                signal_formation = html.escape(str(strongest["formation"]))
+                signal_scope_warning = (
+                    "至少一侧只覆盖 1 场比赛，优先把它视为待复核线索。"
+                    if left_signal_matches <= 1 or right_signal_matches <= 1
+                    else "双方均有跨比赛覆盖，可以继续下钻到具体回合复核。"
+                )
+                st.markdown(
+                    f"""
+                    <div class="workspace-signal">
+                      <div class="workspace-signal-main">
+                        <div class="workspace-signal-kicker">Largest descriptive gap · {obs_label}</div>
+                        <div class="workspace-signal-title">
+                          {signal_formation}
+                          <span class="workspace-signal-value">{signal_value:.0%}</span>
+                        </div>
+                        <div class="workspace-signal-copy">
+                          当前样本中，{html.escape(signal_team)} 在这一结构上的占比更高。
+                          {html.escape(left_team)} 为 {left_signal_share:.0%}，
+                          {html.escape(right_team)} 为 {right_signal_share:.0%}。
+                        </div>
+                      </div>
+                      <div class="workspace-signal-note">
+                        <strong>该结构的证据覆盖</strong>
+                        {html.escape(left_team)}：{left_signal_count} 个样本 / {left_signal_matches} 场<br>
+                        {html.escape(right_team)}：{right_signal_count} 个样本 / {right_signal_matches} 场<br>
+                        {html.escape(signal_scope_warning)}
+                      </div>
+                    </div>
+                    """,
+                    unsafe_allow_html=True,
+                )
+                st.caption(
+                    "最强差异只用于决定先看哪一组证据；它不是统计显著性结论，也不直接等于战队的固定默认战术。"
+                )
+            else:
+                st.info(f"{side} 方暂无可比较的有效结构样本。")
+
+            metrics_html = (
+                '<div class="workspace-metric-grid">'
+                f'<div class="workspace-metric"><div class="workspace-metric-label">{html.escape(left_team)} · {html.escape(side)} samples</div>'
+                f'<div class="workspace-metric-value">{valid_stats[left_team]} / {coverage_stats[left_team]}</div>'
+                '<div class="workspace-metric-note">有效样本 / 覆盖比赛</div></div>'
+                f'<div class="workspace-metric"><div class="workspace-metric-label">{html.escape(right_team)} · {html.escape(side)} samples</div>'
+                f'<div class="workspace-metric-value">{valid_stats[right_team]} / {coverage_stats[right_team]}</div>'
+                '<div class="workspace-metric-note">有效样本 / 覆盖比赛</div></div>'
+                f'<div class="workspace-metric"><div class="workspace-metric-label">{html.escape(left_team)} first contact</div>'
+                f'<div class="workspace-metric-value">{html.escape(contact_stats[left_team])}</div>'
+                '<div class="workspace-metric-note">有效样本内的首次交火中位</div></div>'
+                f'<div class="workspace-metric"><div class="workspace-metric-label">{html.escape(right_team)} first contact</div>'
+                f'<div class="workspace-metric-value">{html.escape(contact_stats[right_team])}</div>'
+                '<div class="workspace-metric-note">有效样本内的首次交火中位</div></div>'
+                '</div>'
+            )
+            st.markdown(metrics_html, unsafe_allow_html=True)
+
+            st.markdown(
+                '<div class="workspace-step"><span class="step-no">03</span><span>Inspect distribution and evidence</span></div>',
+                unsafe_allow_html=True,
+            )
             st.markdown(f"### {obs_label}人数结构并列表")
             if comparison.empty:
-                st.info(f"{side} 方暂无可比较的有效结构样本。")
+                st.caption("没有可生成的结构分布表；请切换阵营、经济状态或比较队伍。")
             else:
                 table = comparison[
                     [
@@ -3930,11 +3309,23 @@ elif screen == "研究工作台":
                 )
 
             st.markdown('<hr class="section-divider">', unsafe_allow_html=True)
+            st.markdown(
+                '<div class="workspace-step"><span class="step-no">04</span><span>Return to the source round</span></div>',
+                unsafe_allow_html=True,
+            )
             st.markdown("### 回合证据索引")
             st.caption(
                 "这里把比较结果落到赛事、对手、日期和回合号。选中一条后可以载入对应的本地 bundle，回到真实回合复核。"
             )
             formation_options = ["全部结构"] + comparison["formation"].tolist()
+            default_evidence_formation = (
+                str(strongest["formation"])
+                if not comparison.empty
+                else "全部结构"
+            )
+            evidence_formation_key = f"v3_evidence_formation_{side}"
+            if st.session_state.get(evidence_formation_key) not in formation_options:
+                st.session_state[evidence_formation_key] = default_evidence_formation
             evidence_top, evidence_bottom = st.columns([1.2, 1.0], gap="medium")
             with evidence_top:
                 evidence_team = st.selectbox(
@@ -3946,7 +3337,7 @@ elif screen == "研究工作台":
                 evidence_formation = st.selectbox(
                     "证据结构",
                     formation_options,
-                    key=f"v3_evidence_formation_{side}",
+                    key=evidence_formation_key,
                 )
             evidence = comparison_evidence(
                 team_samples,
@@ -3987,22 +3378,26 @@ elif screen == "研究工作台":
                             if "economy_confidence" in src_samples.columns:
                                 evidence_display.at[idx, "economy_confidence"] = str(src_match["economy_confidence"].iloc[0])
                 display_columns = ["team", "event", "opponent", "date", "round", "side", "formation", "economy_label", "economy_confidence", "contact_second"]
-                render_dark_table(
-                    evidence_display[display_columns].rename(
-                        columns={
-                            "team": "战队",
-                            "event": "赛事",
-                            "opponent": "对手",
-                            "date": "日期",
-                            "round": "回合",
-                            "side": "阵营",
-                            "formation": f"{obs_label}人数结构",
-                            "economy_label": "经济状态",
-                            "economy_confidence": "置信度",
-                            "contact_second": "首次交火",
-                        }
+                with st.expander(
+                    f"展开完整证据索引 · {len(evidence_display)} 条",
+                    expanded=False,
+                ):
+                    render_dark_table(
+                        evidence_display[display_columns].rename(
+                            columns={
+                                "team": "战队",
+                                "event": "赛事",
+                                "opponent": "对手",
+                                "date": "日期",
+                                "round": "回合",
+                                "side": "阵营",
+                                "formation": f"{obs_label}人数结构",
+                                "economy_label": "经济状态",
+                                "economy_confidence": "置信度",
+                                "contact_second": "首次交火",
+                            }
+                        )
                     )
-                )
                 bundle_index = research_replay_bundle_index(
                     tuple(
                         str(profile["manifest"])
@@ -4089,6 +3484,6 @@ elif screen == "研究工作台":
         unsafe_allow_html=True,
     )
     st.markdown(
-        '<div class="scope-line"><span class="scope-mark">✓</span><span>经济状态筛选可用：手枪局 / 全起 / 半起 / 刚枪 / 经济局 / 混合 / 不确定</span></div>',
+        '<div class="scope-line"><span class="scope-mark">✓</span><span>当前比较筛选开放：手枪局 / 全起 / 半起 / 刚枪 / 经济局；混合与不确定标签保留在数据中，但不进入当前比较筛选</span></div>',
         unsafe_allow_html=True,
     )

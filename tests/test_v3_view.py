@@ -111,6 +111,23 @@ class TestV3DataState:
         assert "覆盖场数 " in full
         assert "样本差（F-S）" not in full
 
+    def test_strongest_signal_exposes_structure_coverage(self) -> None:
+        at = _v3_page()
+        bodies = [str(m.value) for m in at.get("markdown") if m.value]
+        full = " ".join(bodies)
+        assert "Largest descriptive gap" in full
+        assert "该结构的证据覆盖" in full
+        assert "个样本 /" in full
+
+    def test_evidence_defaults_to_strongest_structure(self) -> None:
+        at = _v3_page()
+        evidence_formation = next(
+            box
+            for box in at.get("selectbox")
+            if box.key == "v3_evidence_formation_T"
+        )
+        assert evidence_formation.value != "全部结构"
+
 
 class TestV3SideToggle:
     """T/CT toggle works without exceptions."""
@@ -169,9 +186,10 @@ class TestV3Boundary:
         bodies = [str(m.value) for m in at.get("markdown") if m.value]
         bodies.extend(str(c.value) for c in at.get("caption") if c.value)
         full = " ".join(bodies)
-        assert "经济状态筛选可用" in full, (
+        assert "当前比较筛选开放" in full, (
             "expected economy classification availability"
         )
+        assert "混合与不确定标签保留在数据中，但不进入当前比较筛选" in full
 
     def test_repeated_structure_not_default(self) -> None:
         at = _v3_page()
