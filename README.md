@@ -1,5 +1,10 @@
 # CS Tactical Lens
 
+![Python](https://img.shields.io/badge/python-3.12+-blue)
+![Tests](https://img.shields.io/badge/tests-352%20passed-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Streamlit](https://img.shields.io/badge/streamlit-1.48+-red)
+
 一个把真实 CS2 比赛 Demo 转化为**可复核的多场接触前结构比较工作台**的个人数据分析项目。支持跨队伍、跨地图的站位证据提取与回放，所有结论都能回到实际比赛回合、雷达地图与 OB 式装备 HUD 逐秒核对。
 
 V4 作品集版本已经完成：它不再是固定单场演示，而是一套经过 352 项本地测试验证的分析工作台。当前 V4.1 使用集中式 Obsidian 视觉系统统一研究工作台、回放和响应式界面。
