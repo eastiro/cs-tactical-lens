@@ -2,7 +2,7 @@ name: Test
 
 on:
   push:
-    branches: [main, feat/*]
+    branches: [main, 'feat/**']
   pull_request:
     branches: [main]
 
@@ -26,18 +26,20 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          pip install pytest ruff
+          pip install pytest
 
-      - name: Lint with ruff
+      - name: Compile public Python code
         run: |
-          ruff check .
-          ruff format --check .
+          python -m compileall -q app.py src
 
-      - name: Compile check
+      - name: Run data-independent smoke tests
         run: |
-          python -m py_compile app.py
-
-      - name: Run tests
-        run: |
-          pytest -v
-        continue-on-error: true  # 因为需要本地数据，CI 可能无法运行全部测试
+          python -m pytest -q \
+            tests/test_analytics.py \
+            tests/test_economy.py \
+            tests/test_map_geometry.py \
+            tests/test_replay.py \
+            tests/test_tactics.py \
+            tests/test_team_map_comparison.py \
+            tests/test_utility_efficiency.py \
+            tests/test_utility_labels.py

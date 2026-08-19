@@ -1,7 +1,7 @@
 # CS Tactical Lens
 
 ![Python](https://img.shields.io/badge/python-3.12+-blue)
-![Tests](https://img.shields.io/badge/tests-352%20passed-brightgreen)
+![CI](https://github.com/eastiro/cs-tactical-lens/actions/workflows/test.yml/badge.svg)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Streamlit](https://img.shields.io/badge/streamlit-1.48+-red)
 

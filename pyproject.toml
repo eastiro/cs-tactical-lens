@@ -1,28 +1,3 @@
-[project]
-name = "cs-tactical-lens"
-version = "4.1.0"
-description = "把真实 CS2 比赛 Demo 转化为可复核的多场接触前结构比较工作台"
-readme = "README.md"
-requires-python = ">=3.12"
-license = {text = "MIT"}
-authors = [
-    {name = "eastiro", email = "eastiro@users.noreply.github.com"}
-]
-dependencies = [
-    "streamlit>=1.48,<2.0",
-    "pandas>=2.2,<3.0",
-    "plotly>=6.0,<7.0",
-    "awpy>=2.0,<3.0",
-]
-
-[project.urls]
-Homepage = "https://github.com/eastiro/cs-tactical-lens"
-Repository = "https://github.com/eastiro/cs-tactical-lens"
-
-[build-system]
-requires = ["setuptools>=61.0"]
-build-backend = "setuptools.build_meta"
-
 [tool.pytest.ini_options]
 pythonpath = ["src"]
 testpaths = ["tests"]
