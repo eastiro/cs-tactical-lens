@@ -12,6 +12,8 @@ import streamlit as st
 
 from src.analytics import control_profile, control_snapshot, first_kill_summary
 from src.awpy_adapter import load_normalized_bundle
+from src.economy import ECONOMY_LABEL_ZH, ECONOMY_LABELS, classify_team_economy
+from src.loadout_timeline import loadout_payload_for_round
 from src.map_geometry import project_frame, radar_image_path
 from src.replay import (
     UTILITY_LABELS,
@@ -35,17 +37,14 @@ from src.tactics import (
     shape_timeline,
     shape_transitions,
 )
-from src.team_map_series import series_evidence_summary
 from src.team_map_comparison import (
-    comparison_evidence,
     compare_opening_profiles,
+    comparison_evidence,
     opening_profile_for_comparison,
 )
-from src.loadout_timeline import loadout_payload_for_round
-from src.economy import ECONOMY_LABELS, ECONOMY_LABEL_ZH, classify_team_economy
+from src.team_map_series import series_evidence_summary
 from src.utility_efficiency import utility_efficiency_summary, utility_outcomes
 from src.utility_labels import smoke_landing_annotations
-
 
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data" / "processed" / "furia-falcons-mirage"
@@ -112,13 +111,13 @@ def radar_uri(map_name: str) -> str:
 
 
 @st.cache_data(show_spinner=False)
-def tactical_findings(team: str):
-    return build_tactical_findings(load_match(), team)
+def tactical_findings(team: str, bundle_path: str | None = None):
+    return build_tactical_findings(load_match(bundle_path), team)
 
 
 @st.cache_data(show_spinner=False)
-def utility_outcome_data() -> pd.DataFrame:
-    return utility_outcomes(load_match())
+def utility_outcome_data(bundle_path: str | None = None) -> pd.DataFrame:
+    return utility_outcomes(load_match(bundle_path))
 
 
 _COVERAGE_TIER_LABELS = {
@@ -2312,7 +2311,7 @@ elif screen == "单场工具" and tool == "战术模式":
         "闪光助攻也只覆盖致盲后形成击杀助攻的极窄场景，不能代表闪光价值。"
         "击杀时间窗、下包关联和“使用道具回合胜率”均已删除。"
     )
-    all_utility_outcomes = utility_outcome_data()
+    all_utility_outcomes = utility_outcome_data(tool_source)
     side_utility_outcomes = all_utility_outcomes.loc[
         (all_utility_outcomes["team"] == focus_team)
         & (all_utility_outcomes["side"] == selected_side)
@@ -2436,7 +2435,7 @@ elif screen == "单场工具" and tool == "复盘报告":
                 "这是本场的条件结果：只有在本队实际拿到首杀的回合中统计转化率；"
                 "它不解释首杀之后采取了什么战术。"
             )
-        findings = tactical_findings(focus_team)
+        findings = tactical_findings(focus_team, tool_source)
         if not findings:
             st.info("本场没有足够的 T 方先拿首杀样本可汇总；请直接使用回合复盘核对具体过程。")
         for finding_index, finding in enumerate(findings):
