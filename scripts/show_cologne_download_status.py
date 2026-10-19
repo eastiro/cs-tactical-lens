@@ -6,7 +6,6 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-
 ROOT = Path(__file__).resolve().parents[1]
 STATE_PATH = ROOT / "reports" / "iem-cologne-major-2026-download-state.json"
 RAW_ROOT = ROOT / "data" / "raw" / "iem-cologne-major-2026"

@@ -16,13 +16,11 @@ from __future__ import annotations
 import argparse
 import csv
 import json
-from pathlib import Path
 import re
 import shutil
 import subprocess
-import sys
 import zipfile
-
+from pathlib import Path
 
 ARCHIVE_SUFFIXES = {".rar", ".7z", ".zip"}
 MAP_NAMES = {

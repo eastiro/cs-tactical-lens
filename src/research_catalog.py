@@ -19,7 +19,6 @@ from pathlib import Path
 
 import pandas as pd
 
-
 REQUIRED_ARTIFACTS = (
     "series_metadata.json",
     "precontact_opening_samples.csv",

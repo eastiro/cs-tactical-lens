@@ -251,7 +251,7 @@ def _build_md_report(plan: dict) -> str:
     lines.append(f"- 缺失比赛：**{s['total_missing_matches']}** 场（Astralis vs TYLOO、Legacy vs TYLOO）")
     lines.append(f"- Raw demo member：**{s['total_raw_members']}** 个")
     lines.append(f"- 去重后待解析地图样本：**{s['total_dedup_map_samples']}** 个")
-    lines.append(f"- 缺失比赛不阻塞当前第一批，待后续手动下载补充即可。\n")
+    lines.append("- 缺失比赛不阻塞当前第一批，待后续手动下载补充即可。\n")
 
     lines.append("### 分阶段明细\n")
     lines.append("| 阶段 | 注册比赛 | 去重地图样本 |")
@@ -287,7 +287,7 @@ def _build_md_report(plan: dict) -> str:
             tier_label = "标准推荐" if rec["tier"] == "standard" else "Exploratory 推荐"
             lines.append(f"### {i}. {rec['map']} — {tier_label}\n")
             lines.append(f"- **地图**：{rec['map']}")
-            lines.append(f"- **队伍**：")
+            lines.append("- **队伍**：")
             for t in rec["teams"]:
                 lines.append(f"  - {t['team']}：{t['candidate_matches']} 场候选")
             lines.append(f"- **去重比赛数**：{rec['total_unique_matches']}")
@@ -314,7 +314,7 @@ def _add_team_map_section(
 ) -> None:
     """Add a team-map coverage table section."""
     rows = coverage.get("team_map_rows", [])
-    lines.append(f"### 队伍 × 地图 覆盖表\n")
+    lines.append("### 队伍 × 地图 覆盖表\n")
     lines.append("| 队伍 | 地图 | 比赛数 | 阶段分布 |")
     lines.append("|------|------|--------|---------|")
     for row in rows:
@@ -377,7 +377,7 @@ def main() -> None:
     print(f"规划报告：{args.report}")
 
     s = plan["summary"]
-    print(f"\nIEM Cologne Major 2026 解析规划完成")
+    print("\nIEM Cologne Major 2026 解析规划完成")
     print(f"  注册比赛：{s['total_registered_matches']}")
     print(f"  去重地图样本：{s['total_dedup_map_samples']}")
     print(f"  推荐批次：{len(plan['recommended_first_cohort'])} 个")

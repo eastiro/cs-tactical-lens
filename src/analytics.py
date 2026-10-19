@@ -1,5 +1,6 @@
 """Parser-independent tactical metrics."""
 import pandas as pd
+
 from .schema import MatchData, validate_match
 
 

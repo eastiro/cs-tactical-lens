@@ -37,17 +37,13 @@ from catalog_match_archives import _find_7z  # noqa: E402
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from src.awpy_adapter import load_awpy_demo, write_normalized_bundle  # noqa: E402
-from src.schema import MatchData, validate_match  # noqa: E402
 
 # Reuse team-matching helpers from import_match_archives
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from import_match_archives import (  # noqa: E402
-    _alias,
-    TEAM_ALIASES,
-    _team_matches,
     _canonicalize_team_names,
+    _team_matches,
 )
-
 
 # ---------------------------------------------------------------------------
 # Candidate selection
@@ -231,7 +227,6 @@ def main() -> None:
             plan_match_ids = _load_plan_cohort_ids(args.plan, args.map)
         except ValueError as e:
             parser.error(str(e))
-        before = len(candidates)
         candidates = [c for c in candidates if c["match_id"] in plan_match_ids]
         blocked = [b for b in blocked if b["match_id"] in plan_match_ids]
         plan_note = f"（来源：recommended_first_cohort/{args.map}，规划 {len(plan_match_ids)} ID，候选 {len(candidates)}）"

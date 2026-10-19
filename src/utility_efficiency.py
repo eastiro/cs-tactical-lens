@@ -11,7 +11,6 @@ import pandas as pd
 
 from .schema import MatchData
 
-
 UTILITY_ALIASES = {
     "smoke": "smoke",
     "smokegrenade": "smoke",

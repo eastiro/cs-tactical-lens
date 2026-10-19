@@ -12,7 +12,6 @@ from __future__ import annotations
 import csv
 import json
 import sys
-import traceback
 from collections import Counter
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
@@ -348,9 +347,10 @@ def _find_bundle_per_map() -> dict[str, Path | None]:
 
 def section_b(report: AuditReport) -> None:
     """Section B: Replay contract (7 checks)."""
-    from src.loadout_timeline import loadout_payload_for_round  # noqa: E402
-    from src.map_geometry import load_map_metadata, radar_image_path, project_frame  # noqa: E402
     import pandas as pd
+
+    from src.loadout_timeline import loadout_payload_for_round  # noqa: E402
+    from src.map_geometry import project_frame  # noqa: E402
 
     # B1: each map has at least one readable bundle
     bundles = _find_bundle_per_map()
@@ -369,7 +369,7 @@ def section_b(report: AuditReport) -> None:
     failed_maps = [m for m, ok in readable.items() if not ok]
     report.add(
         "B", "B1",
-        f"All 7 competitive maps have a readable bundle",
+        "All 7 competitive maps have a readable bundle",
         passed=(len(missing_maps) == 0 and len(failed_maps) == 0),
         detail=f"missing maps: {missing_maps}, load failures: {failed_maps}",
         items=missing_maps + failed_maps,
@@ -482,7 +482,6 @@ def section_b(report: AuditReport) -> None:
     )
 
     # B6: radar params + 7 PNGs exist
-    from src.map_geometry import load_map_metadata, radar_image_path  # noqa: E402
     radar_issues: list[str] = []
     try:
         map_data = json.loads((Path(_PROJECT_ROOT) / "data" / "map_assets" / "map-data.json").read_text(encoding="utf-8"))
@@ -609,7 +608,6 @@ def section_c(report: AuditReport) -> None:
     # C3: single profile corruption doesn't affect others
     # (This is verified by the test suite; we check that no profile has
     # cascading errors due to missing neighbors)
-    cascading_issues: list[str] = []
     corpus_manifests = sorted(SERIES_ROOT.glob("iem-cologne-2026-*.json"))
     all_series_dirs = [m.with_suffix("") for m in corpus_manifests]
     # Check that missing files don't correlate (no systematic issue)

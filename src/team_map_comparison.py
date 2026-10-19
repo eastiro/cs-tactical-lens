@@ -12,7 +12,6 @@ from collections.abc import Iterable
 
 import pandas as pd
 
-
 PROFILE_COLUMNS = [
     "formation",
     "sample_count",

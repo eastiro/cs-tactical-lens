@@ -11,10 +11,9 @@ from __future__ import annotations
 import argparse
 import csv
 import json
-from pathlib import Path
 import re
 import unicodedata
-
+from pathlib import Path
 
 BASE_COLUMNS = [
     "team", "opponent", "event", "date", "dataset_scope", "source_file",

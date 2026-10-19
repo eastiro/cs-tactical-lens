@@ -12,7 +12,6 @@ from typing import Any
 
 import pandas as pd
 
-
 _TIMELINE_COLUMNS = [
     "round", "tick", "seconds", "player", "team", "side", "inventory",
     "current_equip_value", "armor", "has_helmet", "has_defuser", "account",

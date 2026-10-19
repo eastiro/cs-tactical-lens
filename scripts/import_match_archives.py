@@ -11,11 +11,11 @@ from __future__ import annotations
 import argparse
 import csv
 import json
-from pathlib import Path
 import re
 import subprocess
 import sys
 import tempfile
+from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from catalog_match_archives import _find_7z  # noqa: E402

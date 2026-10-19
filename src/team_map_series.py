@@ -18,7 +18,6 @@ from .economy import classify_team_economy
 from .schema import MatchData
 from .tactics import AREA_GROUP, rounds_for_side
 
-
 OPENING_COLUMNS = [
     "match_id", "opponent", "event", "date", "round", "side", "sample_second",
     "contact_second", "contact_source", "sample_eligible", "exclusion_reason",

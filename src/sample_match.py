@@ -1,7 +1,9 @@
 """A deterministic, clearly labelled synthetic match for the first UI slice."""
 
 import math
+
 import pandas as pd
+
 from .schema import MatchData
 
 TEAM_A = "Astra"

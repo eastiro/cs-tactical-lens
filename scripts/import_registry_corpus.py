@@ -34,16 +34,12 @@ from catalog_match_archives import _find_7z  # noqa: E402
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from src.awpy_adapter import load_awpy_demo, write_normalized_bundle  # noqa: E402
-from src.schema import MatchData, validate_match  # noqa: E402
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from import_match_archives import (  # noqa: E402
-    _alias,
-    TEAM_ALIASES,
-    _team_matches,
     _canonicalize_team_names,
+    _team_matches,
 )
-
 
 # ---------------------------------------------------------------------------
 # Candidate enumeration
@@ -230,7 +226,7 @@ def main() -> None:
     limited = ready[:args.limit] if apply_limit else ready
 
     # -- Summary
-    print(f"全量 corpus 扫描完成")
+    print("全量 corpus 扫描完成")
     print(f"  Registered 比赛：{sum(1 for r in registry['records'] if r.get('status') == 'registered')}")
     print(f"  Ready（单 member）：{len(ready)}")
     print(f"  Segmented blocked：{len(segmented)}")
@@ -262,7 +258,7 @@ def main() -> None:
         lines: list[str] = []
         lines.append("# IEM Cologne Major 2026 — Corpus Dry-run 报告\n")
         lines.append(f"> 生成时间：{datetime.now(timezone.utc).isoformat()}\n")
-        lines.append(f"## 概览\n")
+        lines.append("## 概览\n")
         lines.append(f"- Registered 比赛：{sum(1 for r in registry['records'] if r.get('status') == 'registered')}")
         lines.append(f"- Ready（单 member，可导入）：**{len(ready)}**")
         lines.append(f"- Segmented blocked：**{len(segmented)}**")

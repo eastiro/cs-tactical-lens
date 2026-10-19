@@ -17,14 +17,11 @@ from __future__ import annotations
 
 import argparse
 import json
-import re
-import shutil
 import subprocess
 import sys
 import zipfile
 from datetime import datetime, timezone
 from pathlib import Path
-
 
 # Reuse map-name helpers from the sibling catalog script.
 # Keep the import minimal so refactoring catalog_match_archives doesn't
@@ -32,7 +29,6 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from catalog_match_archives import (  # noqa: E402  # isort:skip
     ARCHIVE_SUFFIXES,
-    MAP_NAMES,
     _find_7z,
     _map_name,
     _match_slug,

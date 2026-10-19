@@ -10,7 +10,6 @@ import pandas as pd
 
 from .schema import MatchData, validate_match
 
-
 # Awpy 2.x reports 128 for this SourceTV file, but its game-state tick counter
 # advances at 64 ticks per real second. Player kinematics (roughly 220-250 u/s)
 # and smoke lifetime both independently confirm the 64 Hz gameplay timebase.

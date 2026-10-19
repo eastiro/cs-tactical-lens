@@ -13,7 +13,6 @@ import pandas as pd
 
 from .schema import MatchData
 
-
 AREA_GROUP = {
     # A approach / site
     "BombsiteA": "A",

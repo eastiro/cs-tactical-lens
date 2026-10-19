@@ -19,7 +19,6 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_SEED = ROOT / "data" / "intake-seeds" / "iem-cologne-major-2026-stage2-stage3-match-pages.json"
 DEFAULT_OUTPUT = ROOT / "data" / "raw" / "iem-cologne-major-2026"

@@ -162,8 +162,8 @@ def main() -> None:
     validated = [r for r in results if r.get("status") == "parsed_and_validated"]
     if not validated:
         parser.error(
-            f"import_results.csv 中没有 status=parsed_and_validated 的结果。"
-            f"请先运行导入器。"
+            "import_results.csv 中没有 status=parsed_and_validated 的结果。"
+            "请先运行导入器。"
         )
 
     created = _build_manifests(registry, results, args.map, args.output_dir)

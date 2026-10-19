@@ -6,7 +6,7 @@ import json
 from dataclasses import dataclass
 from pathlib import Path
 
-from .research_catalog import ResearchProfile, discover_research_profiles, evidence_bundle_index
+from .research_catalog import discover_research_profiles, evidence_bundle_index
 
 
 @dataclass(frozen=True)

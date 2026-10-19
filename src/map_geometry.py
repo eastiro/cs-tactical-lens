@@ -7,7 +7,6 @@ from pathlib import Path
 
 import pandas as pd
 
-
 ASSET_DIR = Path(__file__).resolve().parents[1] / "data" / "map_assets"
 
 

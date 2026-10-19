@@ -396,7 +396,7 @@ def main() -> None:
     print(f"Markdown 已输出：{args.markdown}")
 
     # Console summary
-    print(f"\nRaw Corpus 索引完成")
+    print("\nRaw Corpus 索引完成")
     print(f"  赛事数：{len(aggregates['events'])}")
     print(f"  Archive 数：{aggregates['total_archives']}")
     print(f"  Demo member 数：{aggregates['total_members']}")

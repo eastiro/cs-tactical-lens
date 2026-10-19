@@ -14,7 +14,6 @@ import pandas as pd
 from .schema import MatchData
 from .tactics import AREA_LABEL
 
-
 ANNOTATION_COLUMNS = [
     "grenade_id",
     "round",

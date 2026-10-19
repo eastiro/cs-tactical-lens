@@ -14,7 +14,6 @@ import plotly.graph_objects as go
 
 from .schema import MatchData
 
-
 EventKind = Literal["kill", "plant", "defuse", "detonate"]
 
 T_COLOR = "#F0AA3C"

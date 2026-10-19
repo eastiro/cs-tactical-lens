@@ -18,7 +18,6 @@ from __future__ import annotations
 import argparse
 import json
 import re
-import sys
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
@@ -240,7 +239,6 @@ def _make_registry(
         st = rec["stage"]
         if rec["status"] == "missing_archive":
             stage_stats[st]["missing"] += 1
-        st_label = st  # already mapped
 
     return {
         "event": "IEM Cologne Major 2026",
@@ -369,7 +367,7 @@ def main() -> None:
     print(f"注册表报告：{args.report}")
 
     s = registry["summary"]
-    print(f"\nIEM Cologne Major 2026 注册表完成")
+    print("\nIEM Cologne Major 2026 注册表完成")
     print(f"  总比赛：{registry['total_match_ids']}")
     print(f"  Registered：{s['registered']}")
     print(f"  Missing：{s['missing_archive']}")

@@ -6,7 +6,6 @@ import pandas as pd
 
 from .schema import MatchData
 
-
 UTILITY_LABELS = {
     "smoke": "烟雾弹",
     "flash": "闪光弹",

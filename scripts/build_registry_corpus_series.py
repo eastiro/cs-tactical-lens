@@ -17,9 +17,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
-import os
 import re
-import sys
 from collections import defaultdict
 from pathlib import Path
 
@@ -107,7 +105,6 @@ def main() -> None:
 
     # Build manifests and coverage summary
     manifest_dir = args.output_dir / "manifests"
-    series_dir = args.output_dir / "series"
     coverage_rows: list[dict] = []
 
     for (team, map_name), matches in sorted(team_map_entries.items()):
@@ -165,7 +162,7 @@ def main() -> None:
     tiers = defaultdict(int)
     for c in coverage_rows:
         tiers[c["tier"]] += 1
-    print(f"Series 构建完成")
+    print("Series 构建完成")
     print(f"  生成 manifest：{len(team_map_entries)} 个")
     print(f"  覆盖状态：standard={tiers.get('standard', 0)}, exploratory={tiers.get('exploratory', 0)}, insufficient={tiers.get('insufficient', 0)}")
     print(f"  Manifest 目录：{manifest_dir}")
