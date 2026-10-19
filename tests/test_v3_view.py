@@ -6,6 +6,7 @@ and boundary language when Spirit data is not yet available.
 
 from __future__ import annotations
 
+from conftest import requires_local_corpus
 from streamlit.testing.v1 import AppTest
 
 
@@ -70,7 +71,7 @@ class TestV3DataState:
     def test_scope_line_displayed(self) -> None:
         at = _v3_page()
         bodies = [str(m.value) for m in at.get("markdown") if m.value]
-        full = " ".join(bodies)
+        " ".join(bodies)
         selectboxes = {s.key: s for s in at.get("selectbox")}
         assert str(selectboxes["research_map"].value).startswith("de_")
         assert str(selectboxes["research_team_a"].value).startswith("iem-cologne-2026-")
@@ -199,6 +200,7 @@ class TestV3Boundary:
             "missing repeated-structure boundary"
         )
 
+    @requires_local_corpus
     def test_evidence_button_opens_local_replay_bundle(self) -> None:
         at = _v3_page()
         button = next(
@@ -230,21 +232,24 @@ class TestV3EconomyEvidencePanel:
         at.run(timeout=20)
         return at
 
+    @requires_local_corpus
     def test_economy_panel_expander_present(self) -> None:
         """Check expander exists by inspecting expander widgets."""
         at = self._v3_to_evidence_replay()
         expanders = at.get("expander")
         labels = [str(e.label) for e in expanders]
-        assert any("回合经济证据" in l for l in labels), (
+        assert any("回合经济证据" in label for label in labels), (
             f"economy expander not found among: {labels}"
         )
 
+    @requires_local_corpus
     def test_economy_panel_shows_team_classification(self) -> None:
         at = self._v3_to_evidence_replay()
         bodies = [str(m.value) for m in at.get("markdown") if m.value]
         full = " ".join(bodies)
         assert "经济标签" in full or "经济状态" in full, "no economy evidence in panel"
 
+    @requires_local_corpus
     def test_economy_panel_keeps_pistol_round_as_pistol(self) -> None:
         at = self._v3_to_evidence_replay()
         bodies = [str(m.value) for m in at.get("markdown") if m.value]
@@ -252,6 +257,7 @@ class TestV3EconomyEvidencePanel:
             "the selected first-round evidence must not be reclassified as eco"
         )
 
+    @requires_local_corpus
     def test_economy_panel_shows_player_table(self) -> None:
         at = self._v3_to_evidence_replay()
         bodies = [str(m.value) for m in at.get("markdown") if m.value]
@@ -301,6 +307,7 @@ class TestV3DynamicHUD:
         at.run(timeout=20)
         return at
 
+    @requires_local_corpus
     def test_hud_evidence_replay_no_exception(self) -> None:
         """Evidence replay page loads without exceptions (HUD is in iframe)."""
         at = self._v3_to_evidence_replay()
@@ -333,14 +340,14 @@ class TestV3FilterInteraction:
     def test_team_filter_selectbox_exists(self) -> None:
         at = self._v3_page()
         labels = [str(s.label) for s in at.get("selectbox")]
-        assert any("证据队伍" in l for l in labels), (
+        assert any("证据队伍" in label for label in labels), (
             f"team evidence filter not found among: {labels}"
         )
 
     def test_formation_filter_selectbox_exists(self) -> None:
         at = self._v3_page()
         labels = [str(s.label) for s in at.get("selectbox")]
-        assert any("证据结构" in l for l in labels), (
+        assert any("证据结构" in label for label in labels), (
             f"formation evidence filter not found among: {labels}"
         )
 
@@ -356,7 +363,7 @@ class TestV3FilterInteraction:
     def test_economy_filter_selectbox_exists(self) -> None:
         at = self._v3_page()
         labels = [str(s.label) for s in at.get("selectbox")]
-        assert any("经济状态" in l for l in labels), (
+        assert any("经济状态" in label for label in labels), (
             f"economy state filter not found among: {labels}"
         )
 
@@ -388,7 +395,7 @@ class TestV3FilterInteraction:
         at.run(timeout=10)
         bodies = [str(m.value) for m in at.get("markdown") if m.value]
         bodies.extend(str(c.value) for c in at.get("caption") if c.value)
-        full = " ".join(bodies)
+        " ".join(bodies)
         assert len(at.exception) == 0, [str(e) for e in at.exception]
 
     def test_economy_caption_disclaimer_present(self) -> None:
@@ -420,7 +427,7 @@ class TestV3EvidencePreview:
     def test_evidence_row_selector_exists(self) -> None:
         at = self._v3_page()
         labels = [str(s.label) for s in at.get("selectbox")]
-        assert any("选择一条回合证据" in l for l in labels), (
+        assert any("选择一条回合证据" in label for label in labels), (
             "evidence row selector not found"
         )
 

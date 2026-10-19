@@ -2,8 +2,8 @@
 
 from __future__ import annotations
 
-from pathlib import Path
 import sys
+from pathlib import Path
 
 import pandas as pd
 
@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 from import_match_archives import _canonicalize_team_names, _observed_team_names, _validate
+
 from src.schema import MatchData
 
 

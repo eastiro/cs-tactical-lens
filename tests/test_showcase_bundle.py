@@ -16,9 +16,8 @@ from unittest.mock import patch
 
 import pandas as pd
 import pytest
-from streamlit.testing.v1 import AppTest
-
 from helpers import load_manual_bundle
+from streamlit.testing.v1 import AppTest
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 SHOWCASE_DIR = PROJECT_ROOT / "data" / "showcase" / "furia-falcons-mirage"
@@ -34,6 +33,17 @@ pytestmark = [
         reason=f"Showcase bundle not found at {SHOWCASE_DIR}. Run scripts/build_showcase_bundle.py first.",
     ),
 ]
+
+#: Tests that compare the showcase against the *source* corpus bundle need the
+#: full local corpus, which is git-ignored.  Mark them so a clean clone reports
+#: a clear skip instead of an opaque FileNotFoundError.
+requires_source_corpus = pytest.mark.skipif(
+    not SOURCE_DIR.is_dir(),
+    reason=(
+        "需要本地完整语料（data/processed/iem-cologne-major-2026-corpus/2395002/de_mirage）。"
+        "公开仓库只附带 data/showcase 轻量包。"
+    ),
+)
 
 
 # ── Helpers ──────────────────────────────────────────────────────────
@@ -70,7 +80,9 @@ class TestGzipLoading:
 
     def test_plain_csv_preferred_over_gz(self) -> None:
         """When both .csv and .csv.gz exist, .csv is read."""
-        import tempfile, shutil
+        import shutil
+        import tempfile
+
         from src.awpy_adapter import load_normalized_bundle
         tmp = Path(tempfile.mkdtemp(prefix="csvtest_"))
         try:
@@ -101,6 +113,7 @@ class TestDataIntegrity:
         data = load_normalized_bundle(SHOWCASE_DIR)
         assert len(data.rounds) == 21, f"expected 21 rounds, got {len(data.rounds)}"
 
+    @requires_source_corpus
     def test_teams_match(self) -> None:
         meta = _showcase_metadata()
         src_meta = _source_metadata()
@@ -139,6 +152,7 @@ class TestEventTableIntegrity:
         ("loadout_events.csv", "loadout_events.csv"),
     ]
 
+    @requires_source_corpus
     @pytest.mark.parametrize("showcase_name, source_name", TABLES)
     def test_row_count_matches_source(self, showcase_name: str, source_name: str) -> None:
         def _count(path: Path) -> int:
@@ -176,6 +190,7 @@ class TestPositionSampling:
             rows = list(csv.DictReader(f))
         assert len(rows) > 0, "gzipped positions must be readable"
 
+    @requires_source_corpus
     def test_positions_significantly_reduced(self) -> None:
         with gzip.open(SHOWCASE_DIR / "positions.csv.gz", "rt", encoding="utf-8") as f:
             out_rows = list(csv.DictReader(f))
@@ -186,6 +201,7 @@ class TestPositionSampling:
             f"positions should be at least 5x compressed, got {ratio:.1f}x ({len(src_rows)} -> {len(out_rows)})"
         )
 
+    @requires_source_corpus
     def test_every_round_player_has_first_and_last(self) -> None:
         """Each round+player must have the earliest and latest tick preserved."""
         from src.awpy_adapter import load_normalized_bundle

@@ -206,7 +206,7 @@ class TestRecommendations:
         recs = p["recommended_first_cohort"]
         # Only de_dust2 has 2+ teams with >= 5 in stage-3+playoffs?
         # Let's check the coverage first
-        s3p = p["stage3_playoffs_coverage"]
+        p["stage3_playoffs_coverage"]
         # Falcons dust2 in s3p: 1001(vs G2), 1002(vs Spirit), 3001(vs Spirit) = 3
         # Spirit dust2 in s3p: 1002(vs Falcons), 1003(vs G2), 3001(vs Falcons) = 3
         # G2 dust2 in s3p: 1001(vs Falcons), 1003(vs Spirit) = 2

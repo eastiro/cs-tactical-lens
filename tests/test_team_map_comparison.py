@@ -5,8 +5,8 @@ from __future__ import annotations
 import pandas as pd
 
 from src.team_map_comparison import (
-    comparison_evidence,
     compare_opening_profiles,
+    comparison_evidence,
     opening_profile_for_comparison,
 )
 

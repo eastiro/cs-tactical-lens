@@ -1,15 +1,15 @@
 from pathlib import Path
 
 import pytest
+from conftest import requires_default_bundle
 
 from src.awpy_adapter import load_normalized_bundle
 from src.tactics import AREA_GROUP, AREA_LABEL, build_tactical_findings, opening_contact_evidence
 
-
 BUNDLE = Path("data/processed/furia-falcons-mirage")
 
 
-@pytest.mark.skipif(not (BUNDLE / "metadata.json").exists(), reason="本地真实案例尚未导入")
+@requires_default_bundle
 def test_falcons_furia_case_is_bound_to_verified_result():
     data = load_normalized_bundle(BUNDLE)
     final = data.rounds.iloc[-1]

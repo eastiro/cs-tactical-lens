@@ -14,7 +14,6 @@ from pathlib import Path
 
 import pytest
 
-
 # ── Helpers ──────────────────────────────────────────────────────────────
 
 
@@ -228,6 +227,10 @@ class TestEmptyProfiles:
 class TestAuditScriptRuns:
     """Integration: audit script runs successfully."""
 
+    @pytest.mark.skipif(
+        not (Path(__file__).resolve().parents[1] / "data" / "processed").is_dir(),
+        reason="需要本地完整语料（data/processed）；公开仓库只附带 data/showcase。",
+    )
     def test_audit_exits_zero(self) -> None:
         """Running the audit on the real corpus should pass."""
         import subprocess

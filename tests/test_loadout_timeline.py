@@ -1,5 +1,7 @@
-import pandas as pd
 from pathlib import Path
+
+import pandas as pd
+import pytest
 
 from src.awpy_adapter import load_normalized_bundle
 from src.loadout_timeline import loadout_payload_for_round, loadout_state_at, round_loadout_timeline
@@ -51,6 +53,11 @@ def test_real_falcons_bundle_exposes_a_ten_player_evidence_timeline():
         "data/processed/falcons-2026-karrigan/"
         "cs-asia-championships-2026-falcons-vs-legacy/de_mirage"
     )
+    if not (bundle / "metadata.json").is_file():
+        pytest.skip(
+            "需要本地完整语料（data/processed/falcons-2026-karrigan/…/de_mirage）。"
+            "公开仓库只附带 data/showcase 轻量包。"
+        )
     data = load_normalized_bundle(bundle)
     payload = loadout_payload_for_round(data.loadout_events, 1)
 

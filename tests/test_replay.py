@@ -1,4 +1,10 @@
-from src.replay import entry_conversion_summary, movement_trails, position_snapshot, round_utility, score_after_round
+from src.replay import (
+    entry_conversion_summary,
+    movement_trails,
+    position_snapshot,
+    round_utility,
+    score_after_round,
+)
 from src.sample_match import build_sample_match
 
 

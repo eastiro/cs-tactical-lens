@@ -1,9 +1,10 @@
 from dataclasses import replace
 from pathlib import Path
 
+from conftest import requires_default_bundle
+
 from src.awpy_adapter import load_normalized_bundle
 from src.round_timeline import RoundTimelineEvent, build_round_timeline, survivor_curves
-
 
 BUNDLE = Path("data/processed/furia-falcons-mirage")
 
@@ -29,6 +30,7 @@ def test_survivor_curves_never_go_below_zero():
     assert min(alive for _, alive in t_curve) == 0
 
 
+@requires_default_bundle
 def test_real_round_uses_explicit_bomb_events():
     data = load_normalized_bundle(BUNDLE)
     events = build_round_timeline(data, 6)
@@ -41,6 +43,7 @@ def test_real_round_uses_explicit_bomb_events():
     assert all(event.site == "B" for event in bomb_events)
 
 
+@requires_default_bundle
 def test_real_round_preserves_bomb_detonation():
     data = load_normalized_bundle(BUNDLE)
     bomb_events = [event for event in build_round_timeline(data, 15) if event.kind != "kill"]
@@ -51,6 +54,7 @@ def test_real_round_preserves_bomb_detonation():
     ]
 
 
+@requires_default_bundle
 def test_real_kill_records_both_sides():
     data = load_normalized_bundle(BUNDLE)
     first = next(event for event in build_round_timeline(data, 1) if event.kind == "kill")

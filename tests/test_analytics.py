@@ -1,3 +1,5 @@
+import pandas as pd
+
 from src.analytics import (
     build_report,
     clutch_summary,
@@ -6,9 +8,12 @@ from src.analytics import (
     first_kill_summary,
     round_progression,
 )
-from src.awpy_adapter import _normalise_loadout_events, normalise_awpy_frames, write_normalized_bundle
+from src.awpy_adapter import (
+    _normalise_loadout_events,
+    normalise_awpy_frames,
+    write_normalized_bundle,
+)
 from src.sample_match import TEAM_A, build_sample_match
-import pandas as pd
 
 
 def test_sample_score_is_a_complete_24_round_match():

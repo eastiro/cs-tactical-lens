@@ -236,7 +236,7 @@ class TestSeriesIndexFilters:
         at = self._series_page()
         # Look for a selectbox whose label is "人数结构"
         labels = [str(s.label) for s in at.get("selectbox")]
-        formation_labels = [l for l in labels if "人数结构" in l]
+        formation_labels = [label for label in labels if "人数结构" in label]
         assert len(formation_labels) >= 1, (
             f"no formation filter found among labels: {labels}"
         )
@@ -245,7 +245,7 @@ class TestSeriesIndexFilters:
         """R2: The '至少覆盖 3 场比赛' checkbox is present."""
         at = self._series_page()
         labels = [str(c.label) for c in at.get("checkbox")]
-        repeated_labels = [l for l in labels if "至少覆盖" in l]
+        repeated_labels = [label for label in labels if "至少覆盖" in label]
         assert len(repeated_labels) >= 1, (
             f"no repeated-structure checkbox found: {labels}"
         )
@@ -333,7 +333,7 @@ class TestSeriesMatchSelection:
         """The match selectbox has the label '比赛范围'."""
         at = self._series_page()
         labels = [str(s.label) for s in at.get("selectbox")]
-        match_labels = [l for l in labels if "比赛范围" in l]
+        match_labels = [label for label in labels if "比赛范围" in label]
         assert len(match_labels) >= 1, (
             f"no match-range selectbox found among: {labels}"
         )
@@ -345,7 +345,7 @@ class TestSeriesMatchSelection:
             if "比赛范围" in str(s.label):
                 options = [str(o) for o in s.options]
                 assert "全部比赛" in options, (
-                    f"'全部比赛' missing from match options"
+                    "'全部比赛' missing from match options"
                 )
                 # At least one specific match option should contain
                 # the event·opponent·date pattern

@@ -2,9 +2,13 @@
 
 from __future__ import annotations
 
+import pytest
+from conftest import requires_local_corpus
+from helpers import load_manual_bundle
 from streamlit.testing.v1 import AppTest
 
-from helpers import load_manual_bundle
+# The Mirage tactical page needs a real Mirage bundle from the local corpus.
+pytestmark = requires_local_corpus
 
 
 def _tactical_page() -> AppTest:

@@ -14,9 +14,9 @@ from pathlib import Path
 
 import pandas as pd
 import pytest
-from streamlit.testing.v1 import AppTest
-
+from conftest import requires_default_bundle, requires_local_corpus
 from helpers import load_manual_bundle
+from streamlit.testing.v1 import AppTest
 
 # ── Constants ──────────────────────────────────────────────────────────
 
@@ -145,6 +145,7 @@ class TestEmptyReplayPage:
 # ═════════════════════════════════════════════════════════════════════════
 
 
+@requires_local_corpus
 class TestManualReplayLoadsBundle:
     """R2: Manual replay path loads a real bundle and shows match data."""
 
@@ -198,6 +199,7 @@ class TestManualReplayLoadsBundle:
 # ═════════════════════════════════════════════════════════════════════════
 
 
+@requires_local_corpus
 class TestChangeMatchClearsSource:
     """R3: Clicking '更换比赛' clears the replay source."""
 
@@ -265,9 +267,10 @@ class TestManualEvidenceMutualExclusion:
         is gated: when evidence_bundle is set, the manual load section is
         hidden.  The clearing happens inside the load_manual_replay callback.
         """
-        from app import load_match  # noqa: E402
         # Direct test: verify the button callback code path
         import streamlit as st
+
+        from app import load_match  # noqa: E402
 
         st.session_state["active_replay_bundle"] = "/fake/evidence"
         st.session_state["manual_replay_bundle"] = None
@@ -286,10 +289,10 @@ class TestManualEvidenceMutualExclusion:
 
     def test_evidence_load_clears_manual(self) -> None:
         """jump_to_series_replay must clear manual_replay_bundle."""
-        from app import jump_to_series_replay  # noqa: E402
-
         # Simulate manual bundle in session
         import streamlit as st
+
+        from app import jump_to_series_replay  # noqa: E402
 
         st.session_state["manual_replay_bundle"] = "/fake/path"
         st.session_state["active_replay_bundle"] = None
@@ -304,9 +307,9 @@ class TestManualEvidenceMutualExclusion:
 
     def test_jump_to_replay_does_not_set_bundle(self) -> None:
         """jump_to_replay (from research workspace) does not set a bundle."""
-        from app import jump_to_replay  # noqa: E402
-
         import streamlit as st
+
+        from app import jump_to_replay  # noqa: E402
 
         # Clear any bundle state
         st.session_state.pop("active_replay_bundle", None)
@@ -324,6 +327,7 @@ class TestManualEvidenceMutualExclusion:
 # ═════════════════════════════════════════════════════════════════════════
 
 
+@requires_local_corpus
 class TestNonMirageMapTitles:
     """R5: Non-Mirage bundles must not show 'Mirage' in titles."""
 
@@ -342,7 +346,7 @@ class TestNonMirageMapTitles:
 
     def test_non_mirage_evidence_replay_caption_no_mirage(self) -> None:
         """Evidence replay for non-Mirage must not say Mirage."""
-        pid = _non_mirage_corpus_profile_id()
+        _non_mirage_corpus_profile_id()
         bundle_path = _non_mirage_bundle_path()
         at = _base_at()
         # Set evidence bundle via session state and navigate to replay
@@ -422,10 +426,11 @@ class TestIncludeLoadoutContract:
             "If a second call was added, both must pass include_loadout=True."
         )
 
+    @requires_default_bundle
     def test_playback_payload_include_loadout_true_has_loadout(self) -> None:
         """When include_loadout=True, the payload includes loadoutTimeline."""
-        from src.awpy_adapter import load_normalized_bundle
         from app import playback_payload
+        from src.awpy_adapter import load_normalized_bundle
 
         data = load_normalized_bundle(DATA_DIR)
         first_round = int(data.rounds["round"].iloc[0])
@@ -441,6 +446,7 @@ class TestIncludeLoadoutContract:
         if data.loadout_events is not None and not data.loadout_events.empty:
             assert payload["loadoutTimeline"]["available"] is True
 
+    @requires_default_bundle
     def test_playback_payload_include_loadout_false_no_loadout(self) -> None:
         """When include_loadout=False, loadoutTimeline is unavailable."""
         from app import playback_payload
@@ -451,15 +457,17 @@ class TestIncludeLoadoutContract:
         )
         assert payload["loadoutTimeline"]["available"] is False
 
+    @requires_default_bundle
     def test_missing_loadout_events_does_not_crash(self) -> None:
         """A bundle without loadout_events should not crash payload generation."""
-        from src.awpy_adapter import load_normalized_bundle
-        from app import playback_payload
+        import csv
 
         # Pick a bundle with no loadout_events (create a dummy one)
         import tempfile
-        import csv
         from pathlib import Path
+
+        from app import playback_payload
+        from src.awpy_adapter import load_normalized_bundle
 
         tmp = Path(tempfile.mkdtemp(prefix="no_loadout_"))
         try:
@@ -482,6 +490,7 @@ class TestIncludeLoadoutContract:
             import shutil
             shutil.rmtree(tmp, ignore_errors=True)
 
+    @requires_local_corpus
     def test_event_panel_renders_without_crash(self) -> None:
         """The event panel must render for both replay types without exceptions."""
         at = load_manual_bundle(_base_at(), timeout=30)
@@ -495,6 +504,7 @@ class TestIncludeLoadoutContract:
 # ═════════════════════════════════════════════════════════════════════════
 
 
+@requires_local_corpus
 class TestMirageTacticalBoundary:
     """R7: Mirage tactical works; non-Mirage stops with boundary message."""
 
@@ -615,7 +625,7 @@ class TestResearchTeamKey:
         profiles = available_research_profiles()
         # Find a team+map that exists in both corpus and handcrafted
         # e.g., spirit-mirage exists in both
-        corpus = {p["id"] for p in profiles if str(p["id"]).startswith("iem-cologne-2026-")}
+        {p["id"] for p in profiles if str(p["id"]).startswith("iem-cologne-2026-")}
         # If a handcrafted profile (like spirit-mirage-2026-stable) exists and
         # the corpus also has spirit-mirage, the handcrafted one should be excluded.
         handcrafted_spirit_mirage = [p for p in profiles
@@ -638,6 +648,7 @@ class TestResearchTeamKey:
 # ═════════════════════════════════════════════════════════════════════════
 
 
+@requires_local_corpus
 class TestFullReplayFlow:
     """End-to-end: workspace → evidence → replay → change match → manual."""
 
@@ -653,8 +664,9 @@ class TestFullReplayFlow:
         """Simulate the series evidence -> replay path with clear."""
         # This tests that jump_to_series_replay correctly navigates,
         # and that the replay page shows evidence caption instead of manual.
-        from app import jump_to_series_replay
         import streamlit as st
+
+        from app import jump_to_series_replay
 
         # Clear session
         for key in list(st.session_state.keys()):

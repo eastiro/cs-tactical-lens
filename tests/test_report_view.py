@@ -6,11 +6,15 @@ language and does not assert unsupported tactical conclusions.
 
 from __future__ import annotations
 
+import pytest
+from conftest import requires_local_corpus
+from helpers import with_report
 from streamlit.testing.v1 import AppTest
 
-import pytest
-
-from helpers import with_report
+# Every case below walks a real match through the report page (the ``with_report``
+# helper loads a bundle through the profile selector), so the module needs at
+# least one loadable local bundle.  A clean clone only ships the showcase pack.
+pytestmark = requires_local_corpus
 
 
 def _run() -> AppTest:
@@ -45,7 +49,7 @@ class TestReportPagePresence:
         at = _run()
         with_report(at, load_data=True)
         labels = [str(s.label) for s in at.get("selectbox")]
-        assert any("复盘对象" in l for l in labels), (
+        assert any("复盘对象" in label for label in labels), (
             "team selector not found"
         )
 

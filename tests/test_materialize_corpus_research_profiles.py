@@ -228,7 +228,7 @@ def project(_tmp_project: Path) -> Path:
     root = _tmp_project / "project"
     processed = root / "processed" / "iem-cologne-major-2026-corpus"
     series_corpus = root / "series" / "iem-cologne-major-2026-corpus"
-    series_root = root / "series"
+    root / "series"
     processed.mkdir(parents=True, exist_ok=True)
     series_corpus.mkdir(parents=True, exist_ok=True)
     return root
@@ -277,7 +277,6 @@ def _setup_standard_fixtures(
     spirit_d2_ids = ["1001", "1002", "1003", "1004", "1005"]
     spirit_mrg_ids = ["1006", "1007", "1008"]
     betboom_d2_ids = ["1001", "1002", "1003", "1009", "1010"]
-    betboom_mrg_ids = ["1006", "1007"]
 
     for mid in spirit_d2_ids:
         _create_minimal_bundle(
@@ -444,7 +443,7 @@ class TestDiscoverability:
         )
         assert r.returncode == 0, f"stderr: {r.stderr}"
 
-        from src.research_catalog import discover_research_profiles, ResearchProfile
+        from src.research_catalog import ResearchProfile, discover_research_profiles
         profiles: tuple[ResearchProfile, ...] = discover_research_profiles(series_root)
         pids = {p.profile_id for p in profiles}
 

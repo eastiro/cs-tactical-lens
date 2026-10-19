@@ -7,6 +7,7 @@ from unittest.mock import MagicMock
 import pandas as pd
 import pytest
 
+
 # ── Mock Streamlit only while importing app (restore afterwards) ──
 class _CacheData:
     """Mimics st.cache_data: both @st.cache_data and @st.cache_data(k=v)."""
@@ -27,9 +28,8 @@ from unittest.mock import patch
 with patch.dict("sys.modules", {"streamlit": _st_mock}, clear=False):
     from app import event_rows
 
-from src.sample_match import build_sample_match, PLAYERS_A, TEAM_A
+from src.sample_match import PLAYERS_A, TEAM_A, build_sample_match
 from src.schema import MatchData
-
 
 # ── Helpers ──
 
