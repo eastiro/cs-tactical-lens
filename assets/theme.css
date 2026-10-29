@@ -1110,6 +1110,20 @@ div[data-testid="stExpander"] .stButton button {
 }
 .workspace-command-stat.is-live .stat-number { color: var(--accent); }
 
+/* ── reference pass: the right rail reads as a scoreline, not a list ── */
+.workspace-command-stats { border-left: 1px solid var(--border); }
+.workspace-command-stat { padding: 1.25rem 1.4rem; }
+.workspace-command-stat .stat-name {
+  font-size: 0.56rem;
+  letter-spacing: 0.16em;
+  color: var(--dim);
+}
+.workspace-command-stat .stat-number {
+  font-size: 2.15rem;
+  letter-spacing: -0.06em;
+}
+.workspace-command-stat.is-live .stat-number { color: var(--accent); }
+
 .workspace-step {
   display: flex;
   align-items: center;
