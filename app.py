@@ -1563,8 +1563,8 @@ with st.sidebar:
 st.markdown(
     """
     <div class="product-rail">
-      <span><span class="rail-index">CTL / 04</span>&nbsp;&nbsp; COUNTER-STRIKE TACTICAL INTELLIGENCE</span>
-      <span class="rail-status">LOCAL CORPUS ONLINE</span>
+      <span><span class="rail-index">CTL</span>&nbsp;&nbsp; 反恐精英战术分析</span>
+      <span class="rail-status">本地语料已载入</span>
     </div>
     """,
     unsafe_allow_html=True,
@@ -1573,7 +1573,7 @@ st.markdown(
 # ── 头部 / 比分 ──
 if is_workspace:
     st.markdown(
-        '<div class="kicker"><span class="dot"></span>RESEARCH WORKSPACE · VERIFIED SERIES</div>',
+        '<div class="kicker"><span class="dot"></span>研究工作台 · 已验证系列</div>',
         unsafe_allow_html=True,
     )
     st.title("CS Tactical Lens")
@@ -1581,7 +1581,7 @@ if is_workspace:
 elif is_replay_view:
     if evidence_bundle and data_loaded:
         st.markdown(
-            '<div class="kicker"><span class="dot"></span>EVIDENCE REPLAY · CROSS-TEAM BUNDLE</div>',
+            '<div class="kicker"><span class="dot"></span>证据回放 · 跨队样本</div>',
             unsafe_allow_html=True,
         )
         st.title("CS Tactical Lens")
@@ -1591,7 +1591,7 @@ elif is_replay_view:
         )
     elif manual_bundle and data_loaded:
         st.markdown(
-            '<div class="kicker"><span class="dot"></span>MANUAL REPLAY · SELECTED MATCH</div>',
+            '<div class="kicker"><span class="dot"></span>手动回放 · 当前对局</div>',
             unsafe_allow_html=True,
         )
         st.title("CS Tactical Lens")
@@ -1638,7 +1638,7 @@ screen = st.radio(
 tool = ""
 if screen == "单场工具":
     st.markdown(
-        '<div class="section-label">SINGLE-MATCH TOOLS · 单场/单队辅助分析</div>',
+        '<div class="section-label">单场 / 单队辅助分析</div>',
         unsafe_allow_html=True,
     )
     st.caption("这些是单场/单队辅助工具，不构成跨队比较结论。")
@@ -1754,7 +1754,7 @@ if screen == "回放":
 
     if data_loaded and (evidence_bundle or manual_bundle):
         st.markdown(
-            '<div class="section-label">ROUND REPLAY · 将每个结论放回小地图与时间轴</div>',
+            '<div class="section-label">回合回放 · 把结论放回小地图与时间轴</div>',
             unsafe_allow_html=True,
         )
     control_a, control_b, control_c, control_d = st.columns([0.8, 1.25, 1.35, 0.7])
@@ -1990,7 +1990,7 @@ elif screen == "单场工具" and tool == "战术模式":
         )
         st.stop()
     st.markdown(
-        '<div class="section-label">TACTICAL PATTERNS · 本场证据，不冒充长期战术习惯</div>',
+        '<div class="section-label">本场战术结构 · 证据只对本场负责</div>',
         unsafe_allow_html=True,
     )
     team_col, side_col = st.columns([1.2, 0.75])
@@ -2280,7 +2280,7 @@ elif screen == "单场工具" and tool == "战术模式":
             evidence_rounds = list(transition["rounds"])
             st.markdown(
                 f'<div class="tactical-finding">'
-                f'<div class="finding-kicker">REPEATED ROUTE / SINGLE MATCH</div>'
+                f'<div class="finding-kicker">重复路线 · 单场</div>'
                 f'<div class="finding-title">{html.escape(route_label)}</div>'
                 f'<div class="finding-summary">{int(transition["count"])} 个完整回合重复出现，'
                 f'占完整样本 {float(transition["share"]):.0%}。</div>'
@@ -2391,7 +2391,7 @@ elif screen == "单场工具" and tool == "复盘报告":
         st.info("请先选择一个已验证比赛，再使用复盘报告。")
         st.stop()
     st.markdown(
-        '<div class="section-label">AUTO DEBRIEF · 自动生成，逐条可核对</div>',
+        '<div class="section-label">自动复述 · 每条都可回查</div>',
         unsafe_allow_html=True,
     )
     focus_team = st.selectbox(
@@ -2441,7 +2441,7 @@ elif screen == "单场工具" and tool == "复盘报告":
         for finding_index, finding in enumerate(findings):
             st.markdown(
                 f'<div class="tactical-finding">'
-                f'<div class="finding-kicker">CONDITIONAL RESULT / SINGLE MATCH</div>'
+                f'<div class="finding-kicker">条件结果 · 单场</div>'
                 f'<div class="finding-title">{html.escape(finding.title)}</div>'
                 f'<div class="finding-summary">{html.escape(finding.summary)}</div>'
                 f'<div class="finding-sample">样本数 {finding.sample_size} · 点击下方证据回到雷达</div>'
@@ -2600,7 +2600,7 @@ elif screen == "单场工具" and tool == "复盘报告":
 # ════════════════════════════════════════════════════════════════════
 elif screen == "单场工具" and tool == "多场样本":
     st.markdown(
-        '<div class="section-label">SERIES EVIDENCE · 同队同图接触前样本</div>',
+        '<div class="section-label">系列证据 · 同队同图接触前样本</div>',
         unsafe_allow_html=True,
     )
     all_profiles = list(available_research_profiles())
@@ -2883,37 +2883,30 @@ elif screen == "研究工作台":
     })
     research_team_count = len({_research_team_key(profile["team"]) for profile in research_profiles})
     st.markdown(
-        '<div class="section-label">RESEARCH WORKSPACE · 同图跨队接触前结构比较</div>',
+        '<div class="section-label">研究工作台 · 同图跨队接触前结构比较</div>',
         unsafe_allow_html=True,
     )
     st.markdown(
         f"""
         <div class="workspace-command">
           <div class="workspace-command-copy">
-            <div class="workspace-command-index">RESEARCH COMMAND / V4.1</div>
             <div class="workspace-command-title">先发现差异，再回到具体回合验证。</div>
             <div class="workspace-command-summary">
               将同一地图、相同阵营与经济状态下的接触前结构放到同一口径中比较。
               这里不猜战术意图，只把重复格局、样本覆盖和可回放证据组织成一条审计路径。
             </div>
-            <div class="workspace-command-flow">
-              <span class="flow-node">选择范围</span><span class="flow-arrow">→</span>
-              <span class="flow-node">识别差异</span><span class="flow-arrow">→</span>
-              <span class="flow-node">检查样本</span><span class="flow-arrow">→</span>
-              <span class="flow-node">回放证据</span>
-            </div>
           </div>
           <div class="workspace-command-stats">
             <div class="workspace-command-stat">
-              <span class="stat-name">Verified series</span>
+              <span class="stat-name">已验证系列</span>
               <span class="stat-number">{len(research_profiles)}</span>
             </div>
             <div class="workspace-command-stat">
-              <span class="stat-name">Teams in corpus</span>
+              <span class="stat-name">样本内队伍</span>
               <span class="stat-number">{research_team_count}</span>
             </div>
             <div class="workspace-command-stat is-live">
-              <span class="stat-name">Comparable maps</span>
+              <span class="stat-name">可比较地图</span>
               <span class="stat-number">{research_map_count}</span>
             </div>
           </div>
@@ -2922,7 +2915,7 @@ elif screen == "研究工作台":
         unsafe_allow_html=True,
     )
     st.markdown(
-        '<div class="workspace-step"><span class="step-no">01</span><span>Define comparison scope</span></div>',
+        '<div class="workspace-step"><span>确定比较口径</span></div>',
         unsafe_allow_html=True,
     )
     st.markdown(
@@ -2932,7 +2925,7 @@ elif screen == "研究工作台":
             <div class="scope-title">构建比较</div>
             <div class="scope-copy">固定地图与双方阵容期，再选择阵营和经济状态。</div>
           </div>
-          <div class="scope-state">verified local series</div>
+          <div class="scope-state">已验证本地系列</div>
         </div>
         """,
         unsafe_allow_html=True,
@@ -3046,7 +3039,7 @@ elif screen == "研究工作台":
             f"""
             <div class="workspace-duel">
               <div class="workspace-duel-team">
-                <div class="workspace-duel-side">Team A / local series</div>
+                <div class="workspace-duel-side">队伍 A / 本地系列</div>
                 <div class="workspace-duel-name">{html.escape(str(selected_profile_a["team"]))}</div>
                 <div class="workspace-duel-meta">
                   Series 总计 · <strong>{int(selected_profile_a["match_count"])} 场</strong> ·
@@ -3061,7 +3054,7 @@ elif screen == "研究工作台":
                 </div>
               </div>
               <div class="workspace-duel-team right">
-                <div class="workspace-duel-side">Team B / local series</div>
+                <div class="workspace-duel-side">队伍 B / 本地系列</div>
                 <div class="workspace-duel-name">{html.escape(str(selected_profile_b["team"]))}</div>
                 <div class="workspace-duel-meta">
                   Series 总计 · <strong>{int(selected_profile_b["match_count"])} 场</strong> ·
@@ -3157,7 +3150,7 @@ elif screen == "研究工作台":
                 )
 
             st.markdown(
-                '<div class="workspace-step"><span class="step-no">02</span><span>Read the strongest signal</span></div>',
+                '<div class="workspace-step"><span>读取最强信号</span></div>',
                 unsafe_allow_html=True,
             )
             st.markdown("### 同口径开局结构比较")
@@ -3188,7 +3181,7 @@ elif screen == "研究工作台":
                     f"""
                     <div class="workspace-signal">
                       <div class="workspace-signal-main">
-                        <div class="workspace-signal-kicker">Largest descriptive gap · {obs_label}</div>
+                        <div class="workspace-signal-kicker">最大描述性差异 · {obs_label}</div>
                         <div class="workspace-signal-title">
                           {signal_formation}
                           <span class="workspace-signal-value">{signal_value:.0%}</span>
@@ -3234,7 +3227,7 @@ elif screen == "研究工作台":
             st.markdown(metrics_html, unsafe_allow_html=True)
 
             st.markdown(
-                '<div class="workspace-step"><span class="step-no">03</span><span>Inspect distribution and evidence</span></div>',
+                '<div class="workspace-step"><span>看分布与证据</span></div>',
                 unsafe_allow_html=True,
             )
             st.markdown(f"### {obs_label}人数结构并列表")
@@ -3309,7 +3302,7 @@ elif screen == "研究工作台":
 
             st.markdown('<hr class="section-divider">', unsafe_allow_html=True)
             st.markdown(
-                '<div class="workspace-step"><span class="step-no">04</span><span>Return to the source round</span></div>',
+                '<div class="workspace-step"><span>回到原始回合</span></div>',
                 unsafe_allow_html=True,
             )
             st.markdown("### 回合证据索引")
